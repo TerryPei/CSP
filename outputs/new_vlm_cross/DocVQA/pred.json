@@ -1,0 +1,3704 @@
+[
+    {
+        "sample_id": 0,
+        "image": [
+            "MLBench/DocVQA/images/0.jpg",
+            "MLBench/DocVQA/images/1.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the title for the name robert kauk ?\nChoice list: \nA. VICE PRESIDENT, BRUSH BEET GROWERS ASS'N\nB. TREASURER, BRUSH BEET GROWERS ASS'N\nC. PRESIDENT, BRUSH BEET GROWERS ASS'N\nD. SECRETARY, BRUSH BEET GROWERS ASS'N\nYour answer is: ",
+        "gt_response": "PRESIDENT, BRUSH BEET GROWERS ASS'N",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 5,
+        "image": [
+            "MLBench/DocVQA/images/19.jpg",
+            "MLBench/DocVQA/images/20.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which institution is mentioned at the top of the page?\nChoice list: \nA. MEDICAL RESEARCH FOUNDATION OF OREGON AND WASHINGTON\nB. MEDICAL RESEARCH FOUNDATION OF OREGON\nC. OREGON MEDICAL RESEARCH FOUNDATION\nD. MEDICAL RESEARCH ORGANIZATION OF OREGON\nYour answer is: ",
+        "gt_response": "MEDICAL RESEARCH FOUNDATION OF OREGON",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 7,
+        "image": [
+            "MLBench/DocVQA/images/27.jpg",
+            "MLBench/DocVQA/images/28.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: who is the chairman of nutrition program , penn state\nChoice list: \nA. Jennifer D. Harris\nB. Helen A. guthrie\nC. Michael C. Thompson\nD. John B. Smith\nYour answer is: ",
+        "gt_response": "Helen A. guthrie",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. Helen A. Guthrie",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 12,
+        "image": [
+            "MLBench/DocVQA/images/46.jpg",
+            "MLBench/DocVQA/images/47.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who has the assignment for \"Plant Clean up\"?\nChoice list: \nA. Corsberg\nB. Corsberg Jr.\nC. Corsburg\nD. Corsber\nYour answer is: ",
+        "gt_response": "Corsberg",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Corsberg",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 14,
+        "image": [
+            "MLBench/DocVQA/images/51.jpg",
+            "MLBench/DocVQA/images/52.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: To whom this is addressed\nChoice list: \nA. Ms. K.S. Houghton\nB. Dr.K.S.Houghton\nC. Mrs. K.S. Houghton\nD. Mr. K.S. Houghton\nYour answer is: ",
+        "gt_response": "Dr.K.S.Houghton",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 15,
+        "image": [
+            "MLBench/DocVQA/images/53.jpg",
+            "MLBench/DocVQA/images/54.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Direct materials cost (Items under $50) given in the voucher?\nChoice list: \nA. 118.15\nB. $118.50\nC. 118.14\nD. $118\nYour answer is: ",
+        "gt_response": "118.14",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 20,
+        "image": [
+            "MLBench/DocVQA/images/74.jpg",
+            "MLBench/DocVQA/images/75.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the place of meeting ?\nChoice list: \nA. Charlotte\nB. Greensboro\nC. Raleigh\nD. Winston-Salem\nYour answer is: ",
+        "gt_response": "Winston-Salem",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 23,
+        "image": [
+            "MLBench/DocVQA/images/86.jpg",
+            "MLBench/DocVQA/images/87.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the flight no. mentioned in the given page ?\nChoice list: \nA. 408  ($48.30)\nB. 407  ($48.29)\nC. 407  ($48.30)\nD. 406  ($48.30)\nYour answer is: ",
+        "gt_response": "407  ($48.30)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 34,
+        "image": [
+            "MLBench/DocVQA/images/130.jpg",
+            "MLBench/DocVQA/images/131.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: to whom this letter was written ?\nChoice list: \nA. Tom\nB. Tim\nC. Alex\nD. John\nYour answer is: ",
+        "gt_response": "Tim",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 35,
+        "image": [
+            "MLBench/DocVQA/images/132.jpg",
+            "MLBench/DocVQA/images/133.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who conducted the paper on the topic \" Iron in Human Nutrition \" on Friday ?\nChoice list: \nA. Aaron C. Manson\nB. Richard D. Thompson\nC. Gilbert B. Forbes\nD. Gilbert B. Forsythe\nYour answer is: ",
+        "gt_response": "Gilbert B. Forbes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. Gilbert B. Forbes",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 36,
+        "image": [
+            "MLBench/DocVQA/images/134.jpg",
+            "MLBench/DocVQA/images/135.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: When did Charles E. Hirsch promoted as Chief Engineer?\nChoice list: \nA. September 1, 1948\nB. September 1, 1950\nC. September 1, 1949\nD. August 1, 1949\nYour answer is: ",
+        "gt_response": "September 1, 1949",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 40,
+        "image": [
+            "MLBench/DocVQA/images/150.jpg",
+            "MLBench/DocVQA/images/151.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Name?\nChoice list: \nA. Dr. Robert E. Shaw\nB. Dr. Richard E. Frank\nC. Dr. Robert E. Shank\nD. Mr. Robert E. Shank\nYour answer is: ",
+        "gt_response": "Dr. Robert E. Shank",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 42,
+        "image": [
+            "MLBench/DocVQA/images/156.jpg",
+            "MLBench/DocVQA/images/157.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: When is the Third day ?\nChoice list: \nA. Friday 22nd\nB. Monday 22nd\nC. Tuesday 22nd\nD. Wednesday 22nd\nYour answer is: ",
+        "gt_response": "Wednesday 22nd",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Wednesday 22nd",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 43,
+        "image": [
+            "MLBench/DocVQA/images/158.jpg",
+            "MLBench/DocVQA/images/159.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: By how much has the cement industry reduced energy use?\nChoice list: \nA. nearly 30 percent\nB. about 35 percent\nC. almost 40 percent\nD. approximately 25 percent\nYour answer is: ",
+        "gt_response": "nearly 30 percent",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 45,
+        "image": [
+            "MLBench/DocVQA/images/165.jpg",
+            "MLBench/DocVQA/images/166.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the total voucher amount ?\nChoice list: \nA. $1,295.87\nB. €1,295.87\nC. ¥1,295.87\nD. $1,295.88\nYour answer is: ",
+        "gt_response": "$1,295.87",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. $1,295.87",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 46,
+        "image": [
+            "MLBench/DocVQA/images/167.jpg",
+            "MLBench/DocVQA/images/168.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who is the chairman of Environment and Public Works Committee?\nChoice list: \nA. Mitch McConnell\nB. Barack Obama\nC. Nancy Pelosi\nD. John Barrasso\nYour answer is: ",
+        "gt_response": "John Barrasso",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Mitch McConnell",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 49,
+        "image": [
+            "MLBench/DocVQA/images/178.jpg",
+            "MLBench/DocVQA/images/179.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who is giving the introductory remarks?\nChoice list: \nA. Dr. Dodge\nB. Dr. Dodgerson\nC. Mrs. Dodge\nD. Dr. Doug\nYour answer is: ",
+        "gt_response": "Dr. Dodge",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Dr. Dodge",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 50,
+        "image": [
+            "MLBench/DocVQA/images/180.jpg",
+            "MLBench/DocVQA/images/181.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Timing for the Journal \"Journal of Managed Care Pharmacy\"?\nChoice list: \nA. 3Q99\nB. 3Q98\nC. 4Q98\nD. 2Q98\nYour answer is: ",
+        "gt_response": "3Q98",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 53,
+        "image": [
+            "MLBench/DocVQA/images/189.jpg",
+            "MLBench/DocVQA/images/190.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the name of reviewer #2 given in the form?\nChoice list: \nA. Coleman Bill\nB. Bill Coleman\nC. David Coleman\nD. Reviewer #2\nYour answer is: ",
+        "gt_response": "Bill Coleman",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 56,
+        "image": [
+            "MLBench/DocVQA/images/200.jpg",
+            "MLBench/DocVQA/images/201.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What agreement is shown here?\nChoice list: \nA. DORAL EDLP RETAIL PRICING AGREEMENT\nB. DORAL EDLP RETAIL PRICING PARTNERSHIP AGREEMENT\nC. DORAL EDLP RETAIL PRICING LICENSING AGREEMENT\nD. DORAL EDLP RETAIL PRICING CONTRACT\nYour answer is: ",
+        "gt_response": "DORAL EDLP RETAIL PRICING AGREEMENT",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 67,
+        "image": [
+            "MLBench/DocVQA/images/241.jpg",
+            "MLBench/DocVQA/images/242.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what  is the cost of dinner on dec. 2?\nChoice list: \nA. £2.50\nB. $2.50\nC. $3.50\nD. 2.50\nYour answer is: ",
+        "gt_response": "2.50",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 68,
+        "image": [
+            "MLBench/DocVQA/images/243.jpg",
+            "MLBench/DocVQA/images/244.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: who has signed at the bottom of the letter ?\nChoice list: \nA. Dr. M.G. Wagh (without the period)\nB. Dr. M.G. Wagh\nC. Ms. M.G. Wagh\nD. Mr. M.G. Wagh\nYour answer is: ",
+        "gt_response": "Dr. M.G. Wagh",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 73,
+        "image": [
+            "MLBench/DocVQA/images/263.jpg",
+            "MLBench/DocVQA/images/264.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the price of iron analysis in atomic absorption methodology ?\nChoice list: \nA. 8.50\nB. 9.00\nC. 7.50\nD. 8.00\nYour answer is: ",
+        "gt_response": "8.00",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 78,
+        "image": [
+            "MLBench/DocVQA/images/283.jpg",
+            "MLBench/DocVQA/images/284.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the total population under 21 years in 1950?\nChoice list: \nA. 139,131\nB. 139,123\nC. 139,133\nD. 139,132\nYour answer is: ",
+        "gt_response": "139,132",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 82,
+        "image": [
+            "MLBench/DocVQA/images/294.jpg",
+            "MLBench/DocVQA/images/295.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the annual total in the year 1995-96?\nChoice list: \nA. 1,713,000\nB. 2,000,000\nC. 1,700,000\nD. 1,713,001\nYour answer is: ",
+        "gt_response": "1,713,000",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 88,
+        "image": [
+            "MLBench/DocVQA/images/315.jpg",
+            "MLBench/DocVQA/images/316.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which university is mentioned in the letter head?\nChoice list: \nA. ALBANY MEDICAL COLLEGE\nB. UNION UNIVERSITY\nC. THE ALBANY MEDICAL COLLEGE OF UNION UNIVERSITY\nD. THE UNION UNIVERSITY\nYour answer is: ",
+        "gt_response": "THE ALBANY MEDICAL COLLEGE OF UNION UNIVERSITY",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 92,
+        "image": [
+            "MLBench/DocVQA/images/333.jpg",
+            "MLBench/DocVQA/images/334.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Fullform of SCM ?\nChoice list: \nA. State College of Management (SCM)\nB. Supply chain Management (SCM)\nC. Social capital measurement (SCM)\nD. System Configuration Manager (SCM)\nYour answer is: ",
+        "gt_response": "Supply chain Management (SCM)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 94,
+        "image": [
+            "MLBench/DocVQA/images/340.jpg",
+            "MLBench/DocVQA/images/341.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are the sizes of Turquoise or navy?\nChoice list: \nA. 10-16 and 141/2-241/2.\nB. 12-20 and 131/2-231/2.\nC. 12-20 and 141/2-241/2.\nD. 12-20 and 141/2-241/2.\nYour answer is: ",
+        "gt_response": "12-20 and 141/2-241/2.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 99,
+        "image": [
+            "MLBench/DocVQA/images/361.jpg",
+            "MLBench/DocVQA/images/362.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Name of the Foundation?\nChoice list: \nA. Nutrition Foundation of Sweden\nB. Swedish Nutrition Foundation\nC. International Nutrition Foundation\nD. Swedish Nutrition Institute\nYour answer is: ",
+        "gt_response": "Swedish Nutrition Foundation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 100,
+        "image": [
+            "MLBench/DocVQA/images/363.jpg",
+            "MLBench/DocVQA/images/364.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How much Mg/Day iron for 6-8 years?\nChoice list: \nA. 6\nB. 8\nC. 10\nD. 12\nYour answer is: ",
+        "gt_response": "10",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 101,
+        "image": [
+            "MLBench/DocVQA/images/365.jpg",
+            "MLBench/DocVQA/images/366.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: to whom the letter was written ?\nChoice list: \nA. members of the U.S. medical advisory committee\nB. members of the U.S. medical advisory council\nC. members of the U.S. medical advisory board\nD. members of the U.S. medical advisory panel\nYour answer is: ",
+        "gt_response": "members of the U.S. medical advisory committee",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. members of the U.S. medical advisory committee",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 102,
+        "image": [
+            "MLBench/DocVQA/images/367.jpg",
+            "MLBench/DocVQA/images/368.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the demo number mentioned?\nChoice list: \nA. 03760\nB. 03670\nC. 03765\nD. 03960\nYour answer is: ",
+        "gt_response": "03760",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 104,
+        "image": [
+            "MLBench/DocVQA/images/375.jpg",
+            "MLBench/DocVQA/images/376.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the due date(outline)?\nChoice list: \nA. February 25, 2000\nB. March 25, 2002\nC. February 25, 2021\nD. February 25, 2002\nYour answer is: ",
+        "gt_response": "February 25, 2002",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 107,
+        "image": [
+            "MLBench/DocVQA/images/386.jpg",
+            "MLBench/DocVQA/images/387.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the emp. no. of Ivano N Rivers ?\nChoice list: \nA. 751034\nB. 751035\nC. 751036\nD. 751037\nYour answer is: ",
+        "gt_response": "751035",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 108,
+        "image": [
+            "MLBench/DocVQA/images/388.jpg",
+            "MLBench/DocVQA/images/389.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In how many countries global company is operating ?\nChoice list: \nA. more than 220\nB. between 200 and 220\nC. over 200\nD. less than 220\nYour answer is: ",
+        "gt_response": "more than 220",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 112,
+        "image": [
+            "MLBench/DocVQA/images/402.jpg",
+            "MLBench/DocVQA/images/403.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Order No. ?\nChoice list: \nA. 32699\nB. 32708\nC. 32710\nD. 32709\nYour answer is: ",
+        "gt_response": "32709",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 113,
+        "image": [
+            "MLBench/DocVQA/images/404.jpg",
+            "MLBench/DocVQA/images/405.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the emp. no. of herman w arnett jr ?\nChoice list: \nA. i052008\nB. 052008JR\nC. 052008\nD. 052008H\nYour answer is: ",
+        "gt_response": "052008",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 114,
+        "image": [
+            "MLBench/DocVQA/images/406.jpg",
+            "MLBench/DocVQA/images/407.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the account to be charged as mentioned in the given page ?\nChoice list: \nA. PA72WBC44\nB. PA73WBC44\nC. PB73WBC44\nD. PA73WBC45\nYour answer is: ",
+        "gt_response": "PA73WBC44",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 116,
+        "image": [
+            "MLBench/DocVQA/images/414.jpg",
+            "MLBench/DocVQA/images/415.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the payee's name ?\nChoice list: \nA. Robert E Shank Jr\nB. Rob E Shank\nC. Robert E. Shank\nD. Robert E. Shanks\nYour answer is: ",
+        "gt_response": "Robert E. Shank",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 117,
+        "image": [
+            "MLBench/DocVQA/images/416.jpg",
+            "MLBench/DocVQA/images/417.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the contact number of The Visiting Nurse Association of Greater St. Louis, St. Louis County  ?\nChoice list: \nA. 314-533-9680\nB. 314-533-9685\nC. 314-533-9600\nD. 314-533-9681\nYour answer is: ",
+        "gt_response": "314-533-9680",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. 314-5333-96800",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 129,
+        "image": [
+            "MLBench/DocVQA/images/470.jpg",
+            "MLBench/DocVQA/images/471.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Days offer open?\nChoice list: \nA. 90\nB. 92\nC. 91\nD. 93\nYour answer is: ",
+        "gt_response": "91",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 130,
+        "image": [
+            "MLBench/DocVQA/images/472.jpg",
+            "MLBench/DocVQA/images/473.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the date of arrival at Greensboro Airport?\nChoice list: \nA. Monday / January 4th\nB. SUNDAY / January 4th\nC. Saturday / January 4th\nD. Jan 4th\nYour answer is: ",
+        "gt_response": "SUNDAY / January 4th",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 132,
+        "image": [
+            "MLBench/DocVQA/images/478.jpg",
+            "MLBench/DocVQA/images/479.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the general budget total for Medical Coordinator?\nChoice list: \nA. $2,500\nB. $3,000\nC. £3,000\nD. €3,000\nYour answer is: ",
+        "gt_response": "$3,000",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 133,
+        "image": [
+            "MLBench/DocVQA/images/480.jpg",
+            "MLBench/DocVQA/images/481.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which department is involved?\nChoice list: \nA. ELECTRICAL ENGINEERING DEPARTMENT\nB. BIOLOGY DEPARTMENT\nC. PHYSICS DEPARTMENT\nD. CHEMICAL DEPARTMENT\nYour answer is: ",
+        "gt_response": "CHEMICAL DEPARTMENT",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What is the date of the report?\nChoice list: 1980\nYour answer is:  [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 140,
+        "image": [
+            "MLBench/DocVQA/images/513.jpg",
+            "MLBench/DocVQA/images/514.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the date mentioned in this letter?\nChoice list: \nA. September 9, 1964\nB. September 9, 1963\nC. September 10, 1963\nD. September 8, 1963\nYour answer is: ",
+        "gt_response": "September 9, 1963",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 143,
+        "image": [
+            "MLBench/DocVQA/images/523.jpg",
+            "MLBench/DocVQA/images/524.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the name of heart association ?\nChoice list: \nA. United States\nB. American\nC. International\nD. National\nYour answer is: ",
+        "gt_response": "American",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 144,
+        "image": [
+            "MLBench/DocVQA/images/525.jpg",
+            "MLBench/DocVQA/images/526.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the subject of the inter-office memorandum?\nChoice list: \nA. BILL SMITH\nB. LASZLO TOTH\nC. JANE DOE\nD. JOHN ADAMS\nYour answer is: ",
+        "gt_response": "LASZLO TOTH",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 148,
+        "image": [
+            "MLBench/DocVQA/images/541.jpg",
+            "MLBench/DocVQA/images/542.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: when is the Report of Travel dated?\nChoice list: \nA. Sept. 20, 1971\nB. Sept. 19, 1971\nC. Oct. 20, 1971\nD. Aug. 20, 1971\nYour answer is: ",
+        "gt_response": "Sept. 20, 1971",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 151,
+        "image": [
+            "MLBench/DocVQA/images/552.jpg",
+            "MLBench/DocVQA/images/553.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the name of the university mentioned in the given form ?\nChoice list: \nA. University of Washington\nB. Washington university\nC. George Washington University\nD. Washington state university\nYour answer is: ",
+        "gt_response": "Washington university",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 154,
+        "image": [
+            "MLBench/DocVQA/images/562.jpg",
+            "MLBench/DocVQA/images/563.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the contract no.?\nChoice list: \nA. DA-49-008-MD-1024\nB. DA-49-007-MD-1024\nC. DA-49-007-MD-1025\nD. DA-48-007-MD-1024\nYour answer is: ",
+        "gt_response": "DA-49-007-MD-1024",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. DA-49-008-MD-1024",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 155,
+        "image": [
+            "MLBench/DocVQA/images/564.jpg",
+            "MLBench/DocVQA/images/565.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: To whom is the confirmation addressed?\nChoice list: \nA. Kurt Henshaw\nB. Kirk Hinshore\nC. Kirk Hinshaw\nD. John Smith\nYour answer is: ",
+        "gt_response": "Kirk Hinshaw",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 157,
+        "image": [
+            "MLBench/DocVQA/images/571.jpg",
+            "MLBench/DocVQA/images/572.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the first entity of the \"TABLE 1:\"?\nChoice list: \nA. TABLE 2\nB. TABLE 1\nC. PM Code\nD. PM Code 1\nYour answer is: ",
+        "gt_response": "PM Code",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. PM Code",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 158,
+        "image": [
+            "MLBench/DocVQA/images/573.jpg",
+            "MLBench/DocVQA/images/574.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is amount of Potassium mg./100g. of Figs (R)?\nChoice list: \nA. 280\nB. 300\nC. 290\nD. 310\nYour answer is: ",
+        "gt_response": "290",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 159,
+        "image": [
+            "MLBench/DocVQA/images/575.jpg",
+            "MLBench/DocVQA/images/576.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: The number mentioned on the right of the leftside margin?\nChoice list: \nA. 314002840\nB. 314002839\nC. 314002837\nD. 314002838\nYour answer is: ",
+        "gt_response": "314002838",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 160,
+        "image": [
+            "MLBench/DocVQA/images/577.jpg",
+            "MLBench/DocVQA/images/578.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who is the author of \" The Taming of the C.A.N.D.Y. Monster\"?\nChoice list: \nA. Lanski\nB. LANSKY\nC. Lanskey\nD. Langsky\nYour answer is: ",
+        "gt_response": "LANSKY",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 164,
+        "image": [
+            "MLBench/DocVQA/images/589.jpg",
+            "MLBench/DocVQA/images/590.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who is the Contact Person of agency?\nChoice list: \nA. John Smith\nB. David Moore\nC. David Johnson\nD. Michael Davis\nYour answer is: ",
+        "gt_response": "David Moore",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 165,
+        "image": [
+            "MLBench/DocVQA/images/591.jpg",
+            "MLBench/DocVQA/images/592.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the origin ?\nChoice list: \nA. LAX\nB. JFK\nC. CDG\nD. BEY\nYour answer is: ",
+        "gt_response": "BEY",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "ARAMCO",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 166,
+        "image": [
+            "MLBench/DocVQA/images/593.jpg",
+            "MLBench/DocVQA/images/594.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the value of 'Deposits' ?\nChoice list: \nA. $535.66\nB. ¥535.66\nC. €535.66\nD. $535.67\nYour answer is: ",
+        "gt_response": "$535.66",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 169,
+        "image": [
+            "MLBench/DocVQA/images/602.jpg",
+            "MLBench/DocVQA/images/603.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the name of the cashier mentioned ?\nChoice list: \nA. Mr. Ralph T. Johnson\nB. Mr. John T. Smith and\nC. Ms. Rachel T. Smith\nD. Mr. Ralph T. Smith\nYour answer is: ",
+        "gt_response": "Mr. Ralph T. Smith",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Mr. Ralph T. Johnson",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 172,
+        "image": [
+            "MLBench/DocVQA/images/611.jpg",
+            "MLBench/DocVQA/images/612.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the heading of the REPORT?\nChoice list: \nA. progress report 11\nB. progress report 9\nC. progress report 10\nD. final report 10\nYour answer is: ",
+        "gt_response": "progress report 10",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 174,
+        "image": [
+            "MLBench/DocVQA/images/619.jpg",
+            "MLBench/DocVQA/images/620.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is a major source of sodium?\nChoice list: \nA. Salt is a major source of sodium.\nB. Water is a major source of sodium.\nC. Sugar is a major source of sodium.\nD. Potassium is a major source of sodium.\nYour answer is: ",
+        "gt_response": "Salt is a major source of sodium.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 176,
+        "image": [
+            "MLBench/DocVQA/images/626.jpg",
+            "MLBench/DocVQA/images/627.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the electronic signature code number?\nChoice list: \nA. 266-524-8\nB. 267-524-9\nC. 266-524-9\nD. 266-525-9\nYour answer is: ",
+        "gt_response": "266-524-9",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 178,
+        "image": [
+            "MLBench/DocVQA/images/631.jpg",
+            "MLBench/DocVQA/images/632.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Under which department , The Cleveland Clinic Foundation operates?\nChoice list: \nA. Department of Radiology\nB. Department of Orthopedic Surgery\nC. Department of Neuroscience\nD. Department of Cardiovascular Medicine.\nYour answer is: ",
+        "gt_response": "Department of Cardiovascular Medicine.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 179,
+        "image": [
+            "MLBench/DocVQA/images/633.jpg",
+            "MLBench/DocVQA/images/634.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the product designation?\nChoice list: \nA. Product code\nB. Product name\nC. Sugarcane\nD. Sugar-cane\nYour answer is: ",
+        "gt_response": "Sugar-cane",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 182,
+        "image": [
+            "MLBench/DocVQA/images/643.jpg",
+            "MLBench/DocVQA/images/644.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the cellular number of Gigi M. Chen?\nChoice list: \nA. 716.725.7102\nB. 716.725.7101\nC. 716.725.7103\nD. 716.725.7100\nYour answer is: ",
+        "gt_response": "716.725.7100",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 185,
+        "image": [
+            "MLBench/DocVQA/images/651.jpg",
+            "MLBench/DocVQA/images/652.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many biographical data forms are attached?\nChoice list: \nA. 6 biographical data forms\nB. 5 biographical data forms\nC. 7 biographical data forms\nD. 4 biographical data forms\nYour answer is: ",
+        "gt_response": "6 biographical data forms",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 187,
+        "image": [
+            "MLBench/DocVQA/images/658.jpg",
+            "MLBench/DocVQA/images/659.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the proposed end date for Action # 11?\nChoice list: \nA. 3/24/03\nB. 12/24/03\nC. 3/24/05\nD. 3/24/04\nYour answer is: ",
+        "gt_response": "3/24/03",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 191,
+        "image": [
+            "MLBench/DocVQA/images/674.jpg",
+            "MLBench/DocVQA/images/675.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the given schedule at the time of 10:30 on monday, june 20 ?\nChoice list: \nA. meeting\nB. break\nC. lecture\nD. orientation\nYour answer is: ",
+        "gt_response": "orientation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 192,
+        "image": [
+            "MLBench/DocVQA/images/676.jpg",
+            "MLBench/DocVQA/images/677.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Expiration Date ?\nChoice list: \nA. 12/03/96\nB. 12/31/06\nC. 12/31/98\nD. 12/31/96\nYour answer is: ",
+        "gt_response": "12/31/96",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 194,
+        "image": [
+            "MLBench/DocVQA/images/683.jpg",
+            "MLBench/DocVQA/images/684.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is J. Brozek's topic from 9:30-10:00?\nChoice list: \nA. PHYSICAL CHARACTERISTICS OF MAN\nB. CHARACTERIZATION OF MAN'S PHYSIQUE\nC. CHARACTERIZATION OF PERSON'S PHYSIQUE\nD. CHARACTERIZATION OF WOMAN'S PHYSIQUE\nYour answer is: ",
+        "gt_response": "CHARACTERIZATION OF MAN'S PHYSIQUE",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 195,
+        "image": [
+            "MLBench/DocVQA/images/685.jpg",
+            "MLBench/DocVQA/images/686.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: what is the quantity mentioned in the given page  ?\nChoice list: \nA. 10\nB. 1\nC. 0\nD. 2\nYour answer is: ",
+        "gt_response": "1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 1,
+        "image": [
+            "MLBench/DocVQA/images/2.jpg",
+            "MLBench/DocVQA/images/3.jpg",
+            "MLBench/DocVQA/images/4.jpg",
+            "MLBench/DocVQA/images/5.jpg",
+            "MLBench/DocVQA/images/6.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How much Total Income ?\nChoice list: \nA. $12,000 to $15,000\nB. $11,000 to $14,000\nC. $10,000 to $13,000\nD. $13,000 to $16,000\nYour answer is: ",
+        "gt_response": "$12,000 to $15,000",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 8,
+        "image": [
+            "MLBench/DocVQA/images/29.jpg",
+            "MLBench/DocVQA/images/30.jpg",
+            "MLBench/DocVQA/images/31.jpg",
+            "MLBench/DocVQA/images/32.jpg",
+            "MLBench/DocVQA/images/33.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Net sales of Campbell Soup Company for the year 1965?\nChoice list: \nA. €712,785,000\nB. $712,785,000\nC. $712,785,001\nD. ¥712,785,000\nYour answer is: ",
+        "gt_response": "$712,785,000",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 11,
+        "image": [
+            "MLBench/DocVQA/images/41.jpg",
+            "MLBench/DocVQA/images/42.jpg",
+            "MLBench/DocVQA/images/43.jpg",
+            "MLBench/DocVQA/images/44.jpg",
+            "MLBench/DocVQA/images/45.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: When is the approval needed in order to meet overall project timing?\nChoice list: \nA. by 4/22/95\nB. by 4/20/95\nC. by 4/21/95\nD. by 4/23/95\nYour answer is: ",
+        "gt_response": "by 4/21/95",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 16,
+        "image": [
+            "MLBench/DocVQA/images/55.jpg",
+            "MLBench/DocVQA/images/56.jpg",
+            "MLBench/DocVQA/images/57.jpg",
+            "MLBench/DocVQA/images/58.jpg",
+            "MLBench/DocVQA/images/59.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the product PO number?\nChoice list: \nA. #072799\nB. #0727981\nC. #072798\nD. #072797\nYour answer is: ",
+        "gt_response": "#072798",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/Sale] [/",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 19,
+        "image": [
+            "MLBench/DocVQA/images/69.jpg",
+            "MLBench/DocVQA/images/70.jpg",
+            "MLBench/DocVQA/images/71.jpg",
+            "MLBench/DocVQA/images/72.jpg",
+            "MLBench/DocVQA/images/73.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the proposed grand total amount for the year 1976 ?\nChoice list: \nA. € 129,576\nB. $ 129,576\nC. $ 129,577\nD. ¥ 129,576\nYour answer is: ",
+        "gt_response": "$ 129,576",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 21,
+        "image": [
+            "MLBench/DocVQA/images/76.jpg",
+            "MLBench/DocVQA/images/77.jpg",
+            "MLBench/DocVQA/images/78.jpg",
+            "MLBench/DocVQA/images/79.jpg",
+            "MLBench/DocVQA/images/80.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Profit after Taxation before Share of Results of Associates for 2008?\nChoice list: \nA. 5000.00\nB. 3178.17\nC. 800.00\nD. 3178.18\nYour answer is: ",
+        "gt_response": "3178.17",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 22,
+        "image": [
+            "MLBench/DocVQA/images/81.jpg",
+            "MLBench/DocVQA/images/82.jpg",
+            "MLBench/DocVQA/images/83.jpg",
+            "MLBench/DocVQA/images/84.jpg",
+            "MLBench/DocVQA/images/85.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the project name written this sheet\nChoice list: \nA. Project \"NN\"\nB. Project \"AI\"\nC. Project \"CV\"\nD. Project \"ML\"\nYour answer is: ",
+        "gt_response": "Project \"NN\"",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 24,
+        "image": [
+            "MLBench/DocVQA/images/88.jpg",
+            "MLBench/DocVQA/images/89.jpg",
+            "MLBench/DocVQA/images/90.jpg",
+            "MLBench/DocVQA/images/91.jpg",
+            "MLBench/DocVQA/images/92.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How much mg of potassium per 100 grams is contained in Kale (R)?\nChoice list: \nA. 401\nB. 402\nC. 400\nD. 403\nYour answer is: ",
+        "gt_response": "401",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 29,
+        "image": [
+            "MLBench/DocVQA/images/108.jpg",
+            "MLBench/DocVQA/images/109.jpg",
+            "MLBench/DocVQA/images/110.jpg",
+            "MLBench/DocVQA/images/111.jpg",
+            "MLBench/DocVQA/images/112.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the cost of the parking at hotel in daytime ?\nChoice list: \nA. $10\nB. ¥12\nC. $12\nD. €12\nYour answer is: ",
+        "gt_response": "$12",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 37,
+        "image": [
+            "MLBench/DocVQA/images/136.jpg",
+            "MLBench/DocVQA/images/137.jpg",
+            "MLBench/DocVQA/images/138.jpg",
+            "MLBench/DocVQA/images/139.jpg",
+            "MLBench/DocVQA/images/140.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Page Number?\nChoice list: \nA. 5\nB. 4\nC. 3\nD. 6\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/CHOICE]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 44,
+        "image": [
+            "MLBench/DocVQA/images/160.jpg",
+            "MLBench/DocVQA/images/161.jpg",
+            "MLBench/DocVQA/images/162.jpg",
+            "MLBench/DocVQA/images/163.jpg",
+            "MLBench/DocVQA/images/164.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What was the amount of the total grants in 1962-63?\nChoice list: \nA. 586,950\nB. 586,950.50\nC. 586,900\nD. 586,590\nYour answer is: ",
+        "gt_response": "586,950",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 47,
+        "image": [
+            "MLBench/DocVQA/images/169.jpg",
+            "MLBench/DocVQA/images/170.jpg",
+            "MLBench/DocVQA/images/171.jpg",
+            "MLBench/DocVQA/images/172.jpg",
+            "MLBench/DocVQA/images/173.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the amount of potassium mg./100g.  for Gelatin, Plain ?\nChoice list: \nA. 25\nB. 21\nC. 23\nD. 22\nYour answer is: ",
+        "gt_response": "22",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 66,
+        "image": [
+            "MLBench/DocVQA/images/236.jpg",
+            "MLBench/DocVQA/images/237.jpg",
+            "MLBench/DocVQA/images/238.jpg",
+            "MLBench/DocVQA/images/239.jpg",
+            "MLBench/DocVQA/images/240.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the brand code?\nChoice list: \nA. CF85\nB. CF86\nC. CF95\nD. EF85\nYour answer is: ",
+        "gt_response": "CF85",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What is the product code?\nChoice list: \nA. 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 72,
+        "image": [
+            "MLBench/DocVQA/images/258.jpg",
+            "MLBench/DocVQA/images/259.jpg",
+            "MLBench/DocVQA/images/260.jpg",
+            "MLBench/DocVQA/images/261.jpg",
+            "MLBench/DocVQA/images/262.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which is the institution or agency of ALEXANDER, E. Russell, M.D.?\nChoice list: \nA. Johns Hopkins\nB. Harvard\nC. Washington\nD. Yale\nYour answer is: ",
+        "gt_response": "Washington",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/CHOICE]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 83,
+        "image": [
+            "MLBench/DocVQA/images/296.jpg",
+            "MLBench/DocVQA/images/297.jpg",
+            "MLBench/DocVQA/images/298.jpg",
+            "MLBench/DocVQA/images/299.jpg",
+            "MLBench/DocVQA/images/300.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the month mentioned in the date of birth in the given form ?\nChoice list: \nA. october\nB. august\nC. september\nD. november\nYour answer is: ",
+        "gt_response": "september",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 85,
+        "image": [
+            "MLBench/DocVQA/images/304.jpg",
+            "MLBench/DocVQA/images/305.jpg",
+            "MLBench/DocVQA/images/306.jpg",
+            "MLBench/DocVQA/images/307.jpg",
+            "MLBench/DocVQA/images/308.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the amount of potassium present in lentils, dry(R) as mentioned in the given page ?\nChoice list: \nA. 1200\nB. 1300\nC. 1400\nD. 1150\nYour answer is: ",
+        "gt_response": "1200",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 93,
+        "image": [
+            "MLBench/DocVQA/images/335.jpg",
+            "MLBench/DocVQA/images/336.jpg",
+            "MLBench/DocVQA/images/337.jpg",
+            "MLBench/DocVQA/images/338.jpg",
+            "MLBench/DocVQA/images/339.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the G/L account code mentioned in the voucher?\nChoice list: \nA. 04 08 1199 9143 821\nB. 05 08 1100 9143 821\nC. 04 08 1100 9143 821\nD. 04 08 1100 9143 822\nYour answer is: ",
+        "gt_response": "04 08 1100 9143 821",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 95,
+        "image": [
+            "MLBench/DocVQA/images/342.jpg",
+            "MLBench/DocVQA/images/343.jpg",
+            "MLBench/DocVQA/images/344.jpg",
+            "MLBench/DocVQA/images/345.jpg",
+            "MLBench/DocVQA/images/346.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the name of the Hotel where the reservation is done ?\nChoice list: \nA. Naples Grande Beach Resort\nB. Naples Beach Hotel and Tennis Club\nC. Naples Beach Resort & Spa\nD. Naples Beach Hotel & Golf Club\nYour answer is: ",
+        "gt_response": "Naples Beach Hotel & Golf Club",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/CHOICELIST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 98,
+        "image": [
+            "MLBench/DocVQA/images/356.jpg",
+            "MLBench/DocVQA/images/357.jpg",
+            "MLBench/DocVQA/images/358.jpg",
+            "MLBench/DocVQA/images/359.jpg",
+            "MLBench/DocVQA/images/360.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: who is chief, Processing and Records Unit, PERS. MGMT. DIV. ?\nChoice list: \nA. Marie D. Newman\nB. Mary C. Newman\nC. Marie C. Newton\nD. Marie C. Newman\nYour answer is: ",
+        "gt_response": "Marie C. Newman",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/C]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 106,
+        "image": [
+            "MLBench/DocVQA/images/381.jpg",
+            "MLBench/DocVQA/images/382.jpg",
+            "MLBench/DocVQA/images/383.jpg",
+            "MLBench/DocVQA/images/384.jpg",
+            "MLBench/DocVQA/images/385.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the date on the form  ?\nChoice list: \nA. september 27, 1987\nB. september 27, 1988\nC. september 27, 1989\nD. september 27, 1998\nYour answer is: ",
+        "gt_response": "september 27, 1989",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. september 27, 1987",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 110,
+        "image": [
+            "MLBench/DocVQA/images/393.jpg",
+            "MLBench/DocVQA/images/394.jpg",
+            "MLBench/DocVQA/images/395.jpg",
+            "MLBench/DocVQA/images/396.jpg",
+            "MLBench/DocVQA/images/397.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the middle name mentioned in the given form ?\nChoice list: \nA. Jenkins\nB. Williams\nC. Kirk\nD. Smith\nYour answer is: ",
+        "gt_response": "Kirk",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. Kirk",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 123,
+        "image": [
+            "MLBench/DocVQA/images/440.jpg",
+            "MLBench/DocVQA/images/441.jpg",
+            "MLBench/DocVQA/images/442.jpg",
+            "MLBench/DocVQA/images/443.jpg",
+            "MLBench/DocVQA/images/444.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Region Operations Office FAX?\nChoice list: \nA. 651-686-6016\nB. 656-686-6016\nC. 651-686-6036\nD. 651-686-6017\nYour answer is: ",
+        "gt_response": "651-686-6016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 124,
+        "image": [
+            "MLBench/DocVQA/images/445.jpg",
+            "MLBench/DocVQA/images/446.jpg",
+            "MLBench/DocVQA/images/447.jpg",
+            "MLBench/DocVQA/images/448.jpg",
+            "MLBench/DocVQA/images/449.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Total cost?\nChoice list: \nA. $14.55\nB. $15.55\nC. ¥14.55\nD. €14.55\nYour answer is: ",
+        "gt_response": "$14.55",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 127,
+        "image": [
+            "MLBench/DocVQA/images/462.jpg",
+            "MLBench/DocVQA/images/463.jpg",
+            "MLBench/DocVQA/images/464.jpg",
+            "MLBench/DocVQA/images/465.jpg",
+            "MLBench/DocVQA/images/466.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the EST response % ?\nChoice list: \nA. 5.00%\nB. 6.00%\nC. 5.20%\nD. 4.80%\nYour answer is: ",
+        "gt_response": "5.00%",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/CHOICELIST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 137,
+        "image": [
+            "MLBench/DocVQA/images/496.jpg",
+            "MLBench/DocVQA/images/497.jpg",
+            "MLBench/DocVQA/images/498.jpg",
+            "MLBench/DocVQA/images/499.jpg",
+            "MLBench/DocVQA/images/500.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the name of the university mentioned in the given address ?\nChoice list: \nA. george washington university\nB. james madison university\nC. benjamin franklin university\nD. thomas jefferson university\nYour answer is: ",
+        "gt_response": "thomas jefferson university",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 142,
+        "image": [
+            "MLBench/DocVQA/images/518.jpg",
+            "MLBench/DocVQA/images/519.jpg",
+            "MLBench/DocVQA/images/520.jpg",
+            "MLBench/DocVQA/images/521.jpg",
+            "MLBench/DocVQA/images/522.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the full form of GLP?\nChoice list: \nA. Good Laboratory Practice\nB. Good Laboratory Procedure\nC. Great Laboratory Practice\nD. Good Laboratory Policy\nYour answer is: ",
+        "gt_response": "Good Laboratory Practice",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Good Laboratory Practice",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 146,
+        "image": [
+            "MLBench/DocVQA/images/531.jpg",
+            "MLBench/DocVQA/images/532.jpg",
+            "MLBench/DocVQA/images/533.jpg",
+            "MLBench/DocVQA/images/534.jpg",
+            "MLBench/DocVQA/images/535.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many numbers of copies of the journal of nutrition?\nChoice list: \nA. 4300\nB. 4200\nC. 4500\nD. 4400\nYour answer is: ",
+        "gt_response": "4400",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 147,
+        "image": [
+            "MLBench/DocVQA/images/536.jpg",
+            "MLBench/DocVQA/images/537.jpg",
+            "MLBench/DocVQA/images/538.jpg",
+            "MLBench/DocVQA/images/539.jpg",
+            "MLBench/DocVQA/images/540.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Total for Rent Paid for 2008?\nChoice list: \nA. 0.55\nB. $0.54\nC. $0.56\nD. 0.5502\nYour answer is: ",
+        "gt_response": "0.55",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 149,
+        "image": [
+            "MLBench/DocVQA/images/543.jpg",
+            "MLBench/DocVQA/images/544.jpg",
+            "MLBench/DocVQA/images/545.jpg",
+            "MLBench/DocVQA/images/546.jpg",
+            "MLBench/DocVQA/images/547.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the amount of potassium present in liver (R) as mentioned in the given page ?\nChoice list: \nA. 300\nB. 295\nC. 296\nD. 297\nYour answer is: ",
+        "gt_response": "296",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 153,
+        "image": [
+            "MLBench/DocVQA/images/557.jpg",
+            "MLBench/DocVQA/images/558.jpg",
+            "MLBench/DocVQA/images/559.jpg",
+            "MLBench/DocVQA/images/560.jpg",
+            "MLBench/DocVQA/images/561.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the amount of Potassium mg./100g. for Squash, Winter, seeds removed ?\nChoice list: \nA. 407\nB. 409\nC. 406\nD. 408\nYour answer is: ",
+        "gt_response": "407",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 156,
+        "image": [
+            "MLBench/DocVQA/images/566.jpg",
+            "MLBench/DocVQA/images/567.jpg",
+            "MLBench/DocVQA/images/568.jpg",
+            "MLBench/DocVQA/images/569.jpg",
+            "MLBench/DocVQA/images/570.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Who is the author for \"Physiology of Vitamin A\"?\nChoice list: \nA. o. a. roels\nB. O. A. Roels\nC. Dr. O. A. Roels\nD. O. Roels\nYour answer is: ",
+        "gt_response": "o. a. roels",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/SYS] [/",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 175,
+        "image": [
+            "MLBench/DocVQA/images/621.jpg",
+            "MLBench/DocVQA/images/622.jpg",
+            "MLBench/DocVQA/images/623.jpg",
+            "MLBench/DocVQA/images/624.jpg",
+            "MLBench/DocVQA/images/625.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is amount of composition for Printer number I ?\nChoice list: \nA. € 3,436.98\nB. $ 3,436.98\nC. ¥ 3,436.98\nD. $ 3,536.98\nYour answer is: ",
+        "gt_response": "$ 3,436.98",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 180,
+        "image": [
+            "MLBench/DocVQA/images/635.jpg",
+            "MLBench/DocVQA/images/636.jpg",
+            "MLBench/DocVQA/images/637.jpg",
+            "MLBench/DocVQA/images/638.jpg",
+            "MLBench/DocVQA/images/639.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the amount of 2nd Quarter check mentioned in the form?\nChoice list: \nA. 150,204.69\nB. 150,204.79\nC. 150,204.39\nD. 150,207.79\nYour answer is: ",
+        "gt_response": "150,204.79",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 186,
+        "image": [
+            "MLBench/DocVQA/images/653.jpg",
+            "MLBench/DocVQA/images/654.jpg",
+            "MLBench/DocVQA/images/655.jpg",
+            "MLBench/DocVQA/images/656.jpg",
+            "MLBench/DocVQA/images/657.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the issue date ?\nChoice list: \nA. October 26, 1988\nB. October 16, 1998\nC. September 26, 1998\nD. October 26, 1998\nYour answer is: ",
+        "gt_response": "October 26, 1998",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 193,
+        "image": [
+            "MLBench/DocVQA/images/678.jpg",
+            "MLBench/DocVQA/images/679.jpg",
+            "MLBench/DocVQA/images/680.jpg",
+            "MLBench/DocVQA/images/681.jpg",
+            "MLBench/DocVQA/images/682.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the location code?\nChoice list: \nA. 11-0010-000\nB. 11-0010-001\nC. 11-0010-010\nD. 11-0010-002\nYour answer is: ",
+        "gt_response": "11-0010-001",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/CHOICELIST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 198,
+        "image": [
+            "MLBench/DocVQA/images/694.jpg",
+            "MLBench/DocVQA/images/695.jpg",
+            "MLBench/DocVQA/images/696.jpg",
+            "MLBench/DocVQA/images/697.jpg",
+            "MLBench/DocVQA/images/698.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: To which department does Stephen Molnar belong to ?\nChoice list: \nA. Ethnology\nB. Psychology\nC. Sociology\nD. Anthropology\nYour answer is: ",
+        "gt_response": "Anthropology",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 2,
+        "image": [
+            "MLBench/DocVQA/images/7.jpg",
+            "MLBench/DocVQA/images/8.jpg",
+            "MLBench/DocVQA/images/9.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the title of Irene Karl?\nChoice list: \nA. Res. Asst.\nB. Res. Associate\nC. Research Associate\nD. Assistant Researcher\nYour answer is: ",
+        "gt_response": "Res. Asst.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 3,
+        "image": [
+            "MLBench/DocVQA/images/10.jpg",
+            "MLBench/DocVQA/images/11.jpg",
+            "MLBench/DocVQA/images/12.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the End Date of Returns ?\nChoice list: \nA. 10/10/98\nB. 10/10/99\nC. 10/10/97\nD. 10/10/96\nYour answer is: ",
+        "gt_response": "10/10/97",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 10,
+        "image": [
+            "MLBench/DocVQA/images/38.jpg",
+            "MLBench/DocVQA/images/39.jpg",
+            "MLBench/DocVQA/images/40.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the designation of Dr. F. James Levinson ?\nChoice list: \nA. manager\nB. director\nC. supervisor\nD. executive\nYour answer is: ",
+        "gt_response": "director",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 13,
+        "image": [
+            "MLBench/DocVQA/images/48.jpg",
+            "MLBench/DocVQA/images/49.jpg",
+            "MLBench/DocVQA/images/50.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the weight of Lactalbumin in Milk protein - 75g?\nChoice list: \nA. 7.60\nB. 7.25\nC. 8.50\nD. 6.90\nYour answer is: ",
+        "gt_response": "7.60",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 17,
+        "image": [
+            "MLBench/DocVQA/images/60.jpg",
+            "MLBench/DocVQA/images/61.jpg",
+            "MLBench/DocVQA/images/62.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the Written in  To Field ?\nChoice list: \nA. All Boston Region Full-Time Employees\nB. All New York Region Full-Time Personnel\nC. All San Francisco Region Part-Time Personnel\nD. All Boston Region Full-Time Personnel\nYour answer is: ",
+        "gt_response": "All Boston Region Full-Time Personnel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 26,
+        "image": [
+            "MLBench/DocVQA/images/97.jpg",
+            "MLBench/DocVQA/images/98.jpg",
+            "MLBench/DocVQA/images/99.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: Who is the recipient ?\nChoice list: \nA. K. P. Dubrovin\nB. J. P. Dubrovin\nC. K. P. Durovin\nD. K. P. Dubrovin Jr.\nYour answer is: ",
+        "gt_response": "K. P. Dubrovin",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. J. P. Dubrovin",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 31,
+        "image": [
+            "MLBench/DocVQA/images/117.jpg",
+            "MLBench/DocVQA/images/118.jpg",
+            "MLBench/DocVQA/images/119.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what does camel crema deliver?\nChoice list: \nA. a creamy indulgent flavor that offers an intriguing and pleasurable smoking experience.\nB. a rich and smooth taste that provides a satisfying and enjoyable smoking session.\nC. a luxurious and palatable blend that delivers a captivating and delightful smoking experience.\nD. a velvety and luscious sensation that enhances the smoking ritual.\nYour answer is: ",
+        "gt_response": "a creamy indulgent flavor that offers an intriguing and pleasurable smoking experience.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 38,
+        "image": [
+            "MLBench/DocVQA/images/141.jpg",
+            "MLBench/DocVQA/images/142.jpg",
+            "MLBench/DocVQA/images/143.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: In table XIV how many total abnormalities in hospital K?\nChoice list: \nA. 62\nB. 63\nC. 60\nD. 64\nYour answer is: ",
+        "gt_response": "63",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 52,
+        "image": [
+            "MLBench/DocVQA/images/186.jpg",
+            "MLBench/DocVQA/images/187.jpg",
+            "MLBench/DocVQA/images/188.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: In table II what is the total period of observation of Man-years in hospital K?\nChoice list: \nA. 1,088.7\nB. 1,089.0\nC. 1,088.9\nD. 1,088.8\nYour answer is: ",
+        "gt_response": "1,088.8",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 54,
+        "image": [
+            "MLBench/DocVQA/images/191.jpg",
+            "MLBench/DocVQA/images/192.jpg",
+            "MLBench/DocVQA/images/193.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the nickname given for thiamine ?\nChoice list: \nA. energy vitamin\nB. victory vitamin\nC. morale vitamin\nD. optimism vitamin\nYour answer is: ",
+        "gt_response": "morale vitamin",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 59,
+        "image": [
+            "MLBench/DocVQA/images/212.jpg",
+            "MLBench/DocVQA/images/213.jpg",
+            "MLBench/DocVQA/images/214.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the address of the business office of the company?\nChoice list: \nA. 107 Depot Avenue, N. E., Knoxville, Tennessee\nB. 108 Depot Avenue, N. E., Knoxville, Tennessee\nC. 109 Depot Avenue, N. E., Knoxville, Tennessee\nD. 110 Depot Avenue, N. E., Knoxville, Tennessee\nYour answer is: ",
+        "gt_response": "108 Depot Avenue, N. E., Knoxville, Tennessee",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 60,
+        "image": [
+            "MLBench/DocVQA/images/215.jpg",
+            "MLBench/DocVQA/images/216.jpg",
+            "MLBench/DocVQA/images/217.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: How many pages are there?\nChoice list: \nA. 4\nB. 5\nC. 2\nD. 3\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 61,
+        "image": [
+            "MLBench/DocVQA/images/218.jpg",
+            "MLBench/DocVQA/images/219.jpg",
+            "MLBench/DocVQA/images/220.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: in which state is Washington University at?\nChoice list: \nA. Missouri\nB. Washington State\nC. Washington D.C\nD. Washington\nYour answer is: ",
+        "gt_response": "Missouri",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 63,
+        "image": [
+            "MLBench/DocVQA/images/227.jpg",
+            "MLBench/DocVQA/images/228.jpg",
+            "MLBench/DocVQA/images/229.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: Which topic is handled at 1:30 PM?\nChoice list: \nA. Closing Remarks/Conclusion\nB. Panel Discussion/Debate\nC. Opening Remarks/Introduction\nD. Keynote Speech/Address\nYour answer is: ",
+        "gt_response": "Opening Remarks/Introduction",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 64,
+        "image": [
+            "MLBench/DocVQA/images/230.jpg",
+            "MLBench/DocVQA/images/231.jpg",
+            "MLBench/DocVQA/images/232.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the amount of total voucher as mentioned in the given form ?\nChoice list: \nA. 1,517.00\nB. 1,516.86\nC. 1,516.85\nD. 1,516.87\nYour answer is: ",
+        "gt_response": "1,516.86",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 65,
+        "image": [
+            "MLBench/DocVQA/images/233.jpg",
+            "MLBench/DocVQA/images/234.jpg",
+            "MLBench/DocVQA/images/235.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: When is the date of departure?\nChoice list: \nA. July 10th, 1949\nB. July 10th, 1950\nC. July 9th, 1950\nD. July 10th, 1951\nYour answer is: ",
+        "gt_response": "July 10th, 1950",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 71,
+        "image": [
+            "MLBench/DocVQA/images/255.jpg",
+            "MLBench/DocVQA/images/256.jpg",
+            "MLBench/DocVQA/images/257.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the office phone number ?\nChoice list: \nA. 383-5411\nB. 281-2511\nC. 282-2512\nD. 282-2511\nYour answer is: ",
+        "gt_response": "282-2511",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 76,
+        "image": [
+            "MLBench/DocVQA/images/277.jpg",
+            "MLBench/DocVQA/images/278.jpg",
+            "MLBench/DocVQA/images/279.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is estimated population in poverty in Lewis ?\nChoice list: \nA. 2,199\nB. 2,399\nC. 2,299\nD. 2,299.50\nYour answer is: ",
+        "gt_response": "2,299",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 77,
+        "image": [
+            "MLBench/DocVQA/images/280.jpg",
+            "MLBench/DocVQA/images/281.jpg",
+            "MLBench/DocVQA/images/282.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the expiration date?\nChoice list: \nA. 09/30/97\nB. 10/01/97\nC. 09/30/98\nD. 09/29/97\nYour answer is: ",
+        "gt_response": "09/30/97",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 79,
+        "image": [
+            "MLBench/DocVQA/images/285.jpg",
+            "MLBench/DocVQA/images/286.jpg",
+            "MLBench/DocVQA/images/287.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the brand mentioned in the confirmation?\nChoice list: \nA. WINSTON-SALEM\nB. WINSTONE\nC. WESTON\nD. WINSTON\nYour answer is: ",
+        "gt_response": "WINSTON",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 80,
+        "image": [
+            "MLBench/DocVQA/images/288.jpg",
+            "MLBench/DocVQA/images/289.jpg",
+            "MLBench/DocVQA/images/290.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the program number ?\nChoice list: \nA. 610270\nB. 601200\nC. 601279\nD. 601270\nYour answer is: ",
+        "gt_response": "601270",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 81,
+        "image": [
+            "MLBench/DocVQA/images/291.jpg",
+            "MLBench/DocVQA/images/292.jpg",
+            "MLBench/DocVQA/images/293.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the Estimated Budget for Pass-through Expenses?\nChoice list: \nA. $3,500.00\nB. $2,500.00\nC. $4,000.00\nD. $3,000.00*\nYour answer is: ",
+        "gt_response": "$3,000.00*",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 84,
+        "image": [
+            "MLBench/DocVQA/images/301.jpg",
+            "MLBench/DocVQA/images/302.jpg",
+            "MLBench/DocVQA/images/303.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the name of marketing ?\nChoice list: \nA. Targetbase\nB. Marketbase\nC. Brandbase\nD. Starbase\nYour answer is: ",
+        "gt_response": "Targetbase",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Targetbase",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 86,
+        "image": [
+            "MLBench/DocVQA/images/309.jpg",
+            "MLBench/DocVQA/images/310.jpg",
+            "MLBench/DocVQA/images/311.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the area code mentioned in the given page ?\nChoice list: \nA. 280\nB. 978\nC. 814\nD. 743\nYour answer is: ",
+        "gt_response": "814",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. 280",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 87,
+        "image": [
+            "MLBench/DocVQA/images/312.jpg",
+            "MLBench/DocVQA/images/313.jpg",
+            "MLBench/DocVQA/images/314.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: To where the approved invoice sent to?\nChoice list: \nA. Sponsored Members\nB. Approving Sponsors\nC. Membership Sponsors\nD. Sponsoring Members\nYour answer is: ",
+        "gt_response": "Sponsoring Members",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 96,
+        "image": [
+            "MLBench/DocVQA/images/347.jpg",
+            "MLBench/DocVQA/images/348.jpg",
+            "MLBench/DocVQA/images/349.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the estimated population in poverty in Macon county ?\nChoice list: \nA. 3,363\nB. 3,366\nC. 3,360\nD. 3,362\nYour answer is: ",
+        "gt_response": "3,363",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 109,
+        "image": [
+            "MLBench/DocVQA/images/390.jpg",
+            "MLBench/DocVQA/images/391.jpg",
+            "MLBench/DocVQA/images/392.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is number 2 priority as approved by the AHA board of directors?\nChoice list: \nA. Atherosclerosis\nB. Cardiovascular disease\nC. Coronary artery disease\nD. Hypertension\nYour answer is: ",
+        "gt_response": "Atherosclerosis",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 128,
+        "image": [
+            "MLBench/DocVQA/images/467.jpg",
+            "MLBench/DocVQA/images/468.jpg",
+            "MLBench/DocVQA/images/469.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the position title of William M. Grosvenor, Jr.?\nChoice list: \nA. Director of Research and Development\nB. Chief Financial Officer\nC. Vice President of Sales and Marketing\nD. Senior Project Manager\nYour answer is: ",
+        "gt_response": "Director of Research and Development",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 141,
+        "image": [
+            "MLBench/DocVQA/images/515.jpg",
+            "MLBench/DocVQA/images/516.jpg",
+            "MLBench/DocVQA/images/517.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: Who is the marketing person responsible for the project?\nChoice list: \nA. Lucinda Sheer\nB. Lucinda Smith\nC. Lucinda Sheers\nD. Lucinda Sherman\nYour answer is: ",
+        "gt_response": "Lucinda Sheer",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 152,
+        "image": [
+            "MLBench/DocVQA/images/554.jpg",
+            "MLBench/DocVQA/images/555.jpg",
+            "MLBench/DocVQA/images/556.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the Payee's Account No.?\nChoice list: \nA. cg720t117pb\nB. cg721t117pb\nC. cg721t117qb\nD. cg721t116pb\nYour answer is: ",
+        "gt_response": "cg721t117pb",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 161,
+        "image": [
+            "MLBench/DocVQA/images/579.jpg",
+            "MLBench/DocVQA/images/580.jpg",
+            "MLBench/DocVQA/images/581.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: Which company's name is mentioned?\nChoice list: \nA. Silver Tobacco Limited\nB. GOLDEN TOBACCO LIMITED\nC. Platinum Tobacco Limited\nD. Bronze Tobacco Limited\nYour answer is: ",
+        "gt_response": "GOLDEN TOBACCO LIMITED",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 162,
+        "image": [
+            "MLBench/DocVQA/images/582.jpg",
+            "MLBench/DocVQA/images/583.jpg",
+            "MLBench/DocVQA/images/584.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what are the expenses for meals (other than those at hotel )?\nChoice list: \nA. $27.50\nB. $25.50\nC. $26.00\nD. 26.50\nYour answer is: ",
+        "gt_response": "26.50",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 167,
+        "image": [
+            "MLBench/DocVQA/images/595.jpg",
+            "MLBench/DocVQA/images/596.jpg",
+            "MLBench/DocVQA/images/597.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the designation of Dr. William J. Darby?\nChoice list: \nA. CEO\nB. Chairman\nC. president\nD. Managing director\nYour answer is: ",
+        "gt_response": "president",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 171,
+        "image": [
+            "MLBench/DocVQA/images/608.jpg",
+            "MLBench/DocVQA/images/609.jpg",
+            "MLBench/DocVQA/images/610.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what should be able to be modified-expanded or contracted ?\nChoice list: \nA. low priority designations\nB. incorrect priority designations\nC. high priority designations\nD. priority designations\nYour answer is: ",
+        "gt_response": "low priority designations",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 177,
+        "image": [
+            "MLBench/DocVQA/images/628.jpg",
+            "MLBench/DocVQA/images/629.jpg",
+            "MLBench/DocVQA/images/630.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the issued date of this letter?\nChoice list: \nA. July 16, 1999\nB. July 15, 1999\nC. July 17, 1999\nD. June 16, 1999\nYour answer is: ",
+        "gt_response": "July 16, 1999",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 181,
+        "image": [
+            "MLBench/DocVQA/images/640.jpg",
+            "MLBench/DocVQA/images/641.jpg",
+            "MLBench/DocVQA/images/642.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: Whats Lab name on the form?\nChoice list: \nA. ABBOT LABORATORIES\nB. ABOT LABS\nC. ABBOTT LABORATORIES\nD. ABBBOT LABS\nYour answer is: ",
+        "gt_response": "ABBOTT LABORATORIES",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 183,
+        "image": [
+            "MLBench/DocVQA/images/645.jpg",
+            "MLBench/DocVQA/images/646.jpg",
+            "MLBench/DocVQA/images/647.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the name of the project?\nChoice list: \nA. Project #7595\nB. #7595 Manuscript\nC. Project #7595 Manuscript\nD. Project Manuscript\nYour answer is: ",
+        "gt_response": "#7595 Manuscript",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 184,
+        "image": [
+            "MLBench/DocVQA/images/648.jpg",
+            "MLBench/DocVQA/images/649.jpg",
+            "MLBench/DocVQA/images/650.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the designation of Mrs. J. Heather Etheridge?\nChoice list: \nA. Secretary\nB. Office Manager\nC. Administrative Assistant\nD. Executive Assistant\nYour answer is: ",
+        "gt_response": "Administrative Assistant",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 196,
+        "image": [
+            "MLBench/DocVQA/images/687.jpg",
+            "MLBench/DocVQA/images/688.jpg",
+            "MLBench/DocVQA/images/689.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the first line of the address mentioned at the top?\nChoice list: \nA. William Building\nB. Reynolds Building\nC. Johnson Building\nD. Smith Building\nYour answer is: ",
+        "gt_response": "Reynolds Building",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 199,
+        "image": [
+            "MLBench/DocVQA/images/699.jpg",
+            "MLBench/DocVQA/images/700.jpg",
+            "MLBench/DocVQA/images/701.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: what is the estimated population in poverty in Putnam county ?\nChoice list: \nA. 3,926,100\nB. 3,926,000\nC. 3,926\nD. 3,926,010\nYour answer is: ",
+        "gt_response": "3,926",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 4,
+        "image": [
+            "MLBench/DocVQA/images/13.jpg",
+            "MLBench/DocVQA/images/14.jpg",
+            "MLBench/DocVQA/images/15.jpg",
+            "MLBench/DocVQA/images/16.jpg",
+            "MLBench/DocVQA/images/17.jpg",
+            "MLBench/DocVQA/images/18.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which Class is Peter H. Raven in?\nChoice list: \nA. II\nB. III\nC. I\nD. IV\nYour answer is: ",
+        "gt_response": "II",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Peter H. Raven",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 6,
+        "image": [
+            "MLBench/DocVQA/images/21.jpg",
+            "MLBench/DocVQA/images/22.jpg",
+            "MLBench/DocVQA/images/23.jpg",
+            "MLBench/DocVQA/images/24.jpg",
+            "MLBench/DocVQA/images/25.jpg",
+            "MLBench/DocVQA/images/26.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which day is October 10, 1968\nChoice list: \nA. Wednesday\nB. Monday\nC. Thursday\nD. Friday\nYour answer is: ",
+        "gt_response": "Thursday",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Wednesday",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 18,
+        "image": [
+            "MLBench/DocVQA/images/63.jpg",
+            "MLBench/DocVQA/images/64.jpg",
+            "MLBench/DocVQA/images/65.jpg",
+            "MLBench/DocVQA/images/66.jpg",
+            "MLBench/DocVQA/images/67.jpg",
+            "MLBench/DocVQA/images/68.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the name of the Store?\nChoice list: \nA. - Exxon Mobil Corporation\nB. Sunoco, Inc. (R&M)\nC. - BP plc\nD. - Chevron Corporation\nYour answer is: ",
+        "gt_response": "Sunoco, Inc. (R&M)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. Sunoco, Inc. (R&M)",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 32,
+        "image": [
+            "MLBench/DocVQA/images/120.jpg",
+            "MLBench/DocVQA/images/121.jpg",
+            "MLBench/DocVQA/images/122.jpg",
+            "MLBench/DocVQA/images/123.jpg",
+            "MLBench/DocVQA/images/124.jpg",
+            "MLBench/DocVQA/images/125.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the unit of pension for Actuarial Gains/(Losses)  for the year ended in 2010?\nChoice list: \nA. 7.50\nB. 5.00\nC. 7.00\nD. 10.00\nYour answer is: ",
+        "gt_response": "7.50",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 39,
+        "image": [
+            "MLBench/DocVQA/images/144.jpg",
+            "MLBench/DocVQA/images/145.jpg",
+            "MLBench/DocVQA/images/146.jpg",
+            "MLBench/DocVQA/images/147.jpg",
+            "MLBench/DocVQA/images/148.jpg",
+            "MLBench/DocVQA/images/149.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is title on the y axis of fig.1?\nChoice list: \nA. PLANT DRY WT(%)\nB. PLANT DRY CONTROL WT(%)\nC. PLANT DRY WT(% OF CONTROL)\nD. PLANT WEIGHT(%)\nYour answer is: ",
+        "gt_response": "PLANT DRY WT(% OF CONTROL)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 55,
+        "image": [
+            "MLBench/DocVQA/images/194.jpg",
+            "MLBench/DocVQA/images/195.jpg",
+            "MLBench/DocVQA/images/196.jpg",
+            "MLBench/DocVQA/images/197.jpg",
+            "MLBench/DocVQA/images/198.jpg",
+            "MLBench/DocVQA/images/199.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Percentage of loyalty according to CDF measures?\nChoice list: \nA. 35.9%\nB. 37.9%\nC. 36.9%\nD. 36%\nYour answer is: ",
+        "gt_response": "36.9%",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 57,
+        "image": [
+            "MLBench/DocVQA/images/202.jpg",
+            "MLBench/DocVQA/images/203.jpg",
+            "MLBench/DocVQA/images/204.jpg",
+            "MLBench/DocVQA/images/205.jpg",
+            "MLBench/DocVQA/images/206.jpg",
+            "MLBench/DocVQA/images/207.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is shown in Y axis of the graph in Capital letters?\nChoice list: \nA. AVERAGE SALES\nB. SPECIFIC ACTIVITY\nC. PROFIT MARGIN\nD. TOTAL REVENUE\nYour answer is: ",
+        "gt_response": "SPECIFIC ACTIVITY",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. SPECIFIC ACTIVITY",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 62,
+        "image": [
+            "MLBench/DocVQA/images/221.jpg",
+            "MLBench/DocVQA/images/222.jpg",
+            "MLBench/DocVQA/images/223.jpg",
+            "MLBench/DocVQA/images/224.jpg",
+            "MLBench/DocVQA/images/225.jpg",
+            "MLBench/DocVQA/images/226.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Who requested Response Code ?\nChoice list: \nA. Dylan Huyett\nB. Dan Huyett\nC. David Huyett\nD. Drew Huyett\nYour answer is: ",
+        "gt_response": "Drew Huyett",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Drew Huyett",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 69,
+        "image": [
+            "MLBench/DocVQA/images/245.jpg",
+            "MLBench/DocVQA/images/246.jpg",
+            "MLBench/DocVQA/images/247.jpg",
+            "MLBench/DocVQA/images/248.jpg",
+            "MLBench/DocVQA/images/249.jpg",
+            "MLBench/DocVQA/images/250.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is written within parentheses, just below the title?\nChoice list: \nA. Calories per meal\nB. Calories per serving\nC. Calories per week\nD. Calories per day\nYour answer is: ",
+        "gt_response": "Calories per day",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/CHART]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 74,
+        "image": [
+            "MLBench/DocVQA/images/265.jpg",
+            "MLBench/DocVQA/images/266.jpg",
+            "MLBench/DocVQA/images/267.jpg",
+            "MLBench/DocVQA/images/268.jpg",
+            "MLBench/DocVQA/images/269.jpg",
+            "MLBench/DocVQA/images/270.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Institution?\nChoice list: \nA. Massachusetts Institute of Technology\nB. Harvard University\nC. William Marsh rice University\nD. Stanford University\nYour answer is: ",
+        "gt_response": "William Marsh rice University",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 75,
+        "image": [
+            "MLBench/DocVQA/images/271.jpg",
+            "MLBench/DocVQA/images/272.jpg",
+            "MLBench/DocVQA/images/273.jpg",
+            "MLBench/DocVQA/images/274.jpg",
+            "MLBench/DocVQA/images/275.jpg",
+            "MLBench/DocVQA/images/276.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the total amount mentioned in the given form ?\nChoice list: \nA. 574.48\nB. 574.49\nC. 574.50\nD. 573.49\nYour answer is: ",
+        "gt_response": "574.49",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 89,
+        "image": [
+            "MLBench/DocVQA/images/317.jpg",
+            "MLBench/DocVQA/images/318.jpg",
+            "MLBench/DocVQA/images/319.jpg",
+            "MLBench/DocVQA/images/320.jpg",
+            "MLBench/DocVQA/images/321.jpg",
+            "MLBench/DocVQA/images/322.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: who is the whole-time director (from August 14,2009) ?\nChoice list: \nA. Mr. R Raghavan\nB. Mr. R Ramamurthy\nC. Mr. R Rajmohan\nD. Mr. R Ramanujam\nYour answer is: ",
+        "gt_response": "Mr. R Ramamurthy",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Mr. R Ramanujam",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 91,
+        "image": [
+            "MLBench/DocVQA/images/327.jpg",
+            "MLBench/DocVQA/images/328.jpg",
+            "MLBench/DocVQA/images/329.jpg",
+            "MLBench/DocVQA/images/330.jpg",
+            "MLBench/DocVQA/images/331.jpg",
+            "MLBench/DocVQA/images/332.jpg"
+        ],
+        "question": "Each group of pictures relates to a question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Mean of 2,4-D?\nChoice list: \nA. 0.08%\nB. 0.08\nC. 0.80%\nD. 0.80\nYour answer is: ",
+        "gt_response": "0.08",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "0.08%",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 97,
+        "image": [
+            "MLBench/DocVQA/images/350.jpg",
+            "MLBench/DocVQA/images/351.jpg",
+            "MLBench/DocVQA/images/352.jpg",
+            "MLBench/DocVQA/images/353.jpg",
+            "MLBench/DocVQA/images/354.jpg",
+            "MLBench/DocVQA/images/355.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the lounge booked for United States Brewers Association Medical Advisory Group?\nChoice list: \nA. Central Lounge\nB. Southwest Lounge\nC. South Lounge\nD. North Lounge\nYour answer is: ",
+        "gt_response": "South Lounge",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Central Lounge",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 103,
+        "image": [
+            "MLBench/DocVQA/images/369.jpg",
+            "MLBench/DocVQA/images/370.jpg",
+            "MLBench/DocVQA/images/371.jpg",
+            "MLBench/DocVQA/images/372.jpg",
+            "MLBench/DocVQA/images/373.jpg",
+            "MLBench/DocVQA/images/374.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Daily Quantity for Turnip Greens?\nChoice list: \nA. 1/4 lb.\nB. 1/5 lb.\nC. 1/2 lb.\nD. 1/3 lb.\nYour answer is: ",
+        "gt_response": "1/3 lb.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 115,
+        "image": [
+            "MLBench/DocVQA/images/408.jpg",
+            "MLBench/DocVQA/images/409.jpg",
+            "MLBench/DocVQA/images/410.jpg",
+            "MLBench/DocVQA/images/411.jpg",
+            "MLBench/DocVQA/images/412.jpg",
+            "MLBench/DocVQA/images/413.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Where is  Mr.James Briggs working as an Editor?\nChoice list: \nA. Chicago Tribune\nB. Greeley Daily Tribune\nC. Los Angeles Times\nD. New York Times\nYour answer is: ",
+        "gt_response": "Greeley Daily Tribune",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 118,
+        "image": [
+            "MLBench/DocVQA/images/418.jpg",
+            "MLBench/DocVQA/images/419.jpg",
+            "MLBench/DocVQA/images/420.jpg",
+            "MLBench/DocVQA/images/421.jpg",
+            "MLBench/DocVQA/images/422.jpg",
+            "MLBench/DocVQA/images/423.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How much is the EFT $ Amount?\nChoice list: \nA. 3327.78\nB. $3327.79\nC. $3327.77\nD. $3327.80\nYour answer is: ",
+        "gt_response": "3327.78",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 125,
+        "image": [
+            "MLBench/DocVQA/images/450.jpg",
+            "MLBench/DocVQA/images/451.jpg",
+            "MLBench/DocVQA/images/452.jpg",
+            "MLBench/DocVQA/images/453.jpg",
+            "MLBench/DocVQA/images/454.jpg",
+            "MLBench/DocVQA/images/455.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: who is the whole -time director( up to July 31,2009) ?\nChoice list: \nA. Mr. V.S.Vhanbhag\nB. Ms. S.V.Shanbhag\nC. Mr. S.V.Shanbhag\nD. Mrs. S.V.Shanbhag\nYour answer is: ",
+        "gt_response": "Mr. S.V.Shanbhag",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/CHOICELIST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 126,
+        "image": [
+            "MLBench/DocVQA/images/456.jpg",
+            "MLBench/DocVQA/images/457.jpg",
+            "MLBench/DocVQA/images/458.jpg",
+            "MLBench/DocVQA/images/459.jpg",
+            "MLBench/DocVQA/images/460.jpg",
+            "MLBench/DocVQA/images/461.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is Written in the SPEC Status Field ?\nChoice list: \nA. N/A\nB. CURRENT\nC. NOT CURRENT\nD. PASS\nYour answer is: ",
+        "gt_response": "CURRENT",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/DESCRIPTION] [/SPEC] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD] [/RECORD]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 136,
+        "image": [
+            "MLBench/DocVQA/images/490.jpg",
+            "MLBench/DocVQA/images/491.jpg",
+            "MLBench/DocVQA/images/492.jpg",
+            "MLBench/DocVQA/images/493.jpg",
+            "MLBench/DocVQA/images/494.jpg",
+            "MLBench/DocVQA/images/495.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the designation of the person undersigned?\nChoice list: \nA. General Manager\nB. Head Scientist\nC. Chief Chemist.\nD. Lead Researcher\nYour answer is: ",
+        "gt_response": "Chief Chemist.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 138,
+        "image": [
+            "MLBench/DocVQA/images/501.jpg",
+            "MLBench/DocVQA/images/502.jpg",
+            "MLBench/DocVQA/images/503.jpg",
+            "MLBench/DocVQA/images/504.jpg",
+            "MLBench/DocVQA/images/505.jpg",
+            "MLBench/DocVQA/images/506.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what are the number of professionals mentioned in the given form ?\nChoice list: \nA. 10 Professionals\nB. 20 Professionals\nC. 15 Professionals\nD. 12 Professionals\nYour answer is: ",
+        "gt_response": "12 Professionals",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 139,
+        "image": [
+            "MLBench/DocVQA/images/507.jpg",
+            "MLBench/DocVQA/images/508.jpg",
+            "MLBench/DocVQA/images/509.jpg",
+            "MLBench/DocVQA/images/510.jpg",
+            "MLBench/DocVQA/images/511.jpg",
+            "MLBench/DocVQA/images/512.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Home Phone?\nChoice list: \nA. 638-8723\nB. 744-5106\nC. 555-4982\nD. 454-5601\nYour answer is: ",
+        "gt_response": "744-5106",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "55555-4-5016",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 173,
+        "image": [
+            "MLBench/DocVQA/images/613.jpg",
+            "MLBench/DocVQA/images/614.jpg",
+            "MLBench/DocVQA/images/615.jpg",
+            "MLBench/DocVQA/images/616.jpg",
+            "MLBench/DocVQA/images/617.jpg",
+            "MLBench/DocVQA/images/618.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the title of position for charles L. Paxson ?\nChoice list: \nA. detective\nB. researcher\nC. analyst\nD. investigator\nYour answer is: ",
+        "gt_response": "investigator",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 188,
+        "image": [
+            "MLBench/DocVQA/images/660.jpg",
+            "MLBench/DocVQA/images/661.jpg",
+            "MLBench/DocVQA/images/662.jpg",
+            "MLBench/DocVQA/images/663.jpg",
+            "MLBench/DocVQA/images/664.jpg",
+            "MLBench/DocVQA/images/665.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is th last Holding Date of Equity Owner  mentioned for \"Dalmia Housing Finance Ltd\"?\nChoice list: \nA. 31-Dec-08\nB. 31-Dec-06\nC. 31-Dec-10\nD. 31-Dec-12\nYour answer is: ",
+        "gt_response": "31-Dec-08",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What is the date of the last holding date of equity owner for \"Dalmiaia Housing Finance Ltd\"?\nChoice list: \nA. 31-Dec-06\nB. 31-Dec-08\nC. 31-Dec-10\nD. 31-Dec-12010\nYour answer is: B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 9,
+        "image": [
+            "MLBench/DocVQA/images/34.jpg",
+            "MLBench/DocVQA/images/35.jpg",
+            "MLBench/DocVQA/images/36.jpg",
+            "MLBench/DocVQA/images/37.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the email id of Mr. Hironao Ihara?\nChoice list: \nA. h.ihara@takeda.com\nB. hironaoihara@takeda.com\nC. hironao.ihara@takeda.com\nD. iharahironao@takeda.com\nYour answer is: ",
+        "gt_response": "hironao.ihara@takeda.com",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What is the email id of Mr. Hironao.ihara@takeda.com?\nChoice list:\nA. hironaoihara@takeda.com\nB. hironaoihara@takeda.com\nC. hironaoihara@takeda.com\nD. iharaoihara@takeda.com\nYour answer is: [INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 25,
+        "image": [
+            "MLBench/DocVQA/images/93.jpg",
+            "MLBench/DocVQA/images/94.jpg",
+            "MLBench/DocVQA/images/95.jpg",
+            "MLBench/DocVQA/images/96.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What are the reporting dates?\nChoice list: \nA. 10.5-10/30-98\nB. 10-5-10/30-98\nC. 10/5-1030/98\nD. 10/5 -10/30/98\nYour answer is: ",
+        "gt_response": "10/5 -10/30/98",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 27,
+        "image": [
+            "MLBench/DocVQA/images/100.jpg",
+            "MLBench/DocVQA/images/101.jpg",
+            "MLBench/DocVQA/images/102.jpg",
+            "MLBench/DocVQA/images/103.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the date mentioned in the given page ?\nChoice list: \nA. Thursday, November 1, 1974\nB. Friday, November 1, 1974\nC. Saturday, November 1, 1974\nD. Friday, October 1, 1974\nYour answer is: ",
+        "gt_response": "Friday, November 1, 1974",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 28,
+        "image": [
+            "MLBench/DocVQA/images/104.jpg",
+            "MLBench/DocVQA/images/105.jpg",
+            "MLBench/DocVQA/images/106.jpg",
+            "MLBench/DocVQA/images/107.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the first TARGET AUDIENCE mentioned?\nChoice list: \nA. BVS2 (AMM)\nB. BVS1 (PWM)\nC. BVS1 (ZMM)\nD. BVS1 (AMM)\nYour answer is: ",
+        "gt_response": "BVS1 (AMM)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 30,
+        "image": [
+            "MLBench/DocVQA/images/113.jpg",
+            "MLBench/DocVQA/images/114.jpg",
+            "MLBench/DocVQA/images/115.jpg",
+            "MLBench/DocVQA/images/116.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How much is the debt equity ratio?\nChoice list: \nA. 0.02\nB. 0.2\nC. 0.01\nD. 0.05\nYour answer is: ",
+        "gt_response": "0.02",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 33,
+        "image": [
+            "MLBench/DocVQA/images/126.jpg",
+            "MLBench/DocVQA/images/127.jpg",
+            "MLBench/DocVQA/images/128.jpg",
+            "MLBench/DocVQA/images/129.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the date mentioned in the given page ?\nChoice list: \nA. 2nd November 1976\nB. 2 November 1966\nC. 2 nov 1967\nD. 2nd November 1957\nYour answer is: ",
+        "gt_response": "2 nov 1967",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 41,
+        "image": [
+            "MLBench/DocVQA/images/152.jpg",
+            "MLBench/DocVQA/images/153.jpg",
+            "MLBench/DocVQA/images/154.jpg",
+            "MLBench/DocVQA/images/155.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the cat.no?\nChoice list: \nA. 0612-80-505\nB. 0612-80-606\nC. 6192-80-505\nD. 0612-90-505\nYour answer is: ",
+        "gt_response": "0612-80-505",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 48,
+        "image": [
+            "MLBench/DocVQA/images/174.jpg",
+            "MLBench/DocVQA/images/175.jpg",
+            "MLBench/DocVQA/images/176.jpg",
+            "MLBench/DocVQA/images/177.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the File No.?\nChoice list: \nA. 183-58361\nB. 500-85831\nC. 185-58361\nD. 185-58362\nYour answer is: ",
+        "gt_response": "185-58361",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 51,
+        "image": [
+            "MLBench/DocVQA/images/182.jpg",
+            "MLBench/DocVQA/images/183.jpg",
+            "MLBench/DocVQA/images/184.jpg",
+            "MLBench/DocVQA/images/185.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How much is the time and mileage charge given?\nChoice list: \nA. 22.8\nB. 22.50\nC. 22.80\nD. 22.85\nYour answer is: ",
+        "gt_response": "22.85",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: How much is the time and mileage charge given?\nChoice list: \nA. 2.8\nB. 2.85\nC. 2.80\nD. 2.85\nYour answer is: [/INST] \nQuestion: How much is the time and mileage charge?\nChoice list: \nA. 2.8\nB. 2.85\nC. 2.80\nD. 2.85\nYour answer is: [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 58,
+        "image": [
+            "MLBench/DocVQA/images/208.jpg",
+            "MLBench/DocVQA/images/209.jpg",
+            "MLBench/DocVQA/images/210.jpg",
+            "MLBench/DocVQA/images/211.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: \"wisdom and art,strength and wealth are of no avail if health is lacking \" was written by ?\nChoice list: \nA. Aristotle\nB. Herophilus\nC. Hippocrates\nD. Socrates\nYour answer is: ",
+        "gt_response": "Herophilus",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 70,
+        "image": [
+            "MLBench/DocVQA/images/251.jpg",
+            "MLBench/DocVQA/images/252.jpg",
+            "MLBench/DocVQA/images/253.jpg",
+            "MLBench/DocVQA/images/254.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the candidate name for promotion ?\nChoice list: \nA. George M. Saunders\nB. George Murdoch Smith\nC. George Saunders\nD. George Murdoch Saunders\nYour answer is: ",
+        "gt_response": "George Murdoch Saunders",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D. George Murdoch Saunders",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 90,
+        "image": [
+            "MLBench/DocVQA/images/323.jpg",
+            "MLBench/DocVQA/images/324.jpg",
+            "MLBench/DocVQA/images/325.jpg",
+            "MLBench/DocVQA/images/326.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Timing of Conference Reminder ?\nChoice list: \nA. 2:30 to 4:00 p.m\nB. 12:30 to 2:30 p.m\nC. 11:30 a.m to 2:00 p.m\nD. 1.30 to 3:00 p.m\nYour answer is: ",
+        "gt_response": "1.30 to 3:00 p.m",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 105,
+        "image": [
+            "MLBench/DocVQA/images/377.jpg",
+            "MLBench/DocVQA/images/378.jpg",
+            "MLBench/DocVQA/images/379.jpg",
+            "MLBench/DocVQA/images/380.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the heading at top of the page ?\nChoice list: \nA. safety data sheet\nB. product data sheet\nC. material safety data sheet\nD. technical data sheet\nYour answer is: ",
+        "gt_response": "material safety data sheet",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 111,
+        "image": [
+            "MLBench/DocVQA/images/398.jpg",
+            "MLBench/DocVQA/images/399.jpg",
+            "MLBench/DocVQA/images/400.jpg",
+            "MLBench/DocVQA/images/401.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What kind of \"studies\" have ITC commenced for few of their products?\nChoice list: \nA. ecological impact studies\nB. life cycle assessment studies\nC. sustainability studies\nD. carbon footprint studies\nYour answer is: ",
+        "gt_response": "life cycle assessment studies",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 119,
+        "image": [
+            "MLBench/DocVQA/images/424.jpg",
+            "MLBench/DocVQA/images/425.jpg",
+            "MLBench/DocVQA/images/426.jpg",
+            "MLBench/DocVQA/images/427.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How much is the hotel cost?\nChoice list: \nA. $ 10.00\nB. $10.01\nC. €10.00\nD. ¥10.00\nYour answer is: ",
+        "gt_response": "$ 10.00",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 120,
+        "image": [
+            "MLBench/DocVQA/images/428.jpg",
+            "MLBench/DocVQA/images/429.jpg",
+            "MLBench/DocVQA/images/430.jpg",
+            "MLBench/DocVQA/images/431.jpg"
+        ],
+        "question": "There is a related question for each group of pictures. Please answer it shortly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the full form of POV?\nChoice list: \nA. Public-Owned Vehicle\nB. Personal-Owned Vehicle\nC. Privately-Operated Vehicle\nD. Privately-Owned Vehicle\nYour answer is: ",
+        "gt_response": "Privately-Owned Vehicle",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[D]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 121,
+        "image": [
+            "MLBench/DocVQA/images/432.jpg",
+            "MLBench/DocVQA/images/433.jpg",
+            "MLBench/DocVQA/images/434.jpg",
+            "MLBench/DocVQA/images/435.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the name of the university mentioned in the given form ?\nChoice list: \nA. Washington university\nB. University of Washington\nC. George Washington University\nD. Washington State University\nYour answer is: ",
+        "gt_response": "Washington university",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 122,
+        "image": [
+            "MLBench/DocVQA/images/436.jpg",
+            "MLBench/DocVQA/images/437.jpg",
+            "MLBench/DocVQA/images/438.jpg",
+            "MLBench/DocVQA/images/439.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the amount of Calories under Chemical Analyses ?\nChoice list: \nA. 2,870 cal\nB. 2,872 kcal\nC. 2,872 cal\nD. 2,875 cal\nYour answer is: ",
+        "gt_response": "2,872 cal",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 131,
+        "image": [
+            "MLBench/DocVQA/images/474.jpg",
+            "MLBench/DocVQA/images/475.jpg",
+            "MLBench/DocVQA/images/476.jpg",
+            "MLBench/DocVQA/images/477.jpg"
+        ],
+        "question": "Please answer briefly the question that corresponds to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the name of the passenger mentioned in the given page ?\nChoice list: \nA. Dr. W . J. Darby\nB. Dr. J. W. Darby\nC. W. J. Darby, MD\nD. Dr. William J. Darby\nYour answer is: ",
+        "gt_response": "Dr. W . J. Darby",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 134,
+        "image": [
+            "MLBench/DocVQA/images/482.jpg",
+            "MLBench/DocVQA/images/483.jpg",
+            "MLBench/DocVQA/images/484.jpg",
+            "MLBench/DocVQA/images/485.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Who is the Discussion chairman for application of the morning session on Wednesday, June 23?\nChoice list: \nA. John H. Brows\nB. John H. Brown\nC. John H. Browe\nD. John H. Browne\nYour answer is: ",
+        "gt_response": "John H. Browe",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 135,
+        "image": [
+            "MLBench/DocVQA/images/486.jpg",
+            "MLBench/DocVQA/images/487.jpg",
+            "MLBench/DocVQA/images/488.jpg",
+            "MLBench/DocVQA/images/489.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the date mentioned in the given page ?\nChoice list: \nA. december 6-8, 1958\nB. 12-6-1958\nC. Dec 6 to Dec 8, 1958\nD. December Sixth to Eighth, 1958\nYour answer is: ",
+        "gt_response": "december 6-8, 1958",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: what is the date of the meeting?\nChoice list:\nA. December 6-8, 1958\nB. December 6-9, 1958\nC. December 6-8, 1958\nD. December 6-8, 1958\nYour answer is: [D]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 145,
+        "image": [
+            "MLBench/DocVQA/images/527.jpg",
+            "MLBench/DocVQA/images/528.jpg",
+            "MLBench/DocVQA/images/529.jpg",
+            "MLBench/DocVQA/images/530.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the Voucher Amount ?\nChoice list: \nA. $210,391.01\nB. $210,391.10\nC. $210,390.00\nD. $210,391.00\nYour answer is: ",
+        "gt_response": "$210,391.00",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[A]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 150,
+        "image": [
+            "MLBench/DocVQA/images/548.jpg",
+            "MLBench/DocVQA/images/549.jpg",
+            "MLBench/DocVQA/images/550.jpg",
+            "MLBench/DocVQA/images/551.jpg"
+        ],
+        "question": "I will give you some pictures, and each group of pictures will correspond to a question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the program endorsed by the committee ?\nChoice list: \nA. history program\nB. home economics program\nC. mathematics program\nD. science program\nYour answer is: ",
+        "gt_response": "home economics program",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 163,
+        "image": [
+            "MLBench/DocVQA/images/585.jpg",
+            "MLBench/DocVQA/images/586.jpg",
+            "MLBench/DocVQA/images/587.jpg",
+            "MLBench/DocVQA/images/588.jpg"
+        ],
+        "question": "Please give a short answer to the question that is related to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: When is the Memorandum dated on ?\nChoice list: \nA. August 30, 1994\nB. January 30, 1994\nC. August 30, 1995\nD. August 3, 1994\nYour answer is: ",
+        "gt_response": "August 30, 1994",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 168,
+        "image": [
+            "MLBench/DocVQA/images/598.jpg",
+            "MLBench/DocVQA/images/599.jpg",
+            "MLBench/DocVQA/images/600.jpg",
+            "MLBench/DocVQA/images/601.jpg"
+        ],
+        "question": "There is a question for each group of pictures. Please answer it in a short way. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Who is Donald K. Tressler?\nChoice list: \nA. Donald K. Tressler is the CEO of the Institute\nB. Donald K. Tressler is a prominent scientist at the Institute\nC. Scientific Director of the Institute\nD. Donald K. Tressler is the Head of Research at the Institute\nYour answer is: ",
+        "gt_response": "Scientific Director of the Institute",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 170,
+        "image": [
+            "MLBench/DocVQA/images/604.jpg",
+            "MLBench/DocVQA/images/605.jpg",
+            "MLBench/DocVQA/images/606.jpg",
+            "MLBench/DocVQA/images/607.jpg"
+        ],
+        "question": "For each group of pictures, there is a question. Please give a short answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the minimal volume for GH RRA?\nChoice list: \nA. 2.5 cc\nB. 2.9 cc\nC. 3.1 cc\nD. 3.0 cc\nYour answer is: ",
+        "gt_response": "3.0 cc",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 189,
+        "image": [
+            "MLBench/DocVQA/images/666.jpg",
+            "MLBench/DocVQA/images/667.jpg",
+            "MLBench/DocVQA/images/668.jpg",
+            "MLBench/DocVQA/images/669.jpg"
+        ],
+        "question": "Each group of pictures has a related question. Please give a brief answer to it. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the date of goods Rec?\nChoice list: \nA. 02/13/73\nB. 2/13/732\nC. 13/2/73\nD. 2/13/73\nYour answer is: ",
+        "gt_response": "2/13/73",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 190,
+        "image": [
+            "MLBench/DocVQA/images/670.jpg",
+            "MLBench/DocVQA/images/671.jpg",
+            "MLBench/DocVQA/images/672.jpg",
+            "MLBench/DocVQA/images/673.jpg"
+        ],
+        "question": "For every group of pictures, there is a corresponding question. Please answer it briefly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the name of the university mentioned ?\nChoice list: \nA. Vanderbilt Institute\nB. Vanderbilt University\nC. Vanderbilt College\nD. Vandenburg University\nYour answer is: ",
+        "gt_response": "Vanderbilt University",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. Vanderbilt University",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 197,
+        "image": [
+            "MLBench/DocVQA/images/690.jpg",
+            "MLBench/DocVQA/images/691.jpg",
+            "MLBench/DocVQA/images/692.jpg",
+            "MLBench/DocVQA/images/693.jpg"
+        ],
+        "question": "Please answer shortly the question that relates to each group of pictures. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere><ImageHere>Question: what is the invoice number?\nChoice list: \nA. #154-0071\nB. #154-071\nC. #154-007\nD. #154-006\nYour answer is: ",
+        "gt_response": "#154-0071",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    }
+]

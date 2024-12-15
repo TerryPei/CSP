@@ -1,0 +1,4076 @@
+[
+    {
+        "sample_id": 0,
+        "image": [
+            "MLBench/TQA/images/7.png",
+            "MLBench/TQA/images/8.png",
+            "MLBench/TQA/images/9.png",
+            "MLBench/TQA/images/10.png",
+            "MLBench/TQA/images/11.png",
+            "MLBench/TQA/images/12.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label refers to a stipulate?\nChoice list: \nA. P\nB. W\nC. X\nD. F\nYour answer is: ",
+        "gt_response": "X",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 1,
+        "image": [
+            "MLBench/TQA/images/20.png",
+            "MLBench/TQA/images/21.png",
+            "MLBench/TQA/images/22.png",
+            "MLBench/TQA/images/23.png",
+            "MLBench/TQA/images/24.png",
+            "MLBench/TQA/images/25.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter corresponds to the part that connects the leaf to the stem?\nChoice list: \nA. X\nB. S\nC. K\nD. F\nYour answer is: ",
+        "gt_response": "X",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 2,
+        "image": [
+            "MLBench/TQA/images/33.png",
+            "MLBench/TQA/images/34.png",
+            "MLBench/TQA/images/35.png",
+            "MLBench/TQA/images/36.png",
+            "MLBench/TQA/images/37.png",
+            "MLBench/TQA/images/38.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label shows the Blade?\nChoice list: \nA. D\nB. T\nC. K\nD. W\nYour answer is: ",
+        "gt_response": "D",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 3,
+        "image": [
+            "MLBench/TQA/images/46.png",
+            "MLBench/TQA/images/47.png",
+            "MLBench/TQA/images/48.png",
+            "MLBench/TQA/images/49.png",
+            "MLBench/TQA/images/50.png",
+            "MLBench/TQA/images/51.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter indicates the epidermis superior?\nChoice list: \nA. L\nB. D\nC. E\nD. A\nYour answer is: ",
+        "gt_response": "D",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 4,
+        "image": [
+            "MLBench/TQA/images/59.png",
+            "MLBench/TQA/images/60.png",
+            "MLBench/TQA/images/61.png",
+            "MLBench/TQA/images/62.png",
+            "MLBench/TQA/images/63.png",
+            "MLBench/TQA/images/64.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Where is the vein located?\nChoice list: \nA. V\nB. E\nC. A\nD. K\nYour answer is: ",
+        "gt_response": "K",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 5,
+        "image": [
+            "MLBench/TQA/images/72.png",
+            "MLBench/TQA/images/73.png",
+            "MLBench/TQA/images/74.png",
+            "MLBench/TQA/images/75.png",
+            "MLBench/TQA/images/76.png",
+            "MLBench/TQA/images/77.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: By what letter is the stem represented in the diagram?\nChoice list: \nA. V\nB. W\nC. F\nD. J\nYour answer is: ",
+        "gt_response": "V",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 6,
+        "image": [
+            "MLBench/TQA/images/85.png",
+            "MLBench/TQA/images/86.png",
+            "MLBench/TQA/images/87.png",
+            "MLBench/TQA/images/88.png",
+            "MLBench/TQA/images/89.png",
+            "MLBench/TQA/images/90.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Where is the fruit?\nChoice list: \nA. N\nB. E\nC. X\nD. L\nYour answer is: ",
+        "gt_response": "X",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 7,
+        "image": [
+            "MLBench/TQA/images/98.png",
+            "MLBench/TQA/images/99.png",
+            "MLBench/TQA/images/100.png",
+            "MLBench/TQA/images/101.png",
+            "MLBench/TQA/images/102.png",
+            "MLBench/TQA/images/103.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which of the following absorbs water and minerals for the plant?\nChoice list: \nA. A\nB. L\nC. X\nD. E\nYour answer is: ",
+        "gt_response": "E",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 8,
+        "image": [
+            "MLBench/TQA/images/111.png",
+            "MLBench/TQA/images/112.png",
+            "MLBench/TQA/images/113.png",
+            "MLBench/TQA/images/114.png",
+            "MLBench/TQA/images/115.png",
+            "MLBench/TQA/images/116.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the dentate\nChoice list: \nA. P\nB. R\nC. U\nD. V\nYour answer is: ",
+        "gt_response": "R",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 9,
+        "image": [
+            "MLBench/TQA/images/124.png",
+            "MLBench/TQA/images/125.png",
+            "MLBench/TQA/images/126.png",
+            "MLBench/TQA/images/127.png",
+            "MLBench/TQA/images/128.png",
+            "MLBench/TQA/images/129.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter represents an acute leaf?\nChoice list: \nA. V\nB. L#\nC. U\nD. X\nYour answer is: ",
+        "gt_response": "U",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 10,
+        "image": [
+            "MLBench/TQA/images/137.png",
+            "MLBench/TQA/images/138.png",
+            "MLBench/TQA/images/139.png",
+            "MLBench/TQA/images/140.png",
+            "MLBench/TQA/images/141.png",
+            "MLBench/TQA/images/142.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter represents the Pinnately compound?\nChoice list: \nA. R\nB. V\nC. U\nD. A\nYour answer is: ",
+        "gt_response": "V",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 11,
+        "image": [
+            "MLBench/TQA/images/150.png",
+            "MLBench/TQA/images/151.png",
+            "MLBench/TQA/images/152.png",
+            "MLBench/TQA/images/153.png",
+            "MLBench/TQA/images/154.png",
+            "MLBench/TQA/images/155.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the part of the leaf that connects it to the stalk.\nChoice list: \nA. Axil\nB. Vein\nC. Petiole\nD. Stipule\nYour answer is: ",
+        "gt_response": "Petiole",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 12,
+        "image": [
+            "MLBench/TQA/images/163.png",
+            "MLBench/TQA/images/164.png",
+            "MLBench/TQA/images/165.png",
+            "MLBench/TQA/images/166.png",
+            "MLBench/TQA/images/167.png",
+            "MLBench/TQA/images/168.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many parts does the leaf blade have?\nChoice list: \nA. 3\nB. 2\nC. 4\nD. 5\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 13,
+        "image": [
+            "MLBench/TQA/images/176.png",
+            "MLBench/TQA/images/177.png",
+            "MLBench/TQA/images/178.png",
+            "MLBench/TQA/images/179.png",
+            "MLBench/TQA/images/180.png",
+            "MLBench/TQA/images/181.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: In the diagram identify the organ that hold the plant upright.\nChoice list: \nA. Rachis\nB. Petiolule.\nC. Stem.\nD. Petiole\nYour answer is: ",
+        "gt_response": "Stem.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 14,
+        "image": [
+            "MLBench/TQA/images/189.png",
+            "MLBench/TQA/images/190.png",
+            "MLBench/TQA/images/191.png",
+            "MLBench/TQA/images/192.png",
+            "MLBench/TQA/images/193.png",
+            "MLBench/TQA/images/194.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What letter corresponds to the leaf?\nChoice list: \nA. b\nB. a\nC. c\nD. d\nYour answer is: ",
+        "gt_response": "d",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 15,
+        "image": [
+            "MLBench/TQA/images/202.png",
+            "MLBench/TQA/images/203.png",
+            "MLBench/TQA/images/204.png",
+            "MLBench/TQA/images/205.png",
+            "MLBench/TQA/images/206.png",
+            "MLBench/TQA/images/207.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What protects the emerging leaf or bud?\nChoice list: \nA. petiole\nB. stem\nC. stipule\nD. vein\nYour answer is: ",
+        "gt_response": "stipule",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 16,
+        "image": [
+            "MLBench/TQA/images/215.png",
+            "MLBench/TQA/images/216.png",
+            "MLBench/TQA/images/217.png",
+            "MLBench/TQA/images/218.png",
+            "MLBench/TQA/images/219.png",
+            "MLBench/TQA/images/220.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which part of the leaf carries water and minerals to the cells of leaf? A) Veins; B) Midrib, C) Petiole, D) Stem\nChoice list: \nA. A) Veins\nB. D) Stem\nC. C) Petiole\nD. B) Midrib\nYour answer is: ",
+        "gt_response": "A) Veins",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 17,
+        "image": [
+            "MLBench/TQA/images/228.png",
+            "MLBench/TQA/images/229.png",
+            "MLBench/TQA/images/230.png",
+            "MLBench/TQA/images/231.png",
+            "MLBench/TQA/images/232.png",
+            "MLBench/TQA/images/233.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the part of the leaf labeled as X?\nChoice list: \nA. Blade\nB. Petiole\nC. Midrib\nD. Stipule\nYour answer is: ",
+        "gt_response": "Petiole",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 18,
+        "image": [
+            "MLBench/TQA/images/241.png",
+            "MLBench/TQA/images/242.png",
+            "MLBench/TQA/images/243.png",
+            "MLBench/TQA/images/244.png",
+            "MLBench/TQA/images/245.png",
+            "MLBench/TQA/images/246.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the part that connects a leaf to a branch?\nChoice list: \nA. petiole\nB. vein\nC. tip\nD. margin\nYour answer is: ",
+        "gt_response": "petiole",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 19,
+        "image": [
+            "MLBench/TQA/images/254.png",
+            "MLBench/TQA/images/255.png",
+            "MLBench/TQA/images/256.png",
+            "MLBench/TQA/images/257.png",
+            "MLBench/TQA/images/258.png",
+            "MLBench/TQA/images/259.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many parts of a leaf are identified in the diagram?\nChoice list: \nA. 4\nB. 6\nC. 5\nD. 3\nYour answer is: ",
+        "gt_response": "6",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 20,
+        "image": [
+            "MLBench/TQA/images/267.png",
+            "MLBench/TQA/images/268.png",
+            "MLBench/TQA/images/269.png",
+            "MLBench/TQA/images/270.png",
+            "MLBench/TQA/images/271.png",
+            "MLBench/TQA/images/272.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What part do the veins connect to?\nChoice list: \nA. midrib\nB. leafstalk\nC. sheath\nD. blade\nYour answer is: ",
+        "gt_response": "midrib",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 21,
+        "image": [
+            "MLBench/TQA/images/280.png",
+            "MLBench/TQA/images/281.png",
+            "MLBench/TQA/images/282.png",
+            "MLBench/TQA/images/283.png",
+            "MLBench/TQA/images/284.png",
+            "MLBench/TQA/images/285.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which part of the figure contains most of the chloroplasts?\nChoice list: \nA. Vein\nB. Bundle of seath\nC. Guard cells\nD. Mesophyll\nYour answer is: ",
+        "gt_response": "Mesophyll",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 22,
+        "image": [
+            "MLBench/TQA/images/293.png",
+            "MLBench/TQA/images/294.png",
+            "MLBench/TQA/images/295.png",
+            "MLBench/TQA/images/296.png",
+            "MLBench/TQA/images/297.png",
+            "MLBench/TQA/images/298.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What connects the cuticle and the palisade mesophyll?\nChoice list: \nA. upper epidermis\nB. lower epidermis\nC. lower epidermis\nD. guard cells\nYour answer is: ",
+        "gt_response": "upper epidermis",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 23,
+        "image": [
+            "MLBench/TQA/images/306.png",
+            "MLBench/TQA/images/307.png",
+            "MLBench/TQA/images/308.png",
+            "MLBench/TQA/images/309.png",
+            "MLBench/TQA/images/310.png",
+            "MLBench/TQA/images/311.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which layer of the leaf is underneath the cuticle?\nChoice list: \nA. Epidermis\nB. Stomata\nC. Guard Cells\nD. Vascular Tissue\nYour answer is: ",
+        "gt_response": "Epidermis",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 24,
+        "image": [
+            "MLBench/TQA/images/319.png",
+            "MLBench/TQA/images/320.png",
+            "MLBench/TQA/images/321.png",
+            "MLBench/TQA/images/322.png",
+            "MLBench/TQA/images/323.png",
+            "MLBench/TQA/images/324.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Water travels through this system.\nChoice list: \nA. Guard cells\nB. Ground tissue\nC. Vascular\nD. Cuticle\nYour answer is: ",
+        "gt_response": "Vascular",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 25,
+        "image": [
+            "MLBench/TQA/images/332.png",
+            "MLBench/TQA/images/333.png",
+            "MLBench/TQA/images/334.png",
+            "MLBench/TQA/images/335.png",
+            "MLBench/TQA/images/336.png",
+            "MLBench/TQA/images/337.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the part that connects a leaf to a stem?\nChoice list: \nA. primary vein\nB. margin\nC. blade\nD. petiole\nYour answer is: ",
+        "gt_response": "petiole",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 26,
+        "image": [
+            "MLBench/TQA/images/345.png",
+            "MLBench/TQA/images/346.png",
+            "MLBench/TQA/images/347.png",
+            "MLBench/TQA/images/348.png",
+            "MLBench/TQA/images/349.png",
+            "MLBench/TQA/images/350.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which of the following contains cells with a high number of chloroplasts?\nChoice list: \nA. Sub-stomatal cavity\nB. Phloem\nC. Spongy Mesophyll\nD. Palisade mesophyll\nYour answer is: ",
+        "gt_response": "Palisade mesophyll",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 27,
+        "image": [
+            "MLBench/TQA/images/358.png",
+            "MLBench/TQA/images/359.png",
+            "MLBench/TQA/images/360.png",
+            "MLBench/TQA/images/361.png",
+            "MLBench/TQA/images/362.png",
+            "MLBench/TQA/images/363.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the part that connects a leaf to a stem?\nChoice list: \nA. petiole\nB. tip\nC. vein\nD. axil\nYour answer is: ",
+        "gt_response": "petiole",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. petiole",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 28,
+        "image": [
+            "MLBench/TQA/images/371.png",
+            "MLBench/TQA/images/372.png",
+            "MLBench/TQA/images/373.png",
+            "MLBench/TQA/images/374.png",
+            "MLBench/TQA/images/375.png",
+            "MLBench/TQA/images/376.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many leaf parts are labeled in the diagram?\nChoice list: \nA. 8\nB. 4\nC. 2\nD. 6\nYour answer is: ",
+        "gt_response": "6",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 29,
+        "image": [
+            "MLBench/TQA/images/384.png",
+            "MLBench/TQA/images/385.png",
+            "MLBench/TQA/images/386.png",
+            "MLBench/TQA/images/387.png",
+            "MLBench/TQA/images/388.png",
+            "MLBench/TQA/images/389.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What makes up a leave\nChoice list: \nA. big netted veins\nB. petoiel\nC. mibrid\nD. petiole, midrib, blade, vein, small netted veins\nYour answer is: ",
+        "gt_response": "petiole, midrib, blade, vein, small netted veins",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 30,
+        "image": [
+            "MLBench/TQA/images/397.png",
+            "MLBench/TQA/images/398.png",
+            "MLBench/TQA/images/399.png",
+            "MLBench/TQA/images/400.png",
+            "MLBench/TQA/images/401.png",
+            "MLBench/TQA/images/402.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What part of the plant collects nutrients from the ground?\nChoice list: \nA. C\nB. D\nC. A\nD. B\nYour answer is: ",
+        "gt_response": "A",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 31,
+        "image": [
+            "MLBench/TQA/images/410.png",
+            "MLBench/TQA/images/411.png",
+            "MLBench/TQA/images/412.png",
+            "MLBench/TQA/images/413.png",
+            "MLBench/TQA/images/414.png",
+            "MLBench/TQA/images/415.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What are root hairs attached to?\nChoice list: \nA. Primary root\nB. Lateral roots\nC. Vascular system\nD. Root cap\nYour answer is: ",
+        "gt_response": "Lateral roots",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 32,
+        "image": [
+            "MLBench/TQA/images/423.png",
+            "MLBench/TQA/images/424.png",
+            "MLBench/TQA/images/425.png",
+            "MLBench/TQA/images/426.png",
+            "MLBench/TQA/images/427.png",
+            "MLBench/TQA/images/428.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which part of the plant absorbs water and minerals?\nChoice list: \nA. B\nB. D\nC. A\nD. C\nYour answer is: ",
+        "gt_response": "D",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 33,
+        "image": [
+            "MLBench/TQA/images/436.png",
+            "MLBench/TQA/images/437.png",
+            "MLBench/TQA/images/438.png",
+            "MLBench/TQA/images/439.png",
+            "MLBench/TQA/images/440.png",
+            "MLBench/TQA/images/441.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter corresponds to roots?\nChoice list: \nA. C\nB. A\nC. D\nD. B\nYour answer is: ",
+        "gt_response": "D",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 34,
+        "image": [
+            "MLBench/TQA/images/449.png",
+            "MLBench/TQA/images/450.png",
+            "MLBench/TQA/images/451.png",
+            "MLBench/TQA/images/452.png",
+            "MLBench/TQA/images/453.png",
+            "MLBench/TQA/images/454.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What connects the taproot to the flower in the diagram?\nChoice list: \nA. stem\nB. apical bud\nC. leaf\nD. axillary bud\nYour answer is: ",
+        "gt_response": "stem",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 35,
+        "image": [
+            "MLBench/TQA/images/462.png",
+            "MLBench/TQA/images/463.png",
+            "MLBench/TQA/images/464.png",
+            "MLBench/TQA/images/465.png",
+            "MLBench/TQA/images/466.png",
+            "MLBench/TQA/images/467.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which is part of the shoot system?\nChoice list: \nA. Root System\nB. Flower\nC. Secondary Root\nD. Primary Root\nYour answer is: ",
+        "gt_response": "Flower",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 36,
+        "image": [
+            "MLBench/TQA/images/475.png",
+            "MLBench/TQA/images/476.png",
+            "MLBench/TQA/images/477.png",
+            "MLBench/TQA/images/478.png",
+            "MLBench/TQA/images/479.png",
+            "MLBench/TQA/images/480.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many components does the shoot system have?\nChoice list: \nA. 8\nB. 9\nC. 6\nD. 10\nYour answer is: ",
+        "gt_response": "6",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 37,
+        "image": [
+            "MLBench/TQA/images/488.png",
+            "MLBench/TQA/images/489.png",
+            "MLBench/TQA/images/490.png",
+            "MLBench/TQA/images/491.png",
+            "MLBench/TQA/images/492.png",
+            "MLBench/TQA/images/493.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the bottom part called?\nChoice list: \nA. fruit\nB. leaf\nC. flower\nD. root\nYour answer is: ",
+        "gt_response": "root",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 38,
+        "image": [
+            "MLBench/TQA/images/501.png",
+            "MLBench/TQA/images/502.png",
+            "MLBench/TQA/images/503.png",
+            "MLBench/TQA/images/504.png",
+            "MLBench/TQA/images/505.png",
+            "MLBench/TQA/images/506.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which represents the root system?\nChoice list: \nA. R\nB. P\nC. Q\nD. S\nYour answer is: ",
+        "gt_response": "R",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 39,
+        "image": [
+            "MLBench/TQA/images/514.png",
+            "MLBench/TQA/images/515.png",
+            "MLBench/TQA/images/516.png",
+            "MLBench/TQA/images/517.png",
+            "MLBench/TQA/images/518.png",
+            "MLBench/TQA/images/519.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: In which letter shows the flower?\nChoice list: \nA. B\nB. C\nC. A\nD. D\nYour answer is: ",
+        "gt_response": "A",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 40,
+        "image": [
+            "MLBench/TQA/images/527.png",
+            "MLBench/TQA/images/528.png",
+            "MLBench/TQA/images/529.png",
+            "MLBench/TQA/images/530.png",
+            "MLBench/TQA/images/531.png",
+            "MLBench/TQA/images/532.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: In a structure of a plant, what is the reproductive structure found in plants that are floral?\nChoice list: \nA. Flower\nB. Fruit\nC. Seed\nD. Leaf\nYour answer is: ",
+        "gt_response": "Flower",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 41,
+        "image": [
+            "MLBench/TQA/images/540.png",
+            "MLBench/TQA/images/541.png",
+            "MLBench/TQA/images/542.png",
+            "MLBench/TQA/images/543.png",
+            "MLBench/TQA/images/544.png",
+            "MLBench/TQA/images/545.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the bottom part called?\nChoice list: \nA. stem\nB. root\nC. basal leaf\nD. flower bud\nYour answer is: ",
+        "gt_response": "root",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 42,
+        "image": [
+            "MLBench/TQA/images/553.png",
+            "MLBench/TQA/images/554.png",
+            "MLBench/TQA/images/555.png",
+            "MLBench/TQA/images/556.png",
+            "MLBench/TQA/images/557.png",
+            "MLBench/TQA/images/558.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which system of a plant is underground?\nChoice list: \nA. shoot system\nB. root system\nC. flower bud\nD. node\nYour answer is: ",
+        "gt_response": "root system",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 43,
+        "image": [
+            "MLBench/TQA/images/566.png",
+            "MLBench/TQA/images/567.png",
+            "MLBench/TQA/images/568.png",
+            "MLBench/TQA/images/569.png",
+            "MLBench/TQA/images/570.png",
+            "MLBench/TQA/images/571.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many stems does the plant have?\nChoice list: \nA. 2\nB. 6\nC. 1\nD. 4\nYour answer is: ",
+        "gt_response": "1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 44,
+        "image": [
+            "MLBench/TQA/images/579.png",
+            "MLBench/TQA/images/580.png",
+            "MLBench/TQA/images/581.png",
+            "MLBench/TQA/images/582.png",
+            "MLBench/TQA/images/583.png",
+            "MLBench/TQA/images/584.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is an example of a conifer that is tall?\nChoice list: \nA. Linear\nB. Awl-Like\nC. Needle-Like\nD. Scale-Like\nYour answer is: ",
+        "gt_response": "Needle-Like",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 45,
+        "image": [
+            "MLBench/TQA/images/592.png",
+            "MLBench/TQA/images/593.png",
+            "MLBench/TQA/images/594.png",
+            "MLBench/TQA/images/595.png",
+            "MLBench/TQA/images/596.png",
+            "MLBench/TQA/images/597.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many kinds of conifers are there?\nChoice list: \nA. 2\nB. 4\nC. 5\nD. 3\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 46,
+        "image": [
+            "MLBench/TQA/images/605.png",
+            "MLBench/TQA/images/606.png",
+            "MLBench/TQA/images/607.png",
+            "MLBench/TQA/images/608.png",
+            "MLBench/TQA/images/609.png",
+            "MLBench/TQA/images/610.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which part of the leaf carry out the transport process.\nChoice list: \nA. stomata\nB. chloroplasts\nC. Veins\nD. dermal cells\nYour answer is: ",
+        "gt_response": "Veins",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 47,
+        "image": [
+            "MLBench/TQA/images/618.png",
+            "MLBench/TQA/images/619.png",
+            "MLBench/TQA/images/620.png",
+            "MLBench/TQA/images/621.png",
+            "MLBench/TQA/images/622.png",
+            "MLBench/TQA/images/623.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: From the diagram, how many leaves have sharp edges?\nChoice list: \nA. 3\nB. 4\nC. 5\nD. 2\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 48,
+        "image": [
+            "MLBench/TQA/images/631.png",
+            "MLBench/TQA/images/632.png",
+            "MLBench/TQA/images/633.png",
+            "MLBench/TQA/images/634.png",
+            "MLBench/TQA/images/635.png",
+            "MLBench/TQA/images/636.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many of the leaves depicted have a rounded shape?\nChoice list: \nA. 0\nB. 1\nC. 5\nD. 3\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 49,
+        "image": [
+            "MLBench/TQA/images/644.png",
+            "MLBench/TQA/images/645.png",
+            "MLBench/TQA/images/646.png",
+            "MLBench/TQA/images/647.png",
+            "MLBench/TQA/images/648.png",
+            "MLBench/TQA/images/649.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which leaf arrangement type has leaves come in pairs facing each other?\nChoice list: \nA. opposite\nB. parallel\nC. alternate\nD. perpendicular\nYour answer is: ",
+        "gt_response": "opposite",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 50,
+        "image": [
+            "MLBench/TQA/images/657.png",
+            "MLBench/TQA/images/658.png",
+            "MLBench/TQA/images/659.png",
+            "MLBench/TQA/images/660.png",
+            "MLBench/TQA/images/661.png",
+            "MLBench/TQA/images/662.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What shape of a leaf is described as narrowly triangular with the acute angle toward the base?\nChoice list: \nA. Cordate\nB. Obtuse\nC. Cuneate\nD. Oblique\nYour answer is: ",
+        "gt_response": "Cuneate",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. Cuneate",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 51,
+        "image": [
+            "MLBench/TQA/images/670.png",
+            "MLBench/TQA/images/671.png",
+            "MLBench/TQA/images/672.png",
+            "MLBench/TQA/images/673.png",
+            "MLBench/TQA/images/674.png",
+            "MLBench/TQA/images/675.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many leaf margins are shown in the diagram below?\nChoice list: \nA. 3\nB. 4\nC. 5\nD. 6\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 52,
+        "image": [
+            "MLBench/TQA/images/683.png",
+            "MLBench/TQA/images/684.png",
+            "MLBench/TQA/images/685.png",
+            "MLBench/TQA/images/686.png",
+            "MLBench/TQA/images/687.png",
+            "MLBench/TQA/images/688.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many types of leaves are shown in the diagram?\nChoice list: \nA. 7\nB. 6\nC. 8\nD. 9\nYour answer is: ",
+        "gt_response": "8",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 53,
+        "image": [
+            "MLBench/TQA/images/696.png",
+            "MLBench/TQA/images/697.png",
+            "MLBench/TQA/images/698.png",
+            "MLBench/TQA/images/699.png",
+            "MLBench/TQA/images/700.png",
+            "MLBench/TQA/images/701.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many bases of leaves are there in the picture shown?\nChoice list: \nA. 13\nB. 14\nC. 12\nD. 10\nYour answer is: ",
+        "gt_response": "13",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 54,
+        "image": [
+            "MLBench/TQA/images/709.png",
+            "MLBench/TQA/images/710.png",
+            "MLBench/TQA/images/711.png",
+            "MLBench/TQA/images/712.png",
+            "MLBench/TQA/images/713.png",
+            "MLBench/TQA/images/714.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which among the following is not a pointed Apice?\nChoice list: \nA. Obtuso\nB. Mucronado\nC. Acuminado\nD. Agudo\nYour answer is: ",
+        "gt_response": "Obtuso",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 55,
+        "image": [
+            "MLBench/TQA/images/722.png",
+            "MLBench/TQA/images/723.png",
+            "MLBench/TQA/images/724.png",
+            "MLBench/TQA/images/725.png",
+            "MLBench/TQA/images/726.png",
+            "MLBench/TQA/images/727.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What leaf attachment has a leaf on both sides of the stem?\nChoice list: \nA. Petiolate\nB. Closed Sheath\nC. Connate\nD. Cessile\nYour answer is: ",
+        "gt_response": "Connate",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 56,
+        "image": [
+            "MLBench/TQA/images/735.png",
+            "MLBench/TQA/images/736.png",
+            "MLBench/TQA/images/737.png",
+            "MLBench/TQA/images/738.png",
+            "MLBench/TQA/images/739.png",
+            "MLBench/TQA/images/740.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which leaf would absorb the most sunlight?\nChoice list: \nA. Broad Elliptic\nB. Lanceolate\nC. Elliptic\nD. Obovate\nYour answer is: ",
+        "gt_response": "Broad Elliptic",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 57,
+        "image": [
+            "MLBench/TQA/images/748.png",
+            "MLBench/TQA/images/749.png",
+            "MLBench/TQA/images/750.png",
+            "MLBench/TQA/images/751.png",
+            "MLBench/TQA/images/752.png",
+            "MLBench/TQA/images/753.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which of these leaf shapes is the thinnest?\nChoice list: \nA. mucronate\nB. cordiform\nC. acicular\nD. asymetrical\nYour answer is: ",
+        "gt_response": "acicular",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 58,
+        "image": [
+            "MLBench/TQA/images/761.png",
+            "MLBench/TQA/images/762.png",
+            "MLBench/TQA/images/763.png",
+            "MLBench/TQA/images/764.png",
+            "MLBench/TQA/images/765.png",
+            "MLBench/TQA/images/766.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Name one type of leaf shape\nChoice list: \nA. long\nB. round\nC. square\nD. oval\nYour answer is: ",
+        "gt_response": "oval",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 59,
+        "image": [
+            "MLBench/TQA/images/774.png",
+            "MLBench/TQA/images/775.png",
+            "MLBench/TQA/images/776.png",
+            "MLBench/TQA/images/777.png",
+            "MLBench/TQA/images/778.png",
+            "MLBench/TQA/images/779.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many toothed-leaf types are shown?\nChoice list: \nA. 1\nB. 2\nC. 3\nD. 4\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 60,
+        "image": [
+            "MLBench/TQA/images/787.png",
+            "MLBench/TQA/images/788.png",
+            "MLBench/TQA/images/789.png",
+            "MLBench/TQA/images/790.png",
+            "MLBench/TQA/images/791.png",
+            "MLBench/TQA/images/792.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which is the smoothest leaf type?\nChoice list: \nA. entire\nB. singly-toothed\nC. doubly-toothed\nD. lobed\nYour answer is: ",
+        "gt_response": "entire",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 61,
+        "image": [
+            "MLBench/TQA/images/800.png",
+            "MLBench/TQA/images/801.png",
+            "MLBench/TQA/images/802.png",
+            "MLBench/TQA/images/803.png",
+            "MLBench/TQA/images/804.png",
+            "MLBench/TQA/images/805.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many veins are in the elliptic shaped leaf?\nChoice list: \nA. 7\nB. 2\nC. 9\nD. 4\nYour answer is: ",
+        "gt_response": "9",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 62,
+        "image": [
+            "MLBench/TQA/images/813.png",
+            "MLBench/TQA/images/814.png",
+            "MLBench/TQA/images/815.png",
+            "MLBench/TQA/images/816.png",
+            "MLBench/TQA/images/817.png",
+            "MLBench/TQA/images/818.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which leaf shape is that of a pine needle?\nChoice list: \nA. deltiod\nB. falcate\nC. linear\nD. acicular\nYour answer is: ",
+        "gt_response": "acicular",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 63,
+        "image": [
+            "MLBench/TQA/images/826.png",
+            "MLBench/TQA/images/827.png",
+            "MLBench/TQA/images/828.png",
+            "MLBench/TQA/images/829.png",
+            "MLBench/TQA/images/830.png",
+            "MLBench/TQA/images/831.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is a leaf shaped like a spearhead with flaring pointed lobes at the base?\nChoice list: \nA. linear\nB. hastate\nC. obcordate\nD. spatulate\nYour answer is: ",
+        "gt_response": "hastate",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 64,
+        "image": [
+            "MLBench/TQA/images/839.png",
+            "MLBench/TQA/images/840.png",
+            "MLBench/TQA/images/841.png",
+            "MLBench/TQA/images/842.png",
+            "MLBench/TQA/images/843.png",
+            "MLBench/TQA/images/844.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Where are the spores found on a fern?\nChoice list: \nA. On the stem\nB. Underneath the leaf\nC. On top of the leaf.\nD. In the roots\nYour answer is: ",
+        "gt_response": "Underneath the leaf",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 65,
+        "image": [
+            "MLBench/TQA/images/852.png",
+            "MLBench/TQA/images/853.png",
+            "MLBench/TQA/images/854.png",
+            "MLBench/TQA/images/855.png",
+            "MLBench/TQA/images/856.png",
+            "MLBench/TQA/images/857.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many types of leaf arrangements are shown in the diagram?\nChoice list: \nA. 5\nB. 4\nC. 2\nD. 1\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 66,
+        "image": [
+            "MLBench/TQA/images/865.png",
+            "MLBench/TQA/images/866.png",
+            "MLBench/TQA/images/867.png",
+            "MLBench/TQA/images/868.png",
+            "MLBench/TQA/images/869.png",
+            "MLBench/TQA/images/870.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the base or a leaf called?\nChoice list: \nA. petiole\nB. margin\nC. sinus\nD. lobe\nYour answer is: ",
+        "gt_response": "margin",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 67,
+        "image": [
+            "MLBench/TQA/images/878.png",
+            "MLBench/TQA/images/879.png",
+            "MLBench/TQA/images/880.png",
+            "MLBench/TQA/images/881.png",
+            "MLBench/TQA/images/882.png",
+            "MLBench/TQA/images/883.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify hastate\nChoice list: \nA. E\nB. F\nC. T\nD. K\nYour answer is: ",
+        "gt_response": "F",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 68,
+        "image": [
+            "MLBench/TQA/images/884.png",
+            "MLBench/TQA/images/885.png",
+            "MLBench/TQA/images/886.png",
+            "MLBench/TQA/images/887.png",
+            "MLBench/TQA/images/888.png",
+            "MLBench/TQA/images/889.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is at the end of the stamen?\nChoice list: \nA. Stigma\nB. Sepal\nC. Anther\nD. Petal\nYour answer is: ",
+        "gt_response": "Anther",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 69,
+        "image": [
+            "MLBench/TQA/images/890.png",
+            "MLBench/TQA/images/891.png",
+            "MLBench/TQA/images/892.png",
+            "MLBench/TQA/images/893.png",
+            "MLBench/TQA/images/894.png",
+            "MLBench/TQA/images/895.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which represents the first stage of the butterfly cycle?\nChoice list: \nA. A\nB. S\nC. E\nD. J\nYour answer is: ",
+        "gt_response": "S",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 70,
+        "image": [
+            "MLBench/TQA/images/896.png",
+            "MLBench/TQA/images/897.png",
+            "MLBench/TQA/images/898.png",
+            "MLBench/TQA/images/899.png",
+            "MLBench/TQA/images/900.png",
+            "MLBench/TQA/images/901.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many stages does the life cycle of a butterfly have?\nChoice list: \nA. 2\nB. 1\nC. 4\nD. 3\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 71,
+        "image": [
+            "MLBench/TQA/images/902.png",
+            "MLBench/TQA/images/903.png",
+            "MLBench/TQA/images/904.png",
+            "MLBench/TQA/images/905.png",
+            "MLBench/TQA/images/906.png",
+            "MLBench/TQA/images/907.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is shown in the diagram?\nChoice list: \nA. Life Cycle of a Butterfly\nB. Life Cycle of Humans\nC. Life Cycle of a Crab\nD. Life Cycle of a Jellyfish\nYour answer is: ",
+        "gt_response": "Life Cycle of a Jellyfish",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 72,
+        "image": [
+            "MLBench/TQA/images/908.png",
+            "MLBench/TQA/images/909.png",
+            "MLBench/TQA/images/910.png",
+            "MLBench/TQA/images/911.png",
+            "MLBench/TQA/images/912.png",
+            "MLBench/TQA/images/913.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Is a seed necessary for growing a plant?\nChoice list: \nA. Maybe\nB. Cannot determine\nC. No\nD. Yes\nYour answer is: ",
+        "gt_response": "Yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 73,
+        "image": [
+            "MLBench/TQA/images/914.png",
+            "MLBench/TQA/images/915.png",
+            "MLBench/TQA/images/916.png",
+            "MLBench/TQA/images/917.png",
+            "MLBench/TQA/images/918.png",
+            "MLBench/TQA/images/919.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the stage of the plant after the seedling?\nChoice list: \nA. seedling\nB. fruit\nC. seed\nD. adult\nYour answer is: ",
+        "gt_response": "seed",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 74,
+        "image": [
+            "MLBench/TQA/images/920.png",
+            "MLBench/TQA/images/921.png",
+            "MLBench/TQA/images/922.png",
+            "MLBench/TQA/images/923.png",
+            "MLBench/TQA/images/924.png",
+            "MLBench/TQA/images/925.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is another name for pupa?\nChoice list: \nA. egg\nB. chrysalis\nC. larva\nD. adult butterfly\nYour answer is: ",
+        "gt_response": "chrysalis",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 75,
+        "image": [
+            "MLBench/TQA/images/926.png",
+            "MLBench/TQA/images/927.png",
+            "MLBench/TQA/images/928.png",
+            "MLBench/TQA/images/929.png",
+            "MLBench/TQA/images/930.png",
+            "MLBench/TQA/images/931.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What comes next after egg?\nChoice list: \nA. Larva\nB. Pupa\nC. Adult Butterfly\nD. Egg\nYour answer is: ",
+        "gt_response": "Larva",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 76,
+        "image": [
+            "MLBench/TQA/images/932.png",
+            "MLBench/TQA/images/933.png",
+            "MLBench/TQA/images/934.png",
+            "MLBench/TQA/images/935.png",
+            "MLBench/TQA/images/936.png",
+            "MLBench/TQA/images/937.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many stages in the life cycle of a lady beetle?\nChoice list: \nA. 4\nB. 2\nC. 3\nD. 1\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 77,
+        "image": [
+            "MLBench/TQA/images/938.png",
+            "MLBench/TQA/images/939.png",
+            "MLBench/TQA/images/940.png",
+            "MLBench/TQA/images/941.png",
+            "MLBench/TQA/images/942.png",
+            "MLBench/TQA/images/943.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which represents the last stage of a ladybug's life cycle?\nChoice list: \nA. Adult ladybug\nB. Larva\nC. Pupa\nD. Egg\nYour answer is: ",
+        "gt_response": "Adult ladybug",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 78,
+        "image": [
+            "MLBench/TQA/images/944.png",
+            "MLBench/TQA/images/945.png",
+            "MLBench/TQA/images/946.png",
+            "MLBench/TQA/images/947.png",
+            "MLBench/TQA/images/948.png",
+            "MLBench/TQA/images/949.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many antennas do mosquitoes have?\nChoice list: \nA. 1\nB. 5\nC. 2\nD. 3\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 79,
+        "image": [
+            "MLBench/TQA/images/950.png",
+            "MLBench/TQA/images/951.png",
+            "MLBench/TQA/images/952.png",
+            "MLBench/TQA/images/953.png",
+            "MLBench/TQA/images/954.png",
+            "MLBench/TQA/images/955.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What happens if insects stop laying eggs?\nChoice list: \nA. Their population would decrease.\nB. I don't know.\nC. Their population remains constant.\nD. Their population would increase.\nYour answer is: ",
+        "gt_response": "Their population would decrease.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 80,
+        "image": [
+            "MLBench/TQA/images/956.png",
+            "MLBench/TQA/images/957.png",
+            "MLBench/TQA/images/958.png",
+            "MLBench/TQA/images/959.png",
+            "MLBench/TQA/images/960.png",
+            "MLBench/TQA/images/961.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What stage comes after eggs in the diagram?\nChoice list: \nA. adult\nB. pupa\nC. young adult\nD. larva\nYour answer is: ",
+        "gt_response": "larva",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 81,
+        "image": [
+            "MLBench/TQA/images/962.png",
+            "MLBench/TQA/images/963.png",
+            "MLBench/TQA/images/964.png",
+            "MLBench/TQA/images/965.png",
+            "MLBench/TQA/images/966.png",
+            "MLBench/TQA/images/967.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many animals participate in this food web?\nChoice list: \nA. 7\nB. 8\nC. 6\nD. 5\nYour answer is: ",
+        "gt_response": "7",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 82,
+        "image": [
+            "MLBench/TQA/images/968.png",
+            "MLBench/TQA/images/969.png",
+            "MLBench/TQA/images/970.png",
+            "MLBench/TQA/images/971.png",
+            "MLBench/TQA/images/972.png",
+            "MLBench/TQA/images/973.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What do raptors and owls feed on?\nChoice list: \nA. reptiles and long-tailed weasel\nB. bobcat\nC. cougar\nD. coyote\nYour answer is: ",
+        "gt_response": "reptiles and long-tailed weasel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 83,
+        "image": [
+            "MLBench/TQA/images/974.png",
+            "MLBench/TQA/images/975.png",
+            "MLBench/TQA/images/976.png",
+            "MLBench/TQA/images/977.png",
+            "MLBench/TQA/images/978.png",
+            "MLBench/TQA/images/979.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which organism consumes the zooplankton?\nChoice list: \nA. barnacle and oyster\nB. sea anemone and oyster\nC. mussel, shrimp and oyster\nD. mussel and barnacle\nYour answer is: ",
+        "gt_response": "mussel, shrimp and oyster",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 84,
+        "image": [
+            "MLBench/TQA/images/980.png",
+            "MLBench/TQA/images/981.png",
+            "MLBench/TQA/images/982.png",
+            "MLBench/TQA/images/983.png",
+            "MLBench/TQA/images/984.png",
+            "MLBench/TQA/images/985.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many ospreys are shown in the picture?\nChoice list: \nA. 3\nB. 1\nC. 2\nD. 4\nYour answer is: ",
+        "gt_response": "1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 85,
+        "image": [
+            "MLBench/TQA/images/986.png",
+            "MLBench/TQA/images/987.png",
+            "MLBench/TQA/images/988.png",
+            "MLBench/TQA/images/989.png",
+            "MLBench/TQA/images/990.png",
+            "MLBench/TQA/images/991.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many animals are there in the picture?\nChoice list: \nA. 4\nB. 3\nC. 1\nD. 2\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 86,
+        "image": [
+            "MLBench/TQA/images/992.png",
+            "MLBench/TQA/images/993.png",
+            "MLBench/TQA/images/994.png",
+            "MLBench/TQA/images/995.png",
+            "MLBench/TQA/images/996.png",
+            "MLBench/TQA/images/997.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Who are the tertiary consumers on the diagram?\nChoice list: \nA. grasshopper\nB. Shrew\nC. Owls\nD. Grass\nYour answer is: ",
+        "gt_response": "Owls",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 87,
+        "image": [
+            "MLBench/TQA/images/998.png",
+            "MLBench/TQA/images/999.png",
+            "MLBench/TQA/images/1000.png",
+            "MLBench/TQA/images/1001.png",
+            "MLBench/TQA/images/1002.png",
+            "MLBench/TQA/images/1003.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which organism consumes the tuna fish\nChoice list: \nA. zooplankton\nB. phytoplankton\nC. human and dolphin\nD. herring fish\nYour answer is: ",
+        "gt_response": "human and dolphin",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 88,
+        "image": [
+            "MLBench/TQA/images/1004.png",
+            "MLBench/TQA/images/1005.png",
+            "MLBench/TQA/images/1006.png",
+            "MLBench/TQA/images/1007.png",
+            "MLBench/TQA/images/1008.png",
+            "MLBench/TQA/images/1009.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which one eats green plants?\nChoice list: \nA. hawks\nB. crickets\nC. frogs\nD. snakes\nYour answer is: ",
+        "gt_response": "crickets",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 89,
+        "image": [
+            "MLBench/TQA/images/1010.png",
+            "MLBench/TQA/images/1011.png",
+            "MLBench/TQA/images/1012.png",
+            "MLBench/TQA/images/1013.png",
+            "MLBench/TQA/images/1014.png",
+            "MLBench/TQA/images/1015.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: In the diagram, what eats deer?\nChoice list: \nA. Snake\nB. Rabbit\nC. Cougar\nD. Mouse\nYour answer is: ",
+        "gt_response": "Cougar",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 90,
+        "image": [
+            "MLBench/TQA/images/1016.png",
+            "MLBench/TQA/images/1017.png",
+            "MLBench/TQA/images/1018.png",
+            "MLBench/TQA/images/1019.png",
+            "MLBench/TQA/images/1020.png",
+            "MLBench/TQA/images/1021.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: The water plant is being consumed by which animal?\nChoice list: \nA. Fish\nB. Producers\nC. Bird\nD. Tadpole\nYour answer is: ",
+        "gt_response": "Tadpole",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 91,
+        "image": [
+            "MLBench/TQA/images/1022.png",
+            "MLBench/TQA/images/1023.png",
+            "MLBench/TQA/images/1024.png",
+            "MLBench/TQA/images/1025.png",
+            "MLBench/TQA/images/1026.png",
+            "MLBench/TQA/images/1027.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What do tadpoles feed on?\nChoice list: \nA. Fresh air\nB. Birds\nC. Fish\nD. Water plants\nYour answer is: ",
+        "gt_response": "Water plants",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 92,
+        "image": [
+            "MLBench/TQA/images/1028.png",
+            "MLBench/TQA/images/1029.png",
+            "MLBench/TQA/images/1030.png",
+            "MLBench/TQA/images/1031.png",
+            "MLBench/TQA/images/1032.png",
+            "MLBench/TQA/images/1033.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify which ARE NOT decomposers\nChoice list: \nA. Pine Borer\nB. Acorns\nC. Kinglet\nD. Squirrel\nYour answer is: ",
+        "gt_response": "Pine Borer",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: Identify which are decomposers\nChoice list: \nA. Pine Borer\nB. Acorns\nC. Kinglet\nD. Squirrel\nYour answer is:  [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 93,
+        "image": [
+            "MLBench/TQA/images/1034.png",
+            "MLBench/TQA/images/1035.png",
+            "MLBench/TQA/images/1036.png",
+            "MLBench/TQA/images/1037.png",
+            "MLBench/TQA/images/1038.png",
+            "MLBench/TQA/images/1039.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many animal species in the diagram feed on fish?\nChoice list: \nA. 2\nB. 1\nC. 7\nD. 6\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 94,
+        "image": [
+            "MLBench/TQA/images/1040.png",
+            "MLBench/TQA/images/1041.png",
+            "MLBench/TQA/images/1042.png",
+            "MLBench/TQA/images/1043.png",
+            "MLBench/TQA/images/1044.png",
+            "MLBench/TQA/images/1045.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Who is the tertiary consumer of the food chain?\nChoice list: \nA. Owl\nB. Grass\nC. Grasshopper\nD. Mouse\nYour answer is: ",
+        "gt_response": "Owl",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 98,
+        "image": [
+            "MLBench/TQA/images/1056.png",
+            "MLBench/TQA/images/1057.png",
+            "MLBench/TQA/images/1058.png",
+            "MLBench/TQA/images/1059.png",
+            "MLBench/TQA/images/1060.png",
+            "MLBench/TQA/images/1061.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many crests does the wave in the diagram have?\nChoice list: \nA. 3\nB. 4\nC. 1\nD. 2\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 99,
+        "image": [
+            "MLBench/TQA/images/1062.png",
+            "MLBench/TQA/images/1063.png",
+            "MLBench/TQA/images/1064.png",
+            "MLBench/TQA/images/1065.png",
+            "MLBench/TQA/images/1066.png",
+            "MLBench/TQA/images/1067.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many celestial bodies are there in the diagram?\nChoice list: \nA. 5\nB. 2\nC. 3\nD. 4\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 103,
+        "image": [
+            "MLBench/TQA/images/1077.png",
+            "MLBench/TQA/images/1078.png",
+            "MLBench/TQA/images/1079.png",
+            "MLBench/TQA/images/1080.png",
+            "MLBench/TQA/images/1081.png",
+            "MLBench/TQA/images/1082.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the phase of the moon prior to the first quarter?\nChoice list: \nA. full moon\nB. waxing gibbous\nC. new moon\nD. waxing crescent\nYour answer is: ",
+        "gt_response": "waxing gibbous",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 104,
+        "image": [
+            "MLBench/TQA/images/1083.png",
+            "MLBench/TQA/images/1084.png",
+            "MLBench/TQA/images/1085.png",
+            "MLBench/TQA/images/1086.png",
+            "MLBench/TQA/images/1087.png",
+            "MLBench/TQA/images/1088.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What phase comes after waning gibbous?\nChoice list: \nA. First quarter\nB. Waxing gibbous\nC. Last quarter\nD. Waning crescent\nYour answer is: ",
+        "gt_response": "Last quarter",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 124,
+        "image": [
+            "MLBench/TQA/images/1168.png",
+            "MLBench/TQA/images/1169.png",
+            "MLBench/TQA/images/1170.png",
+            "MLBench/TQA/images/1171.png",
+            "MLBench/TQA/images/1172.png",
+            "MLBench/TQA/images/1173.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the deltoid in the following images:\nChoice list: \nA. N\nB. U\nC. P\nD. V\nYour answer is: ",
+        "gt_response": "U",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 125,
+        "image": [
+            "MLBench/TQA/images/1174.png",
+            "MLBench/TQA/images/1175.png",
+            "MLBench/TQA/images/1176.png",
+            "MLBench/TQA/images/1177.png",
+            "MLBench/TQA/images/1178.png",
+            "MLBench/TQA/images/1179.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many muscles are in the thigh?\nChoice list: \nA. 6\nB. 3\nC. 4\nD. 5\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 126,
+        "image": [
+            "MLBench/TQA/images/1180.png",
+            "MLBench/TQA/images/1181.png",
+            "MLBench/TQA/images/1182.png",
+            "MLBench/TQA/images/1183.png",
+            "MLBench/TQA/images/1184.png",
+            "MLBench/TQA/images/1185.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What does a fascicle consist of?\nChoice list: \nA. epimysium\nB. muscle fiber\nC. blood vessel\nD. perimysium\nYour answer is: ",
+        "gt_response": "muscle fiber",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 95,
+        "image": [
+            "MLBench/TQA/images/1046.png",
+            "MLBench/TQA/images/1047.png",
+            "MLBench/TQA/images/1048.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: How many formations of a waterfall are there?\nChoice list: \nA. 4\nB. 5\nC. 3\nD. 2\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 96,
+        "image": [
+            "MLBench/TQA/images/1049.png",
+            "MLBench/TQA/images/1050.png",
+            "MLBench/TQA/images/1051.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: What is the zone above the equilibrium line where snow and neve are compresses and turn into glacier ice?\nChoice list: \nA. Accumulation zone\nB. Ice front\nC. Ablation zone\nD. Margin of glacier\nYour answer is: ",
+        "gt_response": "Accumulation zone",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 100,
+        "image": [
+            "MLBench/TQA/images/1068.png",
+            "MLBench/TQA/images/1069.png",
+            "MLBench/TQA/images/1070.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: Which label represents the mesosphere?\nChoice list: \nA. J\nB. M\nC. W\nD. P\nYour answer is: ",
+        "gt_response": "M",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 101,
+        "image": [
+            "MLBench/TQA/images/1071.png",
+            "MLBench/TQA/images/1072.png",
+            "MLBench/TQA/images/1073.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: Which pollutants are introduced to the atmosphere solely by humans?\nChoice list: \nA. VOC only\nB. SO2 and Hg\nC. NOx and Particulate pollutants\nD. VOC and NOx\nYour answer is: ",
+        "gt_response": "SO2 and Hg",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 102,
+        "image": [
+            "MLBench/TQA/images/1074.png",
+            "MLBench/TQA/images/1075.png",
+            "MLBench/TQA/images/1076.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: What is the innermost part of the sun called?\nChoice list: \nA. convection zone\nB. inner core\nC. subsurface flows\nD. photosphere\nYour answer is: ",
+        "gt_response": "inner core",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 111,
+        "image": [
+            "MLBench/TQA/images/1116.png",
+            "MLBench/TQA/images/1117.png",
+            "MLBench/TQA/images/1118.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: What is absorbed by the earth's surface?\nChoice list: \nA. Sun\nB. Light\nC. Radiation\nD. Water\nYour answer is: ",
+        "gt_response": "Radiation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 113,
+        "image": [
+            "MLBench/TQA/images/1123.png",
+            "MLBench/TQA/images/1124.png",
+            "MLBench/TQA/images/1125.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: By what letter is the equator represented in the diagram?\nChoice list: \nA. D\nB. C\nC. U\nD. T\nYour answer is: ",
+        "gt_response": "T",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 114,
+        "image": [
+            "MLBench/TQA/images/1126.png",
+            "MLBench/TQA/images/1127.png",
+            "MLBench/TQA/images/1128.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: How many degrees is the arctic circle located at?\nChoice list: \nA. 66.5 N\nB. 65 W\nC. 55 W\nD. 67S\nYour answer is: ",
+        "gt_response": "66.5 N",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. 666.5 N",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 118,
+        "image": [
+            "MLBench/TQA/images/1143.png",
+            "MLBench/TQA/images/1144.png",
+            "MLBench/TQA/images/1145.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: How many types of fins does a fish have?\nChoice list: \nA. 3\nB. 4\nC. 5\nD. 6\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 119,
+        "image": [
+            "MLBench/TQA/images/1146.png",
+            "MLBench/TQA/images/1147.png",
+            "MLBench/TQA/images/1148.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: What is the purpose of the fins?\nChoice list: \nA. They help fish swim and navigate in the water\nB. to reduce water resistance\nC. for breathing\nD. for staying long under water\nYour answer is: ",
+        "gt_response": "They help fish swim and navigate in the water",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 168,
+        "image": [
+            "MLBench/TQA/images/1416.png",
+            "MLBench/TQA/images/1417.png",
+            "MLBench/TQA/images/1418.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: Which of these periods is oldest?\nChoice list: \nA. Permian\nB. Cambrian\nC. Jurassic\nD. Neogene\nYour answer is: ",
+        "gt_response": "Cambrian",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 169,
+        "image": [
+            "MLBench/TQA/images/1419.png",
+            "MLBench/TQA/images/1420.png",
+            "MLBench/TQA/images/1421.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: What dominated earth after the widespread extinctions of the dinosaurs?\nChoice list: \nA. mammals\nB. flowering plants\nC. Fishes\nD. Homo sapiens\nYour answer is: ",
+        "gt_response": "mammals",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 175,
+        "image": [
+            "MLBench/TQA/images/1442.png",
+            "MLBench/TQA/images/1443.png",
+            "MLBench/TQA/images/1444.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: How many processes are there in the convection current?\nChoice list: \nA. 3\nB. 2\nC. 1\nD. 4\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What is the process that occurs in the convection current?\nChoice list: Air Warming and Cooling\nYour answer is: [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 176,
+        "image": [
+            "MLBench/TQA/images/1445.png",
+            "MLBench/TQA/images/1446.png",
+            "MLBench/TQA/images/1447.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: How many crests can be seen in the diagram?\nChoice list: \nA. 1\nB. 2\nC. 3\nD. 4\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 198,
+        "image": [
+            "MLBench/TQA/images/1601.png",
+            "MLBench/TQA/images/1602.png",
+            "MLBench/TQA/images/1603.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere>Question: What does the green label mean?\nChoice list: \nA. Thymine\nB. Adenine\nC. Cytosine\nD. Guanine\nYour answer is: ",
+        "gt_response": "Adenine",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "The green label is for the base of the DNA strand.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 97,
+        "image": [
+            "MLBench/TQA/images/1052.png",
+            "MLBench/TQA/images/1053.png",
+            "MLBench/TQA/images/1054.png",
+            "MLBench/TQA/images/1055.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label represents water?\nChoice list: \nA. K\nB. L\nC. D\nD. N\nYour answer is: ",
+        "gt_response": "L",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 108,
+        "image": [
+            "MLBench/TQA/images/1104.png",
+            "MLBench/TQA/images/1105.png",
+            "MLBench/TQA/images/1106.png",
+            "MLBench/TQA/images/1107.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label refers to the Earth now?\nChoice list: \nA. R\nB. F\nC. A\nD. S\nYour answer is: ",
+        "gt_response": "S",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 109,
+        "image": [
+            "MLBench/TQA/images/1108.png",
+            "MLBench/TQA/images/1109.png",
+            "MLBench/TQA/images/1110.png",
+            "MLBench/TQA/images/1111.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label refers to the hanging wall block?\nChoice list: \nA. F\nB. X\nC. K\nD. P\nYour answer is: ",
+        "gt_response": "X",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 110,
+        "image": [
+            "MLBench/TQA/images/1112.png",
+            "MLBench/TQA/images/1113.png",
+            "MLBench/TQA/images/1114.png",
+            "MLBench/TQA/images/1115.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the normal fault\nChoice list: \nA. S\nB. B\nC. R\nD. F\nYour answer is: ",
+        "gt_response": "F",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: Identify the strike-slip fault\nChoice list: \nA. S\nB. B\nC. R\nD. F\nYour answer is:  [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 112,
+        "image": [
+            "MLBench/TQA/images/1119.png",
+            "MLBench/TQA/images/1120.png",
+            "MLBench/TQA/images/1121.png",
+            "MLBench/TQA/images/1122.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How many parts are produced by the beta decay of a neutron?\nChoice list: \nA. 2\nB. 4\nC. 5\nD. 3\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 117,
+        "image": [
+            "MLBench/TQA/images/1139.png",
+            "MLBench/TQA/images/1140.png",
+            "MLBench/TQA/images/1141.png",
+            "MLBench/TQA/images/1142.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What are the red tubes surrounding the esophagus?\nChoice list: \nA. Dorsal blood vessels\nB. Crops\nC. Aortic arches\nD. Gizzards\nYour answer is: ",
+        "gt_response": "Aortic arches",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 123,
+        "image": [
+            "MLBench/TQA/images/1164.png",
+            "MLBench/TQA/images/1165.png",
+            "MLBench/TQA/images/1166.png",
+            "MLBench/TQA/images/1167.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is being represented by label M?\nChoice list: \nA. CLAVICLE\nB. ULNA\nC. HUMERUS\nD. SCAPULA\nYour answer is: ",
+        "gt_response": "HUMERUS",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 138,
+        "image": [
+            "MLBench/TQA/images/1241.png",
+            "MLBench/TQA/images/1242.png",
+            "MLBench/TQA/images/1243.png",
+            "MLBench/TQA/images/1244.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the aorta opening in the heart.\nChoice list: \nA. U\nB. T\nC. S\nD. A\nYour answer is: ",
+        "gt_response": "A",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 139,
+        "image": [
+            "MLBench/TQA/images/1245.png",
+            "MLBench/TQA/images/1246.png",
+            "MLBench/TQA/images/1247.png",
+            "MLBench/TQA/images/1248.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How many of these are arteries?\nChoice list: \nA. 5\nB. 6\nC. 4\nD. 3\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 159,
+        "image": [
+            "MLBench/TQA/images/1380.png",
+            "MLBench/TQA/images/1381.png",
+            "MLBench/TQA/images/1382.png",
+            "MLBench/TQA/images/1383.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the clitoris in this image\nChoice list: \nA. H\nB. W\nC. D\nD. N\nYour answer is: ",
+        "gt_response": "W",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: Identify the urethra in this image\nChoice list: \nA. H\nB. W\nC. D\nD. N\nYour answer is: [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 160,
+        "image": [
+            "MLBench/TQA/images/1384.png",
+            "MLBench/TQA/images/1385.png",
+            "MLBench/TQA/images/1386.png",
+            "MLBench/TQA/images/1387.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What connects the epididymis to the urethra?\nChoice list: \nA. testis\nB. bladder\nC. vas deferens\nD. penis\nYour answer is: ",
+        "gt_response": "vas deferens",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 161,
+        "image": [
+            "MLBench/TQA/images/1388.png",
+            "MLBench/TQA/images/1389.png",
+            "MLBench/TQA/images/1390.png",
+            "MLBench/TQA/images/1391.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What connects the fallopian tubes?\nChoice list: \nA. Ureter\nB. Aorta\nC. Kidneys\nD. The uterus\nYour answer is: ",
+        "gt_response": "The uterus",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 162,
+        "image": [
+            "MLBench/TQA/images/1392.png",
+            "MLBench/TQA/images/1393.png",
+            "MLBench/TQA/images/1394.png",
+            "MLBench/TQA/images/1395.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Which part carries sperm and urine out of the body?\nChoice list: \nA. Epididymis\nB. Testis\nC. Scrotum\nD. Urethra\nYour answer is: ",
+        "gt_response": "Urethra",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 163,
+        "image": [
+            "MLBench/TQA/images/1396.png",
+            "MLBench/TQA/images/1397.png",
+            "MLBench/TQA/images/1398.png",
+            "MLBench/TQA/images/1399.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What would happen if the cells during the development divided at a rate twice as slow as normal?\nChoice list: \nA. It would take 8 days for the blastocyst to develop.\nB. The morula would develop in 48 hours.\nC. The pregnancy would take half the time that it normally does.\nD. The blastocyst would develop in 10 days.\nYour answer is: ",
+        "gt_response": "It would take 8 days for the blastocyst to develop.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 164,
+        "image": [
+            "MLBench/TQA/images/1400.png",
+            "MLBench/TQA/images/1401.png",
+            "MLBench/TQA/images/1402.png",
+            "MLBench/TQA/images/1403.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: By what letter is the transpiration represented in the diagram?\nChoice list: \nA. L\nB. A\nC. X\nD. C\nYour answer is: ",
+        "gt_response": "X",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 165,
+        "image": [
+            "MLBench/TQA/images/1404.png",
+            "MLBench/TQA/images/1405.png",
+            "MLBench/TQA/images/1406.png",
+            "MLBench/TQA/images/1407.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the term for any form of water that falls from the atmosphere?\nChoice list: \nA. Condensation\nB. Precipitation\nC. Transpiration\nD. Evaporation\nYour answer is: ",
+        "gt_response": "Precipitation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 166,
+        "image": [
+            "MLBench/TQA/images/1408.png",
+            "MLBench/TQA/images/1409.png",
+            "MLBench/TQA/images/1410.png",
+            "MLBench/TQA/images/1411.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Name the 2 processes in the diagram in which water changes into a gas.\nChoice list: \nA. Condensation & Evaporation\nB. Evaporation & Precipitation\nC. Transpiration & Accumulation\nD. Transpiration & Evaporation\nYour answer is: ",
+        "gt_response": "Transpiration & Evaporation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 167,
+        "image": [
+            "MLBench/TQA/images/1412.png",
+            "MLBench/TQA/images/1413.png",
+            "MLBench/TQA/images/1414.png",
+            "MLBench/TQA/images/1415.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Which gas is exhaled by the plant?\nChoice list: \nA. Carbon Monoxide\nB. Oxygen\nC. Nitrogen\nD. Carbon Dioxide\nYour answer is: ",
+        "gt_response": "Oxygen",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 170,
+        "image": [
+            "MLBench/TQA/images/1422.png",
+            "MLBench/TQA/images/1423.png",
+            "MLBench/TQA/images/1424.png",
+            "MLBench/TQA/images/1425.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Can a human body function with a single kidney?\nChoice list: \nA. Yes\nB. Intermittently\nC. Cannot answer from the given information\nD. No\nYour answer is: ",
+        "gt_response": "Yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 171,
+        "image": [
+            "MLBench/TQA/images/1426.png",
+            "MLBench/TQA/images/1427.png",
+            "MLBench/TQA/images/1428.png",
+            "MLBench/TQA/images/1429.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What's right underneath internal sphincter?\nChoice list: \nA. calyx\nB. external sphincter\nC. renal pelvis\nD. kidney\nYour answer is: ",
+        "gt_response": "external sphincter",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 191,
+        "image": [
+            "MLBench/TQA/images/1572.png",
+            "MLBench/TQA/images/1573.png",
+            "MLBench/TQA/images/1574.png",
+            "MLBench/TQA/images/1575.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: What represents the blue-colored elements?\nChoice list: \nA. Nonmetals\nB. Symbols\nC. Metalloids\nD. Metals\nYour answer is: ",
+        "gt_response": "Nonmetals",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 192,
+        "image": [
+            "MLBench/TQA/images/1576.png",
+            "MLBench/TQA/images/1577.png",
+            "MLBench/TQA/images/1578.png",
+            "MLBench/TQA/images/1579.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How many Alkali Metals are there?\nChoice list: \nA. 11\nB. 6\nC. 9\nD. 7\nYour answer is: ",
+        "gt_response": "6",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 193,
+        "image": [
+            "MLBench/TQA/images/1580.png",
+            "MLBench/TQA/images/1581.png",
+            "MLBench/TQA/images/1582.png",
+            "MLBench/TQA/images/1583.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How many electrons are shared between oxygen and hydrogen atoms?\nChoice list: \nA. 2\nB. 4\nC. 6\nD. 8\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 194,
+        "image": [
+            "MLBench/TQA/images/1584.png",
+            "MLBench/TQA/images/1585.png",
+            "MLBench/TQA/images/1586.png",
+            "MLBench/TQA/images/1587.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: How many electrons does an oxygen atom contain?\nChoice list: \nA. 6\nB. 4\nC. 8\nD. 2\nYour answer is: ",
+        "gt_response": "6",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 195,
+        "image": [
+            "MLBench/TQA/images/1588.png",
+            "MLBench/TQA/images/1589.png",
+            "MLBench/TQA/images/1590.png",
+            "MLBench/TQA/images/1591.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: The following structures of pentane are what?\nChoice list: \nA. Isomers\nB. Cyclic\nC. Alkene\nD. Chiral\nYour answer is: ",
+        "gt_response": "Isomers",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 196,
+        "image": [
+            "MLBench/TQA/images/1592.png",
+            "MLBench/TQA/images/1593.png",
+            "MLBench/TQA/images/1594.png",
+            "MLBench/TQA/images/1595.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Where does the energy come from during step 3?\nChoice list: \nA. ATP\nB. Glycolysis\nC. Electron\nD. Mitochondrion\nYour answer is: ",
+        "gt_response": "Glycolysis",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 199,
+        "image": [
+            "MLBench/TQA/images/1604.png",
+            "MLBench/TQA/images/1605.png",
+            "MLBench/TQA/images/1606.png",
+            "MLBench/TQA/images/1607.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter indicates the optic nerve?\nChoice list: \nA. P\nB. E\nC. U\nD. K\nYour answer is: ",
+        "gt_response": "K",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: Which letter indicates the optic nerve?\nChoice list: A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 105,
+        "image": [
+            "MLBench/TQA/images/1089.png",
+            "MLBench/TQA/images/1090.png",
+            "MLBench/TQA/images/1091.png",
+            "MLBench/TQA/images/1092.png",
+            "MLBench/TQA/images/1093.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label indicates Mars in the solar system diagram?\nChoice list: \nA. K\nB. E\nC. S\nD. N\nYour answer is: ",
+        "gt_response": "K",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 106,
+        "image": [
+            "MLBench/TQA/images/1094.png",
+            "MLBench/TQA/images/1095.png",
+            "MLBench/TQA/images/1096.png",
+            "MLBench/TQA/images/1097.png",
+            "MLBench/TQA/images/1098.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What planet is closest to Pluto?\nChoice list: \nA. Neptune\nB. Mercury\nC. Earth\nD. Mars\nYour answer is: ",
+        "gt_response": "Neptune",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 107,
+        "image": [
+            "MLBench/TQA/images/1099.png",
+            "MLBench/TQA/images/1100.png",
+            "MLBench/TQA/images/1101.png",
+            "MLBench/TQA/images/1102.png",
+            "MLBench/TQA/images/1103.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which planet comes after Venus?\nChoice list: \nA. jupiter\nB. earth\nC. mars\nD. uranus\nYour answer is: ",
+        "gt_response": "earth",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 115,
+        "image": [
+            "MLBench/TQA/images/1129.png",
+            "MLBench/TQA/images/1130.png",
+            "MLBench/TQA/images/1131.png",
+            "MLBench/TQA/images/1132.png",
+            "MLBench/TQA/images/1133.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: When is the winter solstice?\nChoice list: \nA. September 23\nB. 22-Dec\nC. June 22\nD. March 21\nYour answer is: ",
+        "gt_response": "22-Dec",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 116,
+        "image": [
+            "MLBench/TQA/images/1134.png",
+            "MLBench/TQA/images/1135.png",
+            "MLBench/TQA/images/1136.png",
+            "MLBench/TQA/images/1137.png",
+            "MLBench/TQA/images/1138.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What's the phenomenon that happens during winter and summer?\nChoice list: \nA. Solstice\nB. Equinox\nC. Hurricane\nD. Tornado\nYour answer is: ",
+        "gt_response": "Solstice",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 120,
+        "image": [
+            "MLBench/TQA/images/1149.png",
+            "MLBench/TQA/images/1150.png",
+            "MLBench/TQA/images/1151.png",
+            "MLBench/TQA/images/1152.png",
+            "MLBench/TQA/images/1153.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the medulla\nChoice list: \nA. F\nB. J\nC. Y\nD. W\nYour answer is: ",
+        "gt_response": "W",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 121,
+        "image": [
+            "MLBench/TQA/images/1154.png",
+            "MLBench/TQA/images/1155.png",
+            "MLBench/TQA/images/1156.png",
+            "MLBench/TQA/images/1157.png",
+            "MLBench/TQA/images/1158.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What part of the dermis secretes sebum?\nChoice list: \nA. Adipose tissue\nB. Hair root\nC. Arrector pili muscle\nD. Sebaceous gland\nYour answer is: ",
+        "gt_response": "Sebaceous gland",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 122,
+        "image": [
+            "MLBench/TQA/images/1159.png",
+            "MLBench/TQA/images/1160.png",
+            "MLBench/TQA/images/1161.png",
+            "MLBench/TQA/images/1162.png",
+            "MLBench/TQA/images/1163.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What lies below the hair follicle?\nChoice list: \nA. blood vessel\nB. epidermis\nC. fat\nD. sweat gland\nYour answer is: ",
+        "gt_response": "fat",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 127,
+        "image": [
+            "MLBench/TQA/images/1186.png",
+            "MLBench/TQA/images/1187.png",
+            "MLBench/TQA/images/1188.png",
+            "MLBench/TQA/images/1189.png",
+            "MLBench/TQA/images/1190.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What part of the body houses the vocal cords?\nChoice list: \nA. X\nB. P\nC. ARTERIES\nD. LARYNX\nYour answer is: ",
+        "gt_response": "X",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 128,
+        "image": [
+            "MLBench/TQA/images/1191.png",
+            "MLBench/TQA/images/1192.png",
+            "MLBench/TQA/images/1193.png",
+            "MLBench/TQA/images/1194.png",
+            "MLBench/TQA/images/1195.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: After entering the mouth, where does food go next?\nChoice list: \nA. The esophagus\nB. the stomach\nC. the liver\nD. the large intestine\nYour answer is: ",
+        "gt_response": "The esophagus",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. The esophagus",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 129,
+        "image": [
+            "MLBench/TQA/images/1196.png",
+            "MLBench/TQA/images/1197.png",
+            "MLBench/TQA/images/1198.png",
+            "MLBench/TQA/images/1199.png",
+            "MLBench/TQA/images/1200.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What does C refer to in the diagram?\nChoice list: \nA. Large Intestine\nB. Colon\nC. Stomach\nD. Small Intestine\nYour answer is: ",
+        "gt_response": "Small Intestine",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 130,
+        "image": [
+            "MLBench/TQA/images/1201.png",
+            "MLBench/TQA/images/1202.png",
+            "MLBench/TQA/images/1203.png",
+            "MLBench/TQA/images/1204.png",
+            "MLBench/TQA/images/1205.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which organ is connected to the superior vena cava?\nChoice list: \nA. The liver\nB. The pancreas\nC. The heart\nD. The diaphragm\nYour answer is: ",
+        "gt_response": "The heart",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 131,
+        "image": [
+            "MLBench/TQA/images/1206.png",
+            "MLBench/TQA/images/1207.png",
+            "MLBench/TQA/images/1208.png",
+            "MLBench/TQA/images/1209.png",
+            "MLBench/TQA/images/1210.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which organ surrounds the heart?\nChoice list: \nA. stomach\nB. liver\nC. spleen\nD. lung\nYour answer is: ",
+        "gt_response": "lung",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 132,
+        "image": [
+            "MLBench/TQA/images/1211.png",
+            "MLBench/TQA/images/1212.png",
+            "MLBench/TQA/images/1213.png",
+            "MLBench/TQA/images/1214.png",
+            "MLBench/TQA/images/1215.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many types of intestines are shown?\nChoice list: \nA. 8\nB. 4\nC. 1\nD. 2\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 133,
+        "image": [
+            "MLBench/TQA/images/1216.png",
+            "MLBench/TQA/images/1217.png",
+            "MLBench/TQA/images/1218.png",
+            "MLBench/TQA/images/1219.png",
+            "MLBench/TQA/images/1220.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Parts of the digestive system\nChoice list: \nA. 3\nB. 1\nC. 4\nD. 2\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 134,
+        "image": [
+            "MLBench/TQA/images/1221.png",
+            "MLBench/TQA/images/1222.png",
+            "MLBench/TQA/images/1223.png",
+            "MLBench/TQA/images/1224.png",
+            "MLBench/TQA/images/1225.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which organ is connected to the Liver?\nChoice list: \nA. Salivary Glands\nB. Gallbladder\nC. Large Intestine\nD. Esophagus\nYour answer is: ",
+        "gt_response": "Gallbladder",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 135,
+        "image": [
+            "MLBench/TQA/images/1226.png",
+            "MLBench/TQA/images/1227.png",
+            "MLBench/TQA/images/1228.png",
+            "MLBench/TQA/images/1229.png",
+            "MLBench/TQA/images/1230.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What happens to food that enters the mouth?\nChoice list: \nA. it stays there\nB. it enters the stomach through the esophagus\nC. it goes straight to the anus\nD. it is digested there\nYour answer is: ",
+        "gt_response": "it enters the stomach through the esophagus",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 136,
+        "image": [
+            "MLBench/TQA/images/1231.png",
+            "MLBench/TQA/images/1232.png",
+            "MLBench/TQA/images/1233.png",
+            "MLBench/TQA/images/1234.png",
+            "MLBench/TQA/images/1235.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which part connects the Stomach to the Mouth?\nChoice list: \nA. Oesophagus\nB. Rectum\nC. Gallbladder\nD. Liver\nYour answer is: ",
+        "gt_response": "Oesophagus",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 137,
+        "image": [
+            "MLBench/TQA/images/1236.png",
+            "MLBench/TQA/images/1237.png",
+            "MLBench/TQA/images/1238.png",
+            "MLBench/TQA/images/1239.png",
+            "MLBench/TQA/images/1240.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: A narrow tube that starts at the stomach and ends at the large intestine\nChoice list: \nA. Colon\nB. Liver\nC. Stomach\nD. small intestine\nYour answer is: ",
+        "gt_response": "small intestine",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 140,
+        "image": [
+            "MLBench/TQA/images/1249.png",
+            "MLBench/TQA/images/1250.png",
+            "MLBench/TQA/images/1251.png",
+            "MLBench/TQA/images/1252.png",
+            "MLBench/TQA/images/1253.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter represent the lungs?\nChoice list: \nA. W\nB. C\nC. N\nD. Y\nYour answer is: ",
+        "gt_response": "Y",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 172,
+        "image": [
+            "MLBench/TQA/images/1430.png",
+            "MLBench/TQA/images/1431.png",
+            "MLBench/TQA/images/1432.png",
+            "MLBench/TQA/images/1433.png",
+            "MLBench/TQA/images/1434.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label refers to the neutron?\nChoice list: \nA. U\nB. X\nC. F\nD. C\nYour answer is: ",
+        "gt_response": "U",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 173,
+        "image": [
+            "MLBench/TQA/images/1435.png",
+            "MLBench/TQA/images/1436.png",
+            "MLBench/TQA/images/1437.png",
+            "MLBench/TQA/images/1438.png",
+            "MLBench/TQA/images/1439.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What happens when an extra neuron is fired at Uranium-235 atom?\nChoice list: \nA. It absorbs heat.\nB. It breaks down into a very unstable Uranium-236 atom.\nC. It creates a very unstable Uranium-236 atom that splits almost instantly.\nD. Nothing happens.\nYour answer is: ",
+        "gt_response": "It creates a very unstable Uranium-236 atom that splits almost instantly.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 197,
+        "image": [
+            "MLBench/TQA/images/1596.png",
+            "MLBench/TQA/images/1597.png",
+            "MLBench/TQA/images/1598.png",
+            "MLBench/TQA/images/1599.png",
+            "MLBench/TQA/images/1600.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Would this surface give a reflection?\nChoice list: \nA. Yes\nB. Not enough information to know.\nC. Probably\nD. No\nYour answer is: ",
+        "gt_response": "No",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What is the incident rays?\nChoice list: \nA. Reflected rays\nB. Incident rays\nC. Reflected rays\nD. Incident rays\nYour answer is: B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 141,
+        "image": [
+            "MLBench/TQA/images/1255.png",
+            "MLBench/TQA/images/1256.png",
+            "MLBench/TQA/images/1257.png",
+            "MLBench/TQA/images/1258.png",
+            "MLBench/TQA/images/1259.png",
+            "MLBench/TQA/images/1260.png"
+        ],
+        "question": "Upon reviewing a collection of diagrams from a textbook, your job is to accurately respond to the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter represents Wernicke's area?\nChoice list: \nA. D\nB. V\nC. T\nD. H\nYour answer is: ",
+        "gt_response": "T",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 142,
+        "image": [
+            "MLBench/TQA/images/1262.png",
+            "MLBench/TQA/images/1263.png",
+            "MLBench/TQA/images/1264.png",
+            "MLBench/TQA/images/1265.png",
+            "MLBench/TQA/images/1266.png",
+            "MLBench/TQA/images/1267.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: By what letter is the peripheral nerves represented in the diagram?\nChoice list: \nA. A\nB. H\nC. W\nD. K\nYour answer is: ",
+        "gt_response": "W",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 143,
+        "image": [
+            "MLBench/TQA/images/1269.png",
+            "MLBench/TQA/images/1270.png",
+            "MLBench/TQA/images/1271.png",
+            "MLBench/TQA/images/1272.png",
+            "MLBench/TQA/images/1273.png",
+            "MLBench/TQA/images/1274.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which letter represents the Mitochondrion?\nChoice list: \nA. H\nB. C\nC. U\nD. J\nYour answer is: ",
+        "gt_response": "H",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 144,
+        "image": [
+            "MLBench/TQA/images/1276.png",
+            "MLBench/TQA/images/1277.png",
+            "MLBench/TQA/images/1278.png",
+            "MLBench/TQA/images/1279.png",
+            "MLBench/TQA/images/1280.png",
+            "MLBench/TQA/images/1281.png"
+        ],
+        "question": "Using a selection of textbook diagrams, your task is to provide an accurate response to the subsequent query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label refers to the nucleus?\nChoice list: \nA. L\nB. T\nC. D\nD. P\nYour answer is: ",
+        "gt_response": "T",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 145,
+        "image": [
+            "MLBench/TQA/images/1283.png",
+            "MLBench/TQA/images/1284.png",
+            "MLBench/TQA/images/1285.png",
+            "MLBench/TQA/images/1286.png",
+            "MLBench/TQA/images/1287.png",
+            "MLBench/TQA/images/1288.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which represents the dendrite?\nChoice list: \nA. A\nB. U\nC. S\nD. M\nYour answer is: ",
+        "gt_response": "M",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 146,
+        "image": [
+            "MLBench/TQA/images/1290.png",
+            "MLBench/TQA/images/1291.png",
+            "MLBench/TQA/images/1292.png",
+            "MLBench/TQA/images/1293.png",
+            "MLBench/TQA/images/1294.png",
+            "MLBench/TQA/images/1295.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: WHAT IS NEXT TO OCCIPITAL LOBE\nChoice list: \nA. PARIETAL LOBE\nB. CENTRAL SULCUS\nC. PREFONTAL LOBE\nD. FRONTAL LOBE\nYour answer is: ",
+        "gt_response": "PARIETAL LOBE",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. PREFONTAL LOBE",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 147,
+        "image": [
+            "MLBench/TQA/images/1297.png",
+            "MLBench/TQA/images/1298.png",
+            "MLBench/TQA/images/1299.png",
+            "MLBench/TQA/images/1300.png",
+            "MLBench/TQA/images/1301.png",
+            "MLBench/TQA/images/1302.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many lobes are there in the brain?\nChoice list: \nA. 3\nB. 4\nC. 2\nD. 5\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 148,
+        "image": [
+            "MLBench/TQA/images/1304.png",
+            "MLBench/TQA/images/1305.png",
+            "MLBench/TQA/images/1306.png",
+            "MLBench/TQA/images/1307.png",
+            "MLBench/TQA/images/1308.png",
+            "MLBench/TQA/images/1309.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the part of the body that produces human growth hormone.\nChoice list: \nA. Pituitary gland\nB. Hypothalamus\nC. Cerebrum\nD. Pineal gland\nYour answer is: ",
+        "gt_response": "Pituitary gland",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 149,
+        "image": [
+            "MLBench/TQA/images/1311.png",
+            "MLBench/TQA/images/1312.png",
+            "MLBench/TQA/images/1313.png",
+            "MLBench/TQA/images/1314.png",
+            "MLBench/TQA/images/1315.png",
+            "MLBench/TQA/images/1316.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Pons is part of the brain stem, what is the other part called?\nChoice list: \nA. Ventricles\nB. Pineal gland\nC. Medulla\nD. Hypothalamus\nYour answer is: ",
+        "gt_response": "Medulla",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 150,
+        "image": [
+            "MLBench/TQA/images/1318.png",
+            "MLBench/TQA/images/1319.png",
+            "MLBench/TQA/images/1320.png",
+            "MLBench/TQA/images/1321.png",
+            "MLBench/TQA/images/1322.png",
+            "MLBench/TQA/images/1323.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What happens if a clot forms in the temporal lobe?\nChoice list: \nA. Reasoning is affected\nB. Sense of touch is affected\nC. Hearing is affected\nD. Sight is affected\nYour answer is: ",
+        "gt_response": "Hearing is affected",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 151,
+        "image": [
+            "MLBench/TQA/images/1325.png",
+            "MLBench/TQA/images/1326.png",
+            "MLBench/TQA/images/1327.png",
+            "MLBench/TQA/images/1328.png",
+            "MLBench/TQA/images/1329.png",
+            "MLBench/TQA/images/1330.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Where is located the spinal cord?\nChoice list: \nA. neck\nB. head\nC. legs\nD. back\nYour answer is: ",
+        "gt_response": "neck",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 152,
+        "image": [
+            "MLBench/TQA/images/1332.png",
+            "MLBench/TQA/images/1333.png",
+            "MLBench/TQA/images/1334.png",
+            "MLBench/TQA/images/1335.png",
+            "MLBench/TQA/images/1336.png",
+            "MLBench/TQA/images/1337.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many types of nerves are in the diagram of the nervous system?\nChoice list: \nA. 12\nB. 11\nC. 9\nD. 10\nYour answer is: ",
+        "gt_response": "10",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 153,
+        "image": [
+            "MLBench/TQA/images/1339.png",
+            "MLBench/TQA/images/1340.png",
+            "MLBench/TQA/images/1341.png",
+            "MLBench/TQA/images/1342.png",
+            "MLBench/TQA/images/1343.png",
+            "MLBench/TQA/images/1344.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Where is the cerebellum located?\nChoice list: \nA. behind the frontal lobe\nB. front of the brain\nC. next to the lateral ventricle\nD. Behind the 4th ventricle\nYour answer is: ",
+        "gt_response": "Behind the 4th ventricle",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 154,
+        "image": [
+            "MLBench/TQA/images/1346.png",
+            "MLBench/TQA/images/1347.png",
+            "MLBench/TQA/images/1348.png",
+            "MLBench/TQA/images/1349.png",
+            "MLBench/TQA/images/1350.png",
+            "MLBench/TQA/images/1351.png"
+        ],
+        "question": "Provided with a series of diagrams from a textbook, your responsibility is to correctly answer the following question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many nerves are labelled?\nChoice list: \nA. 22\nB. 20\nC. 18\nD. 16\nYour answer is: ",
+        "gt_response": "18",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 155,
+        "image": [
+            "MLBench/TQA/images/1353.png",
+            "MLBench/TQA/images/1354.png",
+            "MLBench/TQA/images/1355.png",
+            "MLBench/TQA/images/1356.png",
+            "MLBench/TQA/images/1357.png",
+            "MLBench/TQA/images/1358.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which lobe is attached to the spinal cord?\nChoice list: \nA. The temporal lobe\nB. The occipital lobe\nC. The frontal lobe\nD. The cerebellum\nYour answer is: ",
+        "gt_response": "The temporal lobe",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 156,
+        "image": [
+            "MLBench/TQA/images/1360.png",
+            "MLBench/TQA/images/1361.png",
+            "MLBench/TQA/images/1362.png",
+            "MLBench/TQA/images/1363.png",
+            "MLBench/TQA/images/1364.png",
+            "MLBench/TQA/images/1365.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many lobes of the brain are shown below?\nChoice list: \nA. 5\nB. 2\nC. 4\nD. 3\nYour answer is: ",
+        "gt_response": "4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 157,
+        "image": [
+            "MLBench/TQA/images/1367.png",
+            "MLBench/TQA/images/1368.png",
+            "MLBench/TQA/images/1369.png",
+            "MLBench/TQA/images/1370.png",
+            "MLBench/TQA/images/1371.png",
+            "MLBench/TQA/images/1372.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the part of the neuron that surrounds the axon.\nChoice list: \nA. Node of Ranvier\nB. Synapse\nC. Myelin sheath\nD. Schwann cell\nYour answer is: ",
+        "gt_response": "Myelin sheath",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 158,
+        "image": [
+            "MLBench/TQA/images/1374.png",
+            "MLBench/TQA/images/1375.png",
+            "MLBench/TQA/images/1376.png",
+            "MLBench/TQA/images/1377.png",
+            "MLBench/TQA/images/1378.png",
+            "MLBench/TQA/images/1379.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which of the following is the interconnection between two nerve cells?\nChoice list: \nA. Axon\nB. Dendrite\nC. Myelin Sheath\nD. Synapse\nYour answer is: ",
+        "gt_response": "Synapse",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 174,
+        "image": [
+            "MLBench/TQA/images/1440.png",
+            "MLBench/TQA/images/1441.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere>Question: What equipment is the man using to move the rock?\nChoice list: \nA. Truck\nB. Bulldozer\nC. Rod\nD. Crane\nYour answer is: ",
+        "gt_response": "Rod",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 177,
+        "image": [
+            "MLBench/TQA/images/1450.png",
+            "MLBench/TQA/images/1451.png",
+            "MLBench/TQA/images/1452.png",
+            "MLBench/TQA/images/1453.png",
+            "MLBench/TQA/images/1454.png",
+            "MLBench/TQA/images/1455.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which label shows the optical tube?\nChoice list: \nA. V\nB. W\nC. P\nD. E\nYour answer is: ",
+        "gt_response": "P",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 178,
+        "image": [
+            "MLBench/TQA/images/1458.png",
+            "MLBench/TQA/images/1459.png",
+            "MLBench/TQA/images/1460.png",
+            "MLBench/TQA/images/1461.png",
+            "MLBench/TQA/images/1462.png",
+            "MLBench/TQA/images/1463.png"
+        ],
+        "question": "With a set of diagrams extracted from a textbook, your role is to answer the ensuing question correctly. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which of the following is NOT a part of a telescope?\nChoice list: \nA. Finderscope\nB. Hopper\nC. Eyepiece\nD. Optical Tube\nYour answer is: ",
+        "gt_response": "Hopper",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 179,
+        "image": [
+            "MLBench/TQA/images/1467.png",
+            "MLBench/TQA/images/1468.png",
+            "MLBench/TQA/images/1469.png",
+            "MLBench/TQA/images/1470.png",
+            "MLBench/TQA/images/1471.png",
+            "MLBench/TQA/images/1472.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the relative atomic mass of aluminum?\nChoice list: \nA. 27\nB. 13\nC. 15\nD. 20\nYour answer is: ",
+        "gt_response": "27",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What is the relative atomic mass of aluminum?\nChoice list: \nA. 27\nB. 13\nC. 15\nD. 20\nYour answer is: [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 180,
+        "image": [
+            "MLBench/TQA/images/1476.png",
+            "MLBench/TQA/images/1477.png",
+            "MLBench/TQA/images/1478.png",
+            "MLBench/TQA/images/1479.png",
+            "MLBench/TQA/images/1480.png",
+            "MLBench/TQA/images/1481.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many neutrons does chlorine have?\nChoice list: \nA. 12\nB. 35\nC. 17\nD. 18\nYour answer is: ",
+        "gt_response": "18",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 181,
+        "image": [
+            "MLBench/TQA/images/1485.png",
+            "MLBench/TQA/images/1486.png",
+            "MLBench/TQA/images/1487.png",
+            "MLBench/TQA/images/1488.png",
+            "MLBench/TQA/images/1489.png",
+            "MLBench/TQA/images/1490.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the atomic number of Co?\nChoice list: \nA. 21\nB. 27\nC. 4\nD. 59\nYour answer is: ",
+        "gt_response": "27",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 182,
+        "image": [
+            "MLBench/TQA/images/1494.png",
+            "MLBench/TQA/images/1495.png",
+            "MLBench/TQA/images/1496.png",
+            "MLBench/TQA/images/1497.png",
+            "MLBench/TQA/images/1498.png",
+            "MLBench/TQA/images/1499.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the atomic weight for tritium?\nChoice list: \nA. 4\nB. 2\nC. 3\nD. 1\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 183,
+        "image": [
+            "MLBench/TQA/images/1503.png",
+            "MLBench/TQA/images/1504.png",
+            "MLBench/TQA/images/1505.png",
+            "MLBench/TQA/images/1506.png",
+            "MLBench/TQA/images/1507.png",
+            "MLBench/TQA/images/1508.png"
+        ],
+        "question": "Using a collection of textbook diagrams as your reference, please respond accurately to the following query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Identify the particle in the nucleus of an atom that has a positive electric charge.\nChoice list: \nA. Electron\nB. Neutron\nC. Nucleus\nD. Proton\nYour answer is: ",
+        "gt_response": "Proton",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 184,
+        "image": [
+            "MLBench/TQA/images/1512.png",
+            "MLBench/TQA/images/1513.png",
+            "MLBench/TQA/images/1514.png",
+            "MLBench/TQA/images/1515.png",
+            "MLBench/TQA/images/1516.png",
+            "MLBench/TQA/images/1517.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which part of the atom contains most of the atom's mass?\nChoice list: \nA. Proton\nB. Nucleus\nC. Electron\nD. Neutron\nYour answer is: ",
+        "gt_response": "Nucleus",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 185,
+        "image": [
+            "MLBench/TQA/images/1521.png",
+            "MLBench/TQA/images/1522.png",
+            "MLBench/TQA/images/1523.png",
+            "MLBench/TQA/images/1524.png",
+            "MLBench/TQA/images/1525.png",
+            "MLBench/TQA/images/1526.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Which particles can be found in the nucleus?\nChoice list: \nA. Protons and neutrons\nB. Electrons and Neutrons\nC. Electrons and protones\nD. Neutrons only\nYour answer is: ",
+        "gt_response": "Protons and neutrons",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 186,
+        "image": [
+            "MLBench/TQA/images/1530.png",
+            "MLBench/TQA/images/1531.png",
+            "MLBench/TQA/images/1532.png",
+            "MLBench/TQA/images/1533.png",
+            "MLBench/TQA/images/1534.png",
+            "MLBench/TQA/images/1535.png"
+        ],
+        "question": "Given various diagrams sourced from a textbook, your duty is to accurately answer the subsequent question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many protons do the two atoms have in total?\nChoice list: \nA. 10\nB. 16\nC. 18\nD. 8\nYour answer is: ",
+        "gt_response": "16",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 187,
+        "image": [
+            "MLBench/TQA/images/1539.png",
+            "MLBench/TQA/images/1540.png",
+            "MLBench/TQA/images/1541.png",
+            "MLBench/TQA/images/1542.png",
+            "MLBench/TQA/images/1543.png",
+            "MLBench/TQA/images/1544.png"
+        ],
+        "question": "Using the textbook diagrams provided, your task is to correctly answer the ensuing query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: Deuterium has how many electrons?\nChoice list: \nA. 4\nB. 2\nC. 1\nD. 3\nYour answer is: ",
+        "gt_response": "1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 188,
+        "image": [
+            "MLBench/TQA/images/1548.png",
+            "MLBench/TQA/images/1549.png",
+            "MLBench/TQA/images/1550.png",
+            "MLBench/TQA/images/1551.png",
+            "MLBench/TQA/images/1552.png",
+            "MLBench/TQA/images/1553.png"
+        ],
+        "question": "Given an assortment of diagrams from a textbook, please provide an accurate response to the next question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What falls between carbon-12 and carbon-14?\nChoice list: \nA. carbon-13\nB. carbon-11\nC. carbon-15\nD. carbon-10\nYour answer is: ",
+        "gt_response": "carbon-13",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. carbon-13",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 189,
+        "image": [
+            "MLBench/TQA/images/1557.png",
+            "MLBench/TQA/images/1558.png",
+            "MLBench/TQA/images/1559.png",
+            "MLBench/TQA/images/1560.png",
+            "MLBench/TQA/images/1561.png",
+            "MLBench/TQA/images/1562.png"
+        ],
+        "question": "Based on a series of diagrams from a textbook, your job is to correctly answer the forthcoming question. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: How many neutrons does hydrogen have?\nChoice list: \nA. 1\nB. 2\nC. zero\nD. 3\nYour answer is: ",
+        "gt_response": "zero",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 190,
+        "image": [
+            "MLBench/TQA/images/1566.png",
+            "MLBench/TQA/images/1567.png",
+            "MLBench/TQA/images/1568.png",
+            "MLBench/TQA/images/1569.png",
+            "MLBench/TQA/images/1570.png",
+            "MLBench/TQA/images/1571.png"
+        ],
+        "question": "Given a set of diagrams from a textbook, your responsibility is to provide a correct response to the next query. You must choose your answer from the Choice List.\n<ImageHere><ImageHere><ImageHere><ImageHere><ImageHere><ImageHere>Question: What is the atomic mass of Al?\nChoice list: \nA. 27\nB. 13\nC. 30\nD. 33\nYour answer is: ",
+        "gt_response": "27",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    }
+]

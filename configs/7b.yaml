@@ -1,0 +1,94 @@
+datasets:
+  ALFRED:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  ActionLocalization:
+    cross_ratio: 0.1
+    kv_recent_bias: 1
+  ActionPrediction:
+    cross_ratio: 0
+    kv_recent_bias: 1
+  ActionSequence:
+    cross_ratio: 0.1
+    kv_recent_bias: 1
+  CLEVR-Change:
+    cross_ratio: 0.1
+    kv_recent_bias: 1
+  CharacterOrder:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  CounterfactualInference:
+    cross_ratio: 0.1
+    kv_recent_bias: 1
+  DocVQA:
+    cross_ratio: 0.1
+    kv_recent_bias: 1
+  EgocentricNavigation:
+    cross_ratio: 0.5
+    kv_recent_bias: 1.5
+  Spot-the-Diff:
+    cross_ratio: 0.9
+    kv_recent_bias: 1
+  GPR1200:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  IEdit:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  MMCoQA:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  MovingAttribute:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  MovingDirection:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  MultiModalQA:
+    cross_ratio: 0.9
+    kv_recent_bias: 1
+  OCR-VQA:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  ObjectExistence:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  ObjectInteraction:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  ObjectShuffle:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  SceneTransition:
+    cross_ratio: 0.1
+    kv_recent_bias: 1
+  SlideVQA:
+    cross_ratio: 0.5
+    kv_recent_bias: 0.5
+  Spot-the-Diff:
+    cross_ratio: 0.9
+    kv_recent_bias: 1
+  StateChange:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  ObjectInteraction:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  TQA:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  TextNeedleInAHaystack:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  WebQA:
+    cross_ratio: 0.9
+    kv_recent_bias: 1
+  nuscenes:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  ImageNeedleInAHaystack:
+    cross_ratio: 0.5
+    kv_recent_bias: 1
+  WikiVQA:
+    cross_ratio: 0.5
+    kv_recent_bias: 1

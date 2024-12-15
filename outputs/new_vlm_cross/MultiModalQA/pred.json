@@ -1,0 +1,3425 @@
+[
+    {
+        "sample_id": 0,
+        "image": [
+            "MLBench/MultiModalQA/images/0.png",
+            "MLBench/MultiModalQA/images/1.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the center player holding in his right hand in this photo from the 1984 New Orleans Saints season?\nChoice list: \nA. helmet\nB. water bottle\nC. football\nD. towel\nYour answer is: ",
+        "gt_response": "football",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 1,
+        "image": [
+            "MLBench/MultiModalQA/images/2.png",
+            "MLBench/MultiModalQA/images/3.PNG"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many uniform options from the 1984 Cleveland Browns season include white pants?\nChoice list: \nA. one\nB. four\nC. three\nD. two\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 2,
+        "image": [
+            "MLBench/MultiModalQA/images/4.png",
+            "MLBench/MultiModalQA/images/5.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Does the Astrodome have a roof?\nChoice list: \nA. only during certain seasons\nB. partially\nC. yes\nD. no\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 3,
+        "image": [
+            "MLBench/MultiModalQA/images/6.png",
+            "MLBench/MultiModalQA/images/7.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is Ed Sheeran wearing a strap over his left or right shoulder?\nChoice list: \nA. left\nB. right\nC. neither\nD. both\nYour answer is: ",
+        "gt_response": "left",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 4,
+        "image": [
+            "MLBench/MultiModalQA/images/8.png",
+            "MLBench/MultiModalQA/images/9.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is Billy Joel wearing around his neck?\nChoice list: \nA. bowtie\nB. scarf\nC. necklace\nD. tie\nYour answer is: ",
+        "gt_response": "tie",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 5,
+        "image": [
+            "MLBench/MultiModalQA/images/10.png",
+            "MLBench/MultiModalQA/images/11.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In the poster for the 2000 Lino DiSalvo movie, what color is the umbrella that the woman is holding up?\nChoice list: \nA. black\nB. green\nC. red\nD. blue\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. black",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 6,
+        "image": [
+            "MLBench/MultiModalQA/images/12.png",
+            "MLBench/MultiModalQA/images/13.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Among the movies that Lino DiSalvo was involved in, which has a snowman on the poster?\nChoice list: \nA. The Lion King (2019 film).\nB. Tangled (2010 film).\nC. Moana (2016 film).\nD. Frozen (2013 film)\nYour answer is: ",
+        "gt_response": "Frozen (2013 film)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 7,
+        "image": [
+            "MLBench/MultiModalQA/images/14.png",
+            "MLBench/MultiModalQA/images/15.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Publication(s), in Accolades of Neon Bible, has a woman on the cover?\nChoice list: \nA. Pitchfork (magazine)\nB. NME (magazine)\nC. Rolling Stone (magazine)\nD. Blender (magazine)\nYour answer is: ",
+        "gt_response": "Blender (magazine)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 8,
+        "image": [
+            "MLBench/MultiModalQA/images/16.png",
+            "MLBench/MultiModalQA/images/17.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many people are in the car in diablero?\nChoice list: \nA. five\nB. two\nC. four\nD. three\nYour answer is: ",
+        "gt_response": "four",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 9,
+        "image": [
+            "MLBench/MultiModalQA/images/18.png",
+            "MLBench/MultiModalQA/images/19.png"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What kind of pet does the family in Family Guy have?\nChoice list: \nA. cat\nB. hamster\nC. dog\nD. bird\nYour answer is: ",
+        "gt_response": "dog",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 10,
+        "image": [
+            "MLBench/MultiModalQA/images/20.png",
+            "MLBench/MultiModalQA/images/21.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is Barry Geraghty sitting on?\nChoice list: \nA. sofa\nB. horse\nC. chair\nD. table\nYour answer is: ",
+        "gt_response": "horse",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 11,
+        "image": [
+            "MLBench/MultiModalQA/images/22.png",
+            "MLBench/MultiModalQA/images/23.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the color of the pants of the 2008 New York Jets season uniform?\nChoice list: \nA. white\nB. black\nC. green\nD. blue\nYour answer is: ",
+        "gt_response": "white",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. white",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 12,
+        "image": [
+            "MLBench/MultiModalQA/images/24.png",
+            "MLBench/MultiModalQA/images/25.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Does Farzana Dua Elahe's citizenship stage venue have yellow booths?\nChoice list: \nA. yes\nB. no.\nC. not sure.\nD. maybe.\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 13,
+        "image": [
+            "MLBench/MultiModalQA/images/26.png",
+            "MLBench/MultiModalQA/images/27.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is Albany, California next to a body of water?\nChoice list: \nA. no.\nB. yes\nC. not sure.\nD. maybe.\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 14,
+        "image": [
+            "MLBench/MultiModalQA/images/28.png",
+            "MLBench/MultiModalQA/images/29.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color is the border of a Kent Music Report?\nChoice list: \nA. blue\nB. yellow\nC. green\nD. red\nYour answer is: ",
+        "gt_response": "red",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 15,
+        "image": [
+            "MLBench/MultiModalQA/images/30.png",
+            "MLBench/MultiModalQA/images/31.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the background color of the logo for Doc Martin?\nChoice list: \nA. brown\nB. grey\nC. white\nD. black\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 16,
+        "image": [
+            "MLBench/MultiModalQA/images/32.png",
+            "MLBench/MultiModalQA/images/33.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Shown above is a portrait of the composer of a work that Edward Higginbottom recorded in 2010.  What item is the composer resting his hands upon in this portrait?\nChoice list: \nA. book\nB. painting\nC. scroll\nD. music sheet\nYour answer is: ",
+        "gt_response": "book",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 17,
+        "image": [
+            "MLBench/MultiModalQA/images/34.png",
+            "MLBench/MultiModalQA/images/35.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What's the coat color of the writer of song for wachet auf (sleepers awake) and chorale text?\nChoice list: \nA. black\nB. white\nC. red\nD. blue\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 18,
+        "image": [
+            "MLBench/MultiModalQA/images/36.png",
+            "MLBench/MultiModalQA/images/37.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The composer in Edward Higginbottom's Haydn, The Creation recording holds what in their right hand?\nChoice list: \nA. scroll\nB. torch\nC. bag\nD. book\nYour answer is: ",
+        "gt_response": "book",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. scroll",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 19,
+        "image": [
+            "MLBench/MultiModalQA/images/38.png",
+            "MLBench/MultiModalQA/images/39.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Shown above is a portrait of the Austrian composer who wrote Symphont Number 35 on December 10th, 1767.  What item is this composer holding in his right hand?\nChoice list: \nA. sheet music\nB. music stand\nC. book\nD. pen\nYour answer is: ",
+        "gt_response": "book",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 20,
+        "image": [
+            "MLBench/MultiModalQA/images/40.png",
+            "MLBench/MultiModalQA/images/41.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The composer of J S Bach, St John Passion recorded by Edward Higginbottom is wearing what color coat?\nChoice list: \nA. green\nB. blue\nC. black\nD. brown\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 21,
+        "image": [
+            "MLBench/MultiModalQA/images/42.png",
+            "MLBench/MultiModalQA/images/43.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is Joseph Haydn holding in his right hand?\nChoice list: \nA. book\nB. conductor's baton\nC. sheet music\nD. pencil\nYour answer is: ",
+        "gt_response": "book",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 22,
+        "image": [
+            "MLBench/MultiModalQA/images/44.png",
+            "MLBench/MultiModalQA/images/45.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Home(s), in Round 20 of 2014 NRL season results, logo has 2 swords?\nChoice list: \nA. Gold Coast Titans\nB. Brisbane Broncos.\nC. Cronulla Sharks.\nD. Sydney Roosters.\nYour answer is: ",
+        "gt_response": "Gold Coast Titans",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Gold Coast Titans",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 23,
+        "image": [
+            "MLBench/MultiModalQA/images/46.png",
+            "MLBench/MultiModalQA/images/47.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What pattern are the men in the Gaijin Entertainment games on PC, PS4 and Xbox One wearing?\nChoice list: \nA. zebra\nB. leopard\nC. tiger\nD. camouflage\nYour answer is: ",
+        "gt_response": "camouflage",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 24,
+        "image": [
+            "MLBench/MultiModalQA/images/48.png",
+            "MLBench/MultiModalQA/images/49.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Does Vitali Gudiyev's 2014-15 club have green and white colors?\nChoice list: \nA. yes\nB. yellow and black\nC. blue and white\nD. no\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 25,
+        "image": [
+            "MLBench/MultiModalQA/images/50.png",
+            "MLBench/MultiModalQA/images/51.png"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Are the colors for FC Akhmat Grozny green and white?\nChoice list: \nA. blue and yellow\nB. red and white\nC. no\nD. yes\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 26,
+        "image": [
+            "MLBench/MultiModalQA/images/52.png",
+            "MLBench/MultiModalQA/images/53.png"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: When the home team was the New Zealand Warriors, what was the color of the away team's logo in Round 20 of the 2020 NRL season?\nChoice list: \nA. black\nB. blue\nC. white\nD. green\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 27,
+        "image": [
+            "MLBench/MultiModalQA/images/54.png",
+            "MLBench/MultiModalQA/images/55.png"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the figure lifting in the 2015 World Weightlifting Championships icon?\nChoice list: \nA. barbell\nB. weight plate\nC. dumbbell\nD. kettlebell\nYour answer is: ",
+        "gt_response": "barbell",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. barbell",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 28,
+        "image": [
+            "MLBench/MultiModalQA/images/56.png",
+            "MLBench/MultiModalQA/images/57.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Marie-Julie Baup's 2011 Theater title shows how many people?\nChoice list: \nA. 7\nB. 10\nC. 5\nD. 15\nYour answer is: ",
+        "gt_response": "7",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 29,
+        "image": [
+            "MLBench/MultiModalQA/images/58.png",
+            "MLBench/MultiModalQA/images/59.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many human beings are shown in the picture of the Dead Poets Society play that Neil is in?\nChoice list: \nA. 6\nB. 7\nC. 8\nD. 5\nYour answer is: ",
+        "gt_response": "7",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 30,
+        "image": [
+            "MLBench/MultiModalQA/images/60.png",
+            "MLBench/MultiModalQA/images/61.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is the man on the cover of Shivam (2015 Telugu film) wearing jeans?\nChoice list: \nA. no\nB. yes\nC. he is wearing shorts\nD. he is wearing trousers\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 31,
+        "image": [
+            "MLBench/MultiModalQA/images/62.png",
+            "MLBench/MultiModalQA/images/63.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Where is this Cinematographer filming?\nChoice list: \nA. ship\nB. desert\nC. beach\nD. studio\nYour answer is: ",
+        "gt_response": "ship",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 32,
+        "image": [
+            "MLBench/MultiModalQA/images/64.png",
+            "MLBench/MultiModalQA/images/65.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The title screen of the series which starred Alan Shirahama as Yonej Sawamura has men in what color jackets?\nChoice list: \nA. black\nB. brown\nC. gray\nD. blue\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 33,
+        "image": [
+            "MLBench/MultiModalQA/images/66.png",
+            "MLBench/MultiModalQA/images/67.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The photo of the city addison in grey's anatomy moves to shows what type of trees?\nChoice list: \nA. oak\nB. palm\nC. maple\nD. bamboo\nYour answer is: ",
+        "gt_response": "palm",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 34,
+        "image": [
+            "MLBench/MultiModalQA/images/68.png",
+            "MLBench/MultiModalQA/images/69.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is shown in the bottom left photo in this collage of St. Louis?\nChoice list: \nA. city skyline\nB. downtown\nC. riverfront\nD. stadium\nYour answer is: ",
+        "gt_response": "stadium",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 35,
+        "image": [
+            "MLBench/MultiModalQA/images/70.png",
+            "MLBench/MultiModalQA/images/71.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The background of this advertisement for Another World (TV series) resembles which body part?\nChoice list: \nA. hand\nB. eye\nC. ear\nD. foot\nYour answer is: ",
+        "gt_response": "eye",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 36,
+        "image": [
+            "MLBench/MultiModalQA/images/72.png",
+            "MLBench/MultiModalQA/images/73.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The team with a shark on their logo among Opponents of 2007–08 New York Rangers season is?\nChoice list: \nA. Tampa Bay Lightning.\nB. San Jose Sharks\nC. Anaheim Ducks.\nD. Florida Panthers.\nYour answer is: ",
+        "gt_response": "San Jose Sharks",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 37,
+        "image": [
+            "MLBench/MultiModalQA/images/74.png",
+            "MLBench/MultiModalQA/images/75.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many people are shown in the opening shot of One Tree Hill (TV series)?\nChoice list: \nA. zero\nB. one\nC. four\nD. two\nYour answer is: ",
+        "gt_response": "one",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 38,
+        "image": [
+            "MLBench/MultiModalQA/images/76.png",
+            "MLBench/MultiModalQA/images/77.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Are the people standing or sitting in 2016-17 tercera division?\nChoice list: \nA. jumping\nB. standing\nC. lying\nD. sitting\nYour answer is: ",
+        "gt_response": "standing",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 39,
+        "image": [
+            "MLBench/MultiModalQA/images/78.png",
+            "MLBench/MultiModalQA/images/79.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many different total outfits were used during the 2018 Denver Broncos season?\nChoice list: \nA. two\nB. five\nC. four\nD. three\nYour answer is: ",
+        "gt_response": "three",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 40,
+        "image": [
+            "MLBench/MultiModalQA/images/80.png",
+            "MLBench/MultiModalQA/images/81.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Of the TV channels that Rajisha Vijayan has appeared on, which channel has a logo that features the sun?\nChoice list: \nA. Asianet.\nB. Kairali TV.\nC. Surya TV\nD. Mazhavil Manorama.\nYour answer is: ",
+        "gt_response": "Surya TV",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 41,
+        "image": [
+            "MLBench/MultiModalQA/images/82.png",
+            "MLBench/MultiModalQA/images/83.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What gender is the 1992 Delaware gubernatorial election participant?\nChoice list: \nA. male\nB. female\nC. undisclosed\nD. non-binary\nYour answer is: ",
+        "gt_response": "male",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. male",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 42,
+        "image": [
+            "MLBench/MultiModalQA/images/84.png",
+            "MLBench/MultiModalQA/images/85.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What does David Tennant have stuck to his jacket?\nChoice list: \nA. pin\nB. patch\nC. decorative patch\nD. button\nYour answer is: ",
+        "gt_response": "pin",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 43,
+        "image": [
+            "MLBench/MultiModalQA/images/86.png",
+            "MLBench/MultiModalQA/images/87.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many pictures of New Orleans make up this collage?\nChoice list: \nA. six\nB. five\nC. seven\nD. eight\nYour answer is: ",
+        "gt_response": "seven",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 44,
+        "image": [
+            "MLBench/MultiModalQA/images/88.png",
+            "MLBench/MultiModalQA/images/89.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The first lady of tunisia with hair longer than her shoulder, is?\nChoice list: \nA. Naima zergui\nB. Rafika boubaker\nC. Selma elloumi\nD. Leïla Ben Ali\nYour answer is: ",
+        "gt_response": "Leïla Ben Ali",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 45,
+        "image": [
+            "MLBench/MultiModalQA/images/90.png",
+            "MLBench/MultiModalQA/images/91.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many colors make up the Ford Motor Company logo?\nChoice list: \nA. two\nB. three\nC. five\nD. four\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 46,
+        "image": [
+            "MLBench/MultiModalQA/images/92.png",
+            "MLBench/MultiModalQA/images/93.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The best selling latin artist of all time is making what facial expression?\nChoice list: \nA. pout\nB. smile\nC. frown\nD. laugh\nYour answer is: ",
+        "gt_response": "smile",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 47,
+        "image": [
+            "MLBench/MultiModalQA/images/94.png",
+            "MLBench/MultiModalQA/images/95.jpeg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is Lucy Davis's 2017 film role wearing a blue dress?\nChoice list: \nA. no\nB. unknown.\nC. maybe.\nD. yes.\nYour answer is: ",
+        "gt_response": "no",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 48,
+        "image": [
+            "MLBench/MultiModalQA/images/96.png",
+            "MLBench/MultiModalQA/images/97.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which team that has a man with feathers in his hair on its logo played the New York Rangers in the 1945-46 season?\nChoice list: \nA. Montreal Canadiens\nB. Boston Bruins\nC. Chicago Blackhawks\nD. Detroit Red Wings\nYour answer is: ",
+        "gt_response": "Chicago Blackhawks",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 49,
+        "image": [
+            "MLBench/MultiModalQA/images/98.png",
+            "MLBench/MultiModalQA/images/99.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The NFL stadium with the largest seating capacity has a logo featuring a ball with how many lines?\nChoice list: \nA. four\nB. three\nC. six\nD. five\nYour answer is: ",
+        "gt_response": "five",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 50,
+        "image": [
+            "MLBench/MultiModalQA/images/100.png",
+            "MLBench/MultiModalQA/images/101.png"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The game site in the 2017 regular season of the Kansas City Chiefs when the opponent was at the Dallas Cowboys has how many lines on the ball in its logo?\nChoice list: \nA. six\nB. four\nC. three\nD. five\nYour answer is: ",
+        "gt_response": "five",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 51,
+        "image": [
+            "MLBench/MultiModalQA/images/102.png",
+            "MLBench/MultiModalQA/images/103.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The 1 July 1882 Charles T. Menoher ranks hold what in their hands?\nChoice list: \nA. gun\nB. sword\nC. book\nD. hammer\nYour answer is: ",
+        "gt_response": "gun",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 52,
+        "image": [
+            "MLBench/MultiModalQA/images/104.png",
+            "MLBench/MultiModalQA/images/105.png"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The logo for the AT&T Stadium shows how many lines on the ball?\nChoice list: \nA. five\nB. four\nC. three\nD. six\nYour answer is: ",
+        "gt_response": "five",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 53,
+        "image": [
+            "MLBench/MultiModalQA/images/106.png",
+            "MLBench/MultiModalQA/images/107.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: On a list of Gotland churches whose names begin with E and F, what is the name of the stand-alone white tower that has a triangle-shaped red roof?\nChoice list: \nA. Gothem Church.\nB. Fleringe Church\nC. Fjugesta Church.\nD. Eke Church.\nYour answer is: ",
+        "gt_response": "Fleringe Church",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 54,
+        "image": [
+            "MLBench/MultiModalQA/images/108.png",
+            "MLBench/MultiModalQA/images/109.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Kiyan Soltanpour played for the team with a logo with what color circle around it in the APL division?\nChoice list: \nA. yellow\nB. red\nC. green\nD. blue\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 55,
+        "image": [
+            "MLBench/MultiModalQA/images/110.png",
+            "MLBench/MultiModalQA/images/111.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The no insignia Charles T Menoher rank has each person holding what in right hand?\nChoice list: \nA. gun\nB. baton.\nC. sword.\nD. knife.\nYour answer is: ",
+        "gt_response": "gun",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 56,
+        "image": [
+            "MLBench/MultiModalQA/images/112.png",
+            "MLBench/MultiModalQA/images/113.png"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color is the circle around the sumgayit fk logo?\nChoice list: \nA. blue\nB. red\nC. green\nD. yellow\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. blue",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 57,
+        "image": [
+            "MLBench/MultiModalQA/images/114.png",
+            "MLBench/MultiModalQA/images/115.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The 11,500 1960 Boston Patriots season venue has what game being played?\nChoice list: \nA. soccer\nB. basketball\nC. football\nD. baseball\nYour answer is: ",
+        "gt_response": "football",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 58,
+        "image": [
+            "MLBench/MultiModalQA/images/116.png",
+            "MLBench/MultiModalQA/images/117.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The singer of \"Take Me As I Am\" is shown wearing what item on her neck?\nChoice list: \nA. necklace\nB. choker\nC. scarf\nD. tie\nYour answer is: ",
+        "gt_response": "scarf",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 59,
+        "image": [
+            "MLBench/MultiModalQA/images/118.png",
+            "MLBench/MultiModalQA/images/119.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is Mary J. Blige wearing around her neck?\nChoice list: \nA. scarf\nB. choker\nC. necklace\nD. shawl\nYour answer is: ",
+        "gt_response": "scarf",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. scarf",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 60,
+        "image": [
+            "MLBench/MultiModalQA/images/120.png",
+            "MLBench/MultiModalQA/images/121.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: There is a man wearing a red cap in the photo of which driver who is featured in the results of the 2011 Acropolis Rally event standings?\nChoice list: \nA. Jari-Matti Latvala\nB. Petter Solberg.\nC. Mikko Hirvonen.\nD. Sebastien Ogier.\nYour answer is: ",
+        "gt_response": "Jari-Matti Latvala",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 61,
+        "image": [
+            "MLBench/MultiModalQA/images/122.png",
+            "MLBench/MultiModalQA/images/123.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the predominant color of the Multi-valve?\nChoice list: \nA. silver\nB. blue\nC. green\nD. black\nYour answer is: ",
+        "gt_response": "silver",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 62,
+        "image": [
+            "MLBench/MultiModalQA/images/124.png",
+            "MLBench/MultiModalQA/images/125.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color are Jay-Z's eyes?\nChoice list: \nA. blue\nB. brown\nC. hazel\nD. green\nYour answer is: ",
+        "gt_response": "brown",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 63,
+        "image": [
+            "MLBench/MultiModalQA/images/126.png",
+            "MLBench/MultiModalQA/images/127.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many five point stars are on the flag for Australia?\nChoice list: \nA. one\nB. four\nC. two\nD. three\nYour answer is: ",
+        "gt_response": "one",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 64,
+        "image": [
+            "MLBench/MultiModalQA/images/128.png",
+            "MLBench/MultiModalQA/images/129.png"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Does the logo for Knattspyrnufélagið Víkingur have a soccer ball in it?\nChoice list: \nA. yes\nB. no\nC. sometimes\nD. not sure\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Yes",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 65,
+        "image": [
+            "MLBench/MultiModalQA/images/130.png",
+            "MLBench/MultiModalQA/images/131.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which State(s), in Major cities of Sun Belt, flag has a bear?\nChoice list: \nA. Texas\nB. Arizona\nC. California\nD. Florida\nYour answer is: ",
+        "gt_response": "California",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 66,
+        "image": [
+            "MLBench/MultiModalQA/images/132.png",
+            "MLBench/MultiModalQA/images/133.png"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many photos make up this collage of Atlanta?\nChoice list: \nA. nine\nB. ten\nC. twelve\nD. eleven\nYour answer is: ",
+        "gt_response": "ten",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 67,
+        "image": [
+            "MLBench/MultiModalQA/images/134.png",
+            "MLBench/MultiModalQA/images/135.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What structure enables cars to cross the water in the city where Blandine Maisonnier scored a personal best performance of 6.37m in the long jump?\nChoice list: \nA. tunnel\nB. bridge\nC. overpass\nD. viaduct\nYour answer is: ",
+        "gt_response": "bridge",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 68,
+        "image": [
+            "MLBench/MultiModalQA/images/136.png",
+            "MLBench/MultiModalQA/images/137.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Reko Ioane's 2015 club logo has what main color?\nChoice list: \nA. red\nB. blue\nC. yellow\nD. green\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 69,
+        "image": [
+            "MLBench/MultiModalQA/images/138.png",
+            "MLBench/MultiModalQA/images/139.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Michael Higgs's 1999 film poster has man walking with hands where?\nChoice list: \nA. pockets\nB. wallet\nC. shoulder\nD. basketball\nYour answer is: ",
+        "gt_response": "pockets",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 70,
+        "image": [
+            "MLBench/MultiModalQA/images/140.png",
+            "MLBench/MultiModalQA/images/141.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Of the towns that house currently-known works by Berendt Hus, which has a crest that features a fish?\nChoice list: \nA. Ginger, France.\nB. Jade, Germany\nC. Turquoise, Italy.\nD. Amber, Poland.\nYour answer is: ",
+        "gt_response": "Jade, Germany",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 71,
+        "image": [
+            "MLBench/MultiModalQA/images/142.png",
+            "MLBench/MultiModalQA/images/143.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Mel Martinez's Mamu TV show logo has what color background?\nChoice list: \nA. yellow\nB. green\nC. red\nD. blue\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 72,
+        "image": [
+            "MLBench/MultiModalQA/images/144.png",
+            "MLBench/MultiModalQA/images/145.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In the logo for the television program that Mel Martinez was in in 2019, what is the color in the background?\nChoice list: \nA. blue\nB. red\nC. green\nD. yellow\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. blue",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 73,
+        "image": [
+            "MLBench/MultiModalQA/images/146.png",
+            "MLBench/MultiModalQA/images/147.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Billy Slater played for the NRL team in 2006 with a character holding what on the logo?\nChoice list: \nA. lightning\nB. thunderbolt\nC. cloud\nD. raindrop\nYour answer is: ",
+        "gt_response": "lightning",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 74,
+        "image": [
+            "MLBench/MultiModalQA/images/148.png",
+            "MLBench/MultiModalQA/images/149.png"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In the Scottish League Cup of 1961-62 what home team have a black and white logo?\nChoice list: \nA. Hibernian F.C.\nB. East Stirlingshire F.C.\nC. St Johnstone F.C.\nD. Heart of Midlothian F.C.\nYour answer is: ",
+        "gt_response": "East Stirlingshire F.C.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 75,
+        "image": [
+            "MLBench/MultiModalQA/images/150.png",
+            "MLBench/MultiModalQA/images/151.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Ajay Chhabra's show where they played Mr. Wadia had what color background in the logo?\nChoice list: \nA. yellow\nB. blue\nC. red\nD. green\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 76,
+        "image": [
+            "MLBench/MultiModalQA/images/152.png",
+            "MLBench/MultiModalQA/images/153.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Team(s), in Young Player of the Year of ProA, features a green ball on the logo?\nChoice list: \nA. Baunach Young Pikes\nB. Basket Young Pikes.\nC. Wheel Young Pikes.\nD. Steel Young Pikes.\nYour answer is: ",
+        "gt_response": "Baunach Young Pikes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. Basket Young Pikes.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 77,
+        "image": [
+            "MLBench/MultiModalQA/images/154.png",
+            "MLBench/MultiModalQA/images/155.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Player(s), in Most goals of Russian Premier League, is holding a framed jersey while waving to the crowd?\nChoice list: \nA. Aleksandr Kerzhakov\nB. Roman Pavlyuchenko.\nC. Yuri Zhirkov.\nD. Andrey Arshavin.\nYour answer is: ",
+        "gt_response": "Aleksandr Kerzhakov",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 78,
+        "image": [
+            "MLBench/MultiModalQA/images/156.png",
+            "MLBench/MultiModalQA/images/157.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the color of the shirt Robert De Niro is wearing?\nChoice list: \nA. green\nB. yellow\nC. red\nD. blue\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 79,
+        "image": [
+            "MLBench/MultiModalQA/images/158.png",
+            "MLBench/MultiModalQA/images/159.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Based on the logo over the title what animals seem to race at the Preakness Stakes?\nChoice list: \nA. dogs\nB. cheetahs\nC. horses\nD. birds\nYour answer is: ",
+        "gt_response": "horses",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 80,
+        "image": [
+            "MLBench/MultiModalQA/images/160.png",
+            "MLBench/MultiModalQA/images/161.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What other type of facial hair other than a moustache does William Shakespeare have?\nChoice list: \nA. sideburns\nB. soul patch\nC. beard\nD. goatee\nYour answer is: ",
+        "gt_response": "beard",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. sideburns",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 81,
+        "image": [
+            "MLBench/MultiModalQA/images/162.png",
+            "MLBench/MultiModalQA/images/163.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is there a hankerchief in on the jacket that Shah Rukh Khan is wearing?\nChoice list: \nA. pocket\nB. lapel\nC. collar\nD. sleeve\nYour answer is: ",
+        "gt_response": "pocket",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 82,
+        "image": [
+            "MLBench/MultiModalQA/images/164.png",
+            "MLBench/MultiModalQA/images/165.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What means of propulsion can be seen at the front of the airplane that was flown by the adversary of Sydney Liversedge at 20:30 on the 27th of June, 1918, according to his biography?\nChoice list: \nA. turboprop engine\nB. rocket engine\nC. jet engine\nD. propeller\nYour answer is: ",
+        "gt_response": "propeller",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 83,
+        "image": [
+            "MLBench/MultiModalQA/images/166.png",
+            "MLBench/MultiModalQA/images/167.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What do you have to walk up before you can get into this house on The Facts of Life (TV series)?\nChoice list: \nA. steps\nB. elevators\nC. ladder\nD. stairs\nYour answer is: ",
+        "gt_response": "steps",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 84,
+        "image": [
+            "MLBench/MultiModalQA/images/168.png",
+            "MLBench/MultiModalQA/images/169.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the guy doing the Long Jump over?\nChoice list: \nA. grass\nB. water\nC. concrete\nD. sand\nYour answer is: ",
+        "gt_response": "sand",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 85,
+        "image": [
+            "MLBench/MultiModalQA/images/170.png",
+            "MLBench/MultiModalQA/images/171.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is on both men's heads on the title screen for Still Game?\nChoice list: \nA. beanies\nB. helmets\nC. hats\nD. caps\nYour answer is: ",
+        "gt_response": "hats",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 86,
+        "image": [
+            "MLBench/MultiModalQA/images/172.png",
+            "MLBench/MultiModalQA/images/173.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The person who portrays the brother of character Andy Bernard on \"The Office\" is pictured.  How many eyes are visible in this picture?\nChoice list: \nA. three\nB. two\nC. none\nD. one\nYour answer is: ",
+        "gt_response": "one",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 87,
+        "image": [
+            "MLBench/MultiModalQA/images/174.png",
+            "MLBench/MultiModalQA/images/175.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What type of art is the sheet trying to communicate?\nChoice list: \nA. music\nB. sculpture\nC. photography\nD. painting\nYour answer is: ",
+        "gt_response": "music",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 88,
+        "image": [
+            "MLBench/MultiModalQA/images/176.png",
+            "MLBench/MultiModalQA/images/177.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color is ludwig van beethoven scarf?\nChoice list: \nA. green\nB. red\nC. yellow\nD. blue\nYour answer is: ",
+        "gt_response": "red",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 89,
+        "image": [
+            "MLBench/MultiModalQA/images/178.png",
+            "MLBench/MultiModalQA/images/179.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the wall behind Pink Floyd made of?\nChoice list: \nA. cement\nB. wood\nC. steel\nD. bricks\nYour answer is: ",
+        "gt_response": "bricks",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 90,
+        "image": [
+            "MLBench/MultiModalQA/images/180.png",
+            "MLBench/MultiModalQA/images/181.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Jitka Schneiderova's Tvoje tvar ma znamy hlas Invite a Friend name has what color facial hair?\nChoice list: \nA. brown\nB. gray\nC. black\nD. blonde\nYour answer is: ",
+        "gt_response": "gray",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 91,
+        "image": [
+            "MLBench/MultiModalQA/images/182.png",
+            "MLBench/MultiModalQA/images/183.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What type of fixtures are shining behind David Bowie in this photo?\nChoice list: \nA. lights\nB. dimmers\nC. bulbs\nD. lamps\nYour answer is: ",
+        "gt_response": "lights",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. lights",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 92,
+        "image": [
+            "MLBench/MultiModalQA/images/184.png",
+            "MLBench/MultiModalQA/images/185.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many of the men are wearing hats in The Band?\nChoice list: \nA. 3\nB. none\nC. 4\nD. 2\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 93,
+        "image": [
+            "MLBench/MultiModalQA/images/186.png",
+            "MLBench/MultiModalQA/images/187.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is the cross on Sweden's flag to the left or right side?\nChoice list: \nA. center\nB. left\nC. top\nD. right.\nYour answer is: ",
+        "gt_response": "left",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 94,
+        "image": [
+            "MLBench/MultiModalQA/images/188.png",
+            "MLBench/MultiModalQA/images/189.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many different colors of pants were worn during the 2016 Jacksonville Jaguars season?\nChoice list: \nA. four\nB. two\nC. three\nD. five\nYour answer is: ",
+        "gt_response": "three",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 95,
+        "image": [
+            "MLBench/MultiModalQA/images/190.png",
+            "MLBench/MultiModalQA/images/191.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In the regular season Super League 2012 round 1 what home teams have a bull on their logo?\nChoice list: \nA. Leeds Rhinos\nB. St Helens\nC. Wigan Warriors\nD. Bradford Bulls\nYour answer is: ",
+        "gt_response": "Bradford Bulls",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 96,
+        "image": [
+            "MLBench/MultiModalQA/images/192.png",
+            "MLBench/MultiModalQA/images/193.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The actor from the movie \"Heat\" which also has a soundtrack of the same name is wearing what color shirt?\nChoice list: \nA. red\nB. white\nC. blue\nD. green\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 97,
+        "image": [
+            "MLBench/MultiModalQA/images/194.png",
+            "MLBench/MultiModalQA/images/195.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which opponent of the Pittsburgh Steelers in the 1956 regular season has an eagle on its logo?\nChoice list: \nA. Philadelphia Eagles\nB. Chicago Cardinals.\nC. New York Giants.\nD. Detroit Lions.\nYour answer is: ",
+        "gt_response": "Philadelphia Eagles",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Philadelphia Eagles",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 98,
+        "image": [
+            "MLBench/MultiModalQA/images/196.png",
+            "MLBench/MultiModalQA/images/197.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: in Texas of List of Phi Kappa Theta chapters, which university have a person in their logo?\nChoice list: \nA. Sam Houston State University\nB. Texas A&M University\nC. University of Texas at Austin\nD. University of Houston\nYour answer is: ",
+        "gt_response": "Sam Houston State University",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Sam Houston State University",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 99,
+        "image": [
+            "MLBench/MultiModalQA/images/198.png",
+            "MLBench/MultiModalQA/images/199.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is Gloria Swanson's 1966 TV title black and white?\nChoice list: \nA. sometimes\nB. no\nC. yes\nD. occasionally\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 100,
+        "image": [
+            "MLBench/MultiModalQA/images/200.png",
+            "MLBench/MultiModalQA/images/201.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color is the racer's helmet in the Double R Racing car\nChoice list: \nA. yellow\nB. red\nC. green\nD. blue\nYour answer is: ",
+        "gt_response": "red",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 101,
+        "image": [
+            "MLBench/MultiModalQA/images/202.png",
+            "MLBench/MultiModalQA/images/203.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The city that hosted the 1992 edition of the UK Athletic Championships has what kind of large wheel?\nChoice list: \nA. observation\nB. ferris\nC. carousel\nD. balloon\nYour answer is: ",
+        "gt_response": "ferris",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 102,
+        "image": [
+            "MLBench/MultiModalQA/images/204.png",
+            "MLBench/MultiModalQA/images/205.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What natural structure is viewable behind the Tokyo skyline?\nChoice list: \nA. ocean\nB. lake\nC. mountain\nD. river\nYour answer is: ",
+        "gt_response": "mountain",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 103,
+        "image": [
+            "MLBench/MultiModalQA/images/206.png",
+            "MLBench/MultiModalQA/images/207.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: in the Major League Baseball All-Star Game which team has a bird on their logo in the National League of Elected starters of 1998\nChoice list: \nA. StLouis Cardinals\nB. Arizona Diamondbacks\nC. Atlanta Braves\nD. Philadelphia Phillies\nYour answer is: ",
+        "gt_response": "StLouis Cardinals",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. StLouis Cardinals",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 104,
+        "image": [
+            "MLBench/MultiModalQA/images/208.png",
+            "MLBench/MultiModalQA/images/209.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The picture for Malcolm in the Middle has a boy putting what on his face?\nChoice list: \nA. hat\nB. feet\nC. hands\nD. glasses\nYour answer is: ",
+        "gt_response": "hands",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 105,
+        "image": [
+            "MLBench/MultiModalQA/images/210.png",
+            "MLBench/MultiModalQA/images/211.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the horse in the ettifaq fc logo doing?\nChoice list: \nA. racing\nB. jumping\nC. prancing\nD. galloping\nYour answer is: ",
+        "gt_response": "prancing",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 106,
+        "image": [
+            "MLBench/MultiModalQA/images/212.png",
+            "MLBench/MultiModalQA/images/213.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Other than white, which color comprises the logo of the Daytona-500 manufacturer that Joe Ruttman raced for in 1994?\nChoice list: \nA. green\nB. red\nC. blue\nD. yellow\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 107,
+        "image": [
+            "MLBench/MultiModalQA/images/214.png",
+            "MLBench/MultiModalQA/images/215.png"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Filip Kiss's Saudi Professional League club logo has horse doing what?\nChoice list: \nA. prancing\nB. jumping\nC. trotting\nD. galloping\nYour answer is: ",
+        "gt_response": "prancing",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 108,
+        "image": [
+            "MLBench/MultiModalQA/images/216.png",
+            "MLBench/MultiModalQA/images/217.png"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Publication(s), in Accolades of Transgender Dysphoria Blues, featured a man in a hat on its cover?\nChoice list: \nA. Billboard\nB. Spin\nC. American Songwriter\nD. Rolling Stone\nYour answer is: ",
+        "gt_response": "American Songwriter",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 109,
+        "image": [
+            "MLBench/MultiModalQA/images/218.png",
+            "MLBench/MultiModalQA/images/219.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Country(s), in Performance by country of EuroCup Basketball, has a crescent moon and a single star on their flag?\nChoice list: \nA. North Macedonia\nB. Pakistan\nC. Turkey\nD. Algeria\nYour answer is: ",
+        "gt_response": "Turkey",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 110,
+        "image": [
+            "MLBench/MultiModalQA/images/220.png",
+            "MLBench/MultiModalQA/images/221.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many red stripes would one find if one were to look at the flag of the nation in which \"Where Eagles Dare\" was filmed?\nChoice list: \nA. four.\nB. five.\nC. three.\nD. two\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 112,
+        "image": [
+            "MLBench/MultiModalQA/images/227.png",
+            "MLBench/MultiModalQA/images/228.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What vehicle is Crash Bandicoot on the cover of the 1998 M. Mothersbaugh video game?\nChoice list: \nA. truck\nB. scooter\nC. motorcycle\nD. car\nYour answer is: ",
+        "gt_response": "motorcycle",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 113,
+        "image": [
+            "MLBench/MultiModalQA/images/229.png",
+            "MLBench/MultiModalQA/images/230.png"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The 1978 Bobby McAlinden club logo has what animal?\nChoice list: \nA. tiger\nB. lion\nC. elephant\nD. bird\nYour answer is: ",
+        "gt_response": "bird",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 114,
+        "image": [
+            "MLBench/MultiModalQA/images/231.png",
+            "MLBench/MultiModalQA/images/232.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Can an elevator be seen at Fondo (Barcelona Metro)?\nChoice list: \nA. sometimes\nB. no\nC. yes\nD. only on weekends\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 115,
+        "image": [
+            "MLBench/MultiModalQA/images/233.png",
+            "MLBench/MultiModalQA/images/234.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color are Kristin Clarke's pants?\nChoice list: \nA. blue\nB. black\nC. brown\nD. gray\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 116,
+        "image": [
+            "MLBench/MultiModalQA/images/235.png",
+            "MLBench/MultiModalQA/images/236.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Elektra Records Sworn Enemy's As Mindset album has what body part on the front cover?\nChoice list: \nA. arm\nB. foot\nC. hand\nD. head\nYour answer is: ",
+        "gt_response": "hand",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 117,
+        "image": [
+            "MLBench/MultiModalQA/images/237.png",
+            "MLBench/MultiModalQA/images/238.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: On the poster for the TV show in which Tom Mison played Dorian Crane, what kind of structure can be seen behind the two men?\nChoice list: \nA. castle\nB. fortress\nC. manor house\nD. palace\nYour answer is: ",
+        "gt_response": "castle",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 118,
+        "image": [
+            "MLBench/MultiModalQA/images/239.png",
+            "MLBench/MultiModalQA/images/240.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What are the man and woman doing in gone with the wind (film)?\nChoice list: \nA. dancing.\nB. hugging.\nC. kissing\nD. arguing.\nYour answer is: ",
+        "gt_response": "kissing",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 119,
+        "image": [
+            "MLBench/MultiModalQA/images/241.png",
+            "MLBench/MultiModalQA/images/242.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Does 1990 Medallion Shield venue have players on the field?\nChoice list: \nA. Some.\nB. Yes.\nC. Sometimes.\nD. no\nYour answer is: ",
+        "gt_response": "no",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 121,
+        "image": [
+            "MLBench/MultiModalQA/images/250.png",
+            "MLBench/MultiModalQA/images/251.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which company is in the logo for the show that Loveleen Kaur Sasan was in from 2014-15?\nChoice list: \nA. nbc\nB. abc\nC. mtv\nD. cbs\nYour answer is: ",
+        "gt_response": "mtv",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 124,
+        "image": [
+            "MLBench/MultiModalQA/images/265.png",
+            "MLBench/MultiModalQA/images/266.png"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many uniform options are shown here for the 1995 Denver Broncos season?\nChoice list: \nA. five\nB. three\nC. four\nD. two\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 125,
+        "image": [
+            "MLBench/MultiModalQA/images/267.png",
+            "MLBench/MultiModalQA/images/268.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Newcastle United played against the team in the fourth round of the 1998-99 FA Cup with what animal atop the logo?\nChoice list: \nA. eagle\nB. dragon\nC. rooster\nD. lion\nYour answer is: ",
+        "gt_response": "rooster",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 126,
+        "image": [
+            "MLBench/MultiModalQA/images/269.png",
+            "MLBench/MultiModalQA/images/270.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many people are on the cover of Forever My Girl?\nChoice list: \nA. 2\nB. 3\nC. 1\nD. 4\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 127,
+        "image": [
+            "MLBench/MultiModalQA/images/271.png",
+            "MLBench/MultiModalQA/images/272.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Title(s), in Biography | Films of Rintaro, has an illustration of a woman with long blonde hair on the poster?\nChoice list: \nA. Galaxy Express 999 (film)\nB. The Dagger of Kamui (film).\nC. Metropolis (film).\nD. Space Adventure Cobra (film).\nYour answer is: ",
+        "gt_response": "Galaxy Express 999 (film)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Galaxy Express 999 (film)",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 128,
+        "image": [
+            "MLBench/MultiModalQA/images/273.png",
+            "MLBench/MultiModalQA/images/274.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Town(s), in Texas of List of hillside letters, features a large, cylindrical white water tank on a hillside, with a name painted on it?\nChoice list: \nA. Fort Davis, Texas\nB. Sanderson, New Mexico\nC. Sanderson, Texas\nD. Presidio, Texas\nYour answer is: ",
+        "gt_response": "Sanderson, Texas",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 129,
+        "image": [
+            "MLBench/MultiModalQA/images/275.png",
+            "MLBench/MultiModalQA/images/276.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Are the stands full or empty in this photo of the 2016-2017 Albanian Superliga?\nChoice list: \nA. full\nB. empty\nC. crowded\nD. partially full\nYour answer is: ",
+        "gt_response": "empty",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 130,
+        "image": [
+            "MLBench/MultiModalQA/images/277.png",
+            "MLBench/MultiModalQA/images/278.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many band members are holding a guitar in the image of the headliners of the Get a Grip Tour which held a concert at the Target Center?\nChoice list: \nA. three\nB. two\nC. one\nD. four\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 131,
+        "image": [
+            "MLBench/MultiModalQA/images/279.png",
+            "MLBench/MultiModalQA/images/280.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Title(s), in Television of Leanna Creel, features a family in a canoe on its poster?\nChoice list: \nA. Parent Trap IV: Hawaiian Honeymoon.\nB. Parent Trap: The Early Years.\nC. Parent Trap III: Hayley Mills.\nD. Parent Trap: Hawaiian Honeymoon\nYour answer is: ",
+        "gt_response": "Parent Trap: Hawaiian Honeymoon",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 132,
+        "image": [
+            "MLBench/MultiModalQA/images/281.png",
+            "MLBench/MultiModalQA/images/282.png"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: what is the figure doing in the Knattspyrnudeild Hamars patch\nChoice list: \nA. standing\nB. running\nC. kicking\nD. jumping\nYour answer is: ",
+        "gt_response": "running",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 133,
+        "image": [
+            "MLBench/MultiModalQA/images/283.png",
+            "MLBench/MultiModalQA/images/284.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Team(s), in Top scorers of 1990–91 European Cup, have a crown on their logo?\nChoice list: \nA. Barcelona\nB. AC Milan\nC. Real Madrid\nD. FC Porto\nYour answer is: ",
+        "gt_response": "FC Porto",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 134,
+        "image": [
+            "MLBench/MultiModalQA/images/285.png",
+            "MLBench/MultiModalQA/images/286.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Are palm trees present at the airport where US-Blangla airlines operates in Jessore?\nChoice list: \nA. yes\nB. maybe\nC. sometimes\nD. no\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 135,
+        "image": [
+            "MLBench/MultiModalQA/images/287.png",
+            "MLBench/MultiModalQA/images/288.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the conductor in Choir standing on?\nChoice list: \nA. platform\nB. podium\nC. stool\nD. stage\nYour answer is: ",
+        "gt_response": "stool",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 136,
+        "image": [
+            "MLBench/MultiModalQA/images/289.png",
+            "MLBench/MultiModalQA/images/290.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the hair color of Carol Reed?\"\nChoice list: \nA. blonde\nB. black\nC. red\nD. brunette\nYour answer is: ",
+        "gt_response": "brunette",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 137,
+        "image": [
+            "MLBench/MultiModalQA/images/291.png",
+            "MLBench/MultiModalQA/images/292.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In Division 2 of 2003, which team has a Crown on the emblem of the ECB National League?\nChoice list: \nA. Nottinghamshire County Cricket Club\nB. Derbyshire County Cricket Club\nC. Essex County Cricket Club\nD. Yorkshire County Cricket Club\nYour answer is: ",
+        "gt_response": "Derbyshire County Cricket Club",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 138,
+        "image": [
+            "MLBench/MultiModalQA/images/293.png",
+            "MLBench/MultiModalQA/images/294.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In the representation of the voice type of Hilus (Hyllus), their son, in Hercule mourant, what is the gender of the person in the photo?\nChoice list: \nA. male\nB. non-binary\nC. female\nD. unknown\nYour answer is: ",
+        "gt_response": "female",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 139,
+        "image": [
+            "MLBench/MultiModalQA/images/295.png",
+            "MLBench/MultiModalQA/images/296.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the large object in the middle left of Aria (manga)?\nChoice list: \nA. building\nB. statue\nC. windmill\nD. tree\nYour answer is: ",
+        "gt_response": "windmill",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 140,
+        "image": [
+            "MLBench/MultiModalQA/images/297.png",
+            "MLBench/MultiModalQA/images/298.png"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many different photos of Bossier City, Louisiana are shown?\nChoice list: \nA. five\nB. four\nC. three\nD. two\nYour answer is: ",
+        "gt_response": "four",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 141,
+        "image": [
+            "MLBench/MultiModalQA/images/299.png",
+            "MLBench/MultiModalQA/images/300.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Lennie Bluett's 1939 film title has couple doing what?\nChoice list: \nA. holding hands.\nB. hugging.\nC. kissing\nD. dancing.\nYour answer is: ",
+        "gt_response": "kissing",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 142,
+        "image": [
+            "MLBench/MultiModalQA/images/301.png",
+            "MLBench/MultiModalQA/images/302.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In this photo, is the face of the IndyCar champion of Chip Ganassi Racing from 1996 visible?\nChoice list: \nA. partially.\nB. no\nC. yes.\nD. unclear.\nYour answer is: ",
+        "gt_response": "no",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 143,
+        "image": [
+            "MLBench/MultiModalQA/images/303.png",
+            "MLBench/MultiModalQA/images/304.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What type of lit up wheel is shown in this collage of London?\nChoice list: \nA. spinning\nB. ferris\nC. rotating\nD. illuminated\nYour answer is: ",
+        "gt_response": "ferris",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 144,
+        "image": [
+            "MLBench/MultiModalQA/images/305.png",
+            "MLBench/MultiModalQA/images/306.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In the 1942 MLB All-Star game, which team in the reserves has a bird in their logo?\nChoice list: \nA. Chicago Cubs.\nB. St. Louis Cardinals.\nC. Boston Red Sox.\nD. Baltimore Orioles\nYour answer is: ",
+        "gt_response": "Baltimore Orioles",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 145,
+        "image": [
+            "MLBench/MultiModalQA/images/307.png",
+            "MLBench/MultiModalQA/images/308.png"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color is the bottom half of the circle in SBV Excelsior?\nChoice list: \nA. green\nB. yellow\nC. blue\nD. red\nYour answer is: ",
+        "gt_response": "red",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 146,
+        "image": [
+            "MLBench/MultiModalQA/images/309.png",
+            "MLBench/MultiModalQA/images/310.png"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color is the oval shape of the Lola Cars logo?\nChoice list: \nA. blue\nB. green\nC. yellow\nD. red\nYour answer is: ",
+        "gt_response": "yellow",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 147,
+        "image": [
+            "MLBench/MultiModalQA/images/311.png",
+            "MLBench/MultiModalQA/images/312.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is around the finger of Suresh Gopi?\nChoice list: \nA. watch\nB. ring\nC. bracelet\nD. necklace\nYour answer is: ",
+        "gt_response": "ring",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 148,
+        "image": [
+            "MLBench/MultiModalQA/images/313.png",
+            "MLBench/MultiModalQA/images/314.png"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Junkyard Dog(s), in Roster of WWE Legends of WrestleMania, has long hair?\nChoice list: \nA. Hulk Hogan\nB. Ric Flair\nC. The Undertaker\nD. Michael Hayes (wrestler)\nYour answer is: ",
+        "gt_response": "Michael Hayes (wrestler)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 149,
+        "image": [
+            "MLBench/MultiModalQA/images/315.png",
+            "MLBench/MultiModalQA/images/316.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the entrance to City Stadium (Green Bay)?\nChoice list: \nA. entrance\nB. door\nC. exit\nD. gate\nYour answer is: ",
+        "gt_response": "gate",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 150,
+        "image": [
+            "MLBench/MultiModalQA/images/317.png",
+            "MLBench/MultiModalQA/images/318.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is Robert Altman wearing on his left arm?\nChoice list: \nA. watch\nB. fitbit\nC. bracelet\nD. sleeve\nYour answer is: ",
+        "gt_response": "watch",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. watch",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 151,
+        "image": [
+            "MLBench/MultiModalQA/images/319.png",
+            "MLBench/MultiModalQA/images/320.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What type of sports activity are these people in the Marathon doing?\nChoice list: \nA. jogging\nB. running\nC. racing\nD. sprinting\nYour answer is: ",
+        "gt_response": "racing",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 152,
+        "image": [
+            "MLBench/MultiModalQA/images/321.png",
+            "MLBench/MultiModalQA/images/322.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Opera(s), in Repertory of Karita Mattila, has a single old man in scene?\nChoice list: \nA. Die Meistersinger von Nürnberg\nB. Der Rosenkavalier\nC. Ariadne auf Naxos\nD. Arabella\nYour answer is: ",
+        "gt_response": "Arabella",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 153,
+        "image": [
+            "MLBench/MultiModalQA/images/323.png",
+            "MLBench/MultiModalQA/images/324.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which venue has a billboard with nine team logos in the regular 1961 Minnesota Viking season?\nChoice list: \nA. Metropolitan Stadium.\nB. Soldier Field.\nC. Milwaukee County Stadium\nD. Lambeau Field.\nYour answer is: ",
+        "gt_response": "Milwaukee County Stadium",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 154,
+        "image": [
+            "MLBench/MultiModalQA/images/325.png",
+            "MLBench/MultiModalQA/images/326.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What type of ball is the center of the FC Bolosani logo?\nChoice list: \nA. volleyball\nB. soccer\nC. tennis\nD. basketball\nYour answer is: ",
+        "gt_response": "soccer",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 155,
+        "image": [
+            "MLBench/MultiModalQA/images/327.png",
+            "MLBench/MultiModalQA/images/328.png"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many photos make up this collage of Grenoble?\nChoice list: \nA. five\nB. four\nC. three\nD. two\nYour answer is: ",
+        "gt_response": "five",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 156,
+        "image": [
+            "MLBench/MultiModalQA/images/329.png",
+            "MLBench/MultiModalQA/images/330.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many people are pictured on the seal of NYPD Blue?\nChoice list: \nA. four\nB. five\nC. two\nD. three\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 157,
+        "image": [
+            "MLBench/MultiModalQA/images/331.png",
+            "MLBench/MultiModalQA/images/332.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: In the city that houses the venue in which the Men's events of the Essent Cup 2006-07 were held on December 23rd, what materials are the sidewalks made of?\nChoice list: \nA. concrete\nB. stone\nC. brick\nD. asphalt\nYour answer is: ",
+        "gt_response": "brick",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 159,
+        "image": [
+            "MLBench/MultiModalQA/images/336.png",
+            "MLBench/MultiModalQA/images/337.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Can you see the face of the IndyCar Champion that raced in the Reynard 96I chassis for Chip Gannasi Racing?\nChoice list: \nA. yes\nB. no\nC. maybe\nD. sometimes\nYour answer is: ",
+        "gt_response": "no",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "The IndyCar Champion raced in the Reynard 96I chassis for Chip Ganassi Racing.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 160,
+        "image": [
+            "MLBench/MultiModalQA/images/338.png",
+            "MLBench/MultiModalQA/images/339.png"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color are the pants associated with the 2016 San Francisco 49ers season?\nChoice list: \nA. tan\nB. white\nC. red\nD. gold\nYour answer is: ",
+        "gt_response": "tan",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 161,
+        "image": [
+            "MLBench/MultiModalQA/images/340.png",
+            "MLBench/MultiModalQA/images/341.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many red rectangles are on the flag for Canada?\nChoice list: \nA. three\nB. five\nC. four\nD. two\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 162,
+        "image": [
+            "MLBench/MultiModalQA/images/342.png",
+            "MLBench/MultiModalQA/images/343.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the color of the background for the Knots Landing logo?\nChoice list: \nA. black\nB. blue\nC. white\nD. yellow\nYour answer is: ",
+        "gt_response": "white",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. black",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 163,
+        "image": [
+            "MLBench/MultiModalQA/images/344.png",
+            "MLBench/MultiModalQA/images/345.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The episode of Science Rock of Schoolhouse Rock named Victim of Gravity has a subject with how many visible fingers in the painting?\nChoice list: \nA. three\nB. four\nC. two\nD. five\nYour answer is: ",
+        "gt_response": "four",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 164,
+        "image": [
+            "MLBench/MultiModalQA/images/346.png",
+            "MLBench/MultiModalQA/images/347.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color bag is the girl holding in student of the year?\nChoice list: \nA. red\nB. orange\nC. blue\nD. green\nYour answer is: ",
+        "gt_response": "orange",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 165,
+        "image": [
+            "MLBench/MultiModalQA/images/348.png",
+            "MLBench/MultiModalQA/images/349.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The direction of driving at the location where the French Grand Prix will be held is indicated with what shape?\nChoice list: \nA. circle\nB. triangle\nC. arrow\nD. square\nYour answer is: ",
+        "gt_response": "arrow",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 166,
+        "image": [
+            "MLBench/MultiModalQA/images/350.png",
+            "MLBench/MultiModalQA/images/351.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: For the convoys in the convoys escorted for the USS Swanson DD-443 with dates 5-13 November 1941, how many flags are flying above the ship?\nChoice list: \nA. five\nB. three\nC. six\nD. four\nYour answer is: ",
+        "gt_response": "five",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 167,
+        "image": [
+            "MLBench/MultiModalQA/images/352.png",
+            "MLBench/MultiModalQA/images/353.png"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What shape is the Scarborough Fair (ballad) record?\nChoice list: \nA. oval\nB. circle\nC. triangular\nD. square\nYour answer is: ",
+        "gt_response": "circle",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 168,
+        "image": [
+            "MLBench/MultiModalQA/images/354.png",
+            "MLBench/MultiModalQA/images/355.jpeg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Of the American movies from 1973 that can be found alphabetically between T and Z, which one features a female gymnast on its poster?\nChoice list: \nA. The Balance Beam.\nB. The Acrobat.\nC. Visions of Eight\nD. The Gymnast.\nYour answer is: ",
+        "gt_response": "Visions of Eight",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 169,
+        "image": [
+            "MLBench/MultiModalQA/images/356.png",
+            "MLBench/MultiModalQA/images/357.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: There is a man wearing glasses on the image of which television show featuring Patricia Mauceri?\nChoice list: \nA. Guiding Light.\nB. As the World Turns.\nC. 100 Centre Street\nD. One Life to Live.\nYour answer is: ",
+        "gt_response": "100 Centre Street",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 170,
+        "image": [
+            "MLBench/MultiModalQA/images/358.png",
+            "MLBench/MultiModalQA/images/359.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The 1911-24 Henry Sproatt Notable projects building has what color curbs?\nChoice list: \nA. green\nB. red\nC. blue\nD. yellow\nYour answer is: ",
+        "gt_response": "yellow",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 171,
+        "image": [
+            "MLBench/MultiModalQA/images/360.png",
+            "MLBench/MultiModalQA/images/361.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the center object pictured here that is related to  Goran Vlaović?\nChoice list: \nA. trophy\nB. award\nC. plaque\nD. medal\nYour answer is: ",
+        "gt_response": "medal",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 172,
+        "image": [
+            "MLBench/MultiModalQA/images/362.png",
+            "MLBench/MultiModalQA/images/363.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The 2007-08 Carlo Costly League picture has how many players?\nChoice list: \nA. thirteen\nB. fifteen\nC. eleven\nD. twelve\nYour answer is: ",
+        "gt_response": "thirteen",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 173,
+        "image": [
+            "MLBench/MultiModalQA/images/364.png",
+            "MLBench/MultiModalQA/images/365.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The ball that is used in the sport with 1 billion fans in the sports listed by popularity is mainly what color?\nChoice list: \nA. red\nB. blue\nC. green\nD. yellow\nYour answer is: ",
+        "gt_response": "green",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 174,
+        "image": [
+            "MLBench/MultiModalQA/images/366.png",
+            "MLBench/MultiModalQA/images/367.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Joanne Goode scored 15-2, 15-11 at the IBF International tournament shown with two women doing what with their right hands?\nChoice list: \nA. shaking\nB. None of the answers given.\nC. Holding hands.\nD. high-fiving. waving.\nYour answer is: ",
+        "gt_response": "shaking",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. shaking",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 175,
+        "image": [
+            "MLBench/MultiModalQA/images/368.png",
+            "MLBench/MultiModalQA/images/369.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is Bartosz Zmarzlik wearing on his head?\nChoice list: \nA. glasses\nB. helmet\nC. hat\nD. cap\nYour answer is: ",
+        "gt_response": "hat",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 176,
+        "image": [
+            "MLBench/MultiModalQA/images/370.png",
+            "MLBench/MultiModalQA/images/371.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Does the shirt the athlete with a performance of 1:19:59 in the 20 km walk of Athletics in Italy have sleeves?\nChoice list: \nA. sometimes\nB. no\nC. yes\nD. maybe\nYour answer is: ",
+        "gt_response": "no",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 177,
+        "image": [
+            "MLBench/MultiModalQA/images/372.png",
+            "MLBench/MultiModalQA/images/373.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the woman's hand on in the City of Angels (film) poster\nChoice list: \nA. face\nB. handbag\nC. phone\nD. book\nYour answer is: ",
+        "gt_response": "face",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. face",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 178,
+        "image": [
+            "MLBench/MultiModalQA/images/374.png",
+            "MLBench/MultiModalQA/images/375.png"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color makes up the horizontal streak in the middle of the Doctor Who title screen?\nChoice list: \nA. blue\nB. red\nC. green\nD. yellow\nYour answer is: ",
+        "gt_response": "blue",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. blue",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 179,
+        "image": [
+            "MLBench/MultiModalQA/images/376.png",
+            "MLBench/MultiModalQA/images/377.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What are the men wearing on their heads in Northfork?\nChoice list: \nA. sunglasses\nB. cowboy hats\nC. hats\nD. beanies\nYour answer is: ",
+        "gt_response": "hats",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 180,
+        "image": [
+            "MLBench/MultiModalQA/images/378.png",
+            "MLBench/MultiModalQA/images/379.png"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many uniform options from the 2013 San Francisco 49ers season include tan pants?\nChoice list: \nA. four\nB. three\nC. one\nD. two\nYour answer is: ",
+        "gt_response": "two",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 181,
+        "image": [
+            "MLBench/MultiModalQA/images/380.png",
+            "MLBench/MultiModalQA/images/381.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is behind the Blue Parade album singer left shoulder?\nChoice list: \nA. hair\nB. shoulder blade\nC. head\nD. back\nYour answer is: ",
+        "gt_response": "head",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 182,
+        "image": [
+            "MLBench/MultiModalQA/images/382.png",
+            "MLBench/MultiModalQA/images/383.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many photos make up this collage of Dusseldorf?\nChoice list: \nA. five\nB. two\nC. three.\nD. four\nYour answer is: ",
+        "gt_response": "four",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 183,
+        "image": [
+            "MLBench/MultiModalQA/images/384.png",
+            "MLBench/MultiModalQA/images/385.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What sport is Jonathan Sexton playing here?\nChoice list: \nA. football\nB. rugby\nC. soccer\nD. basketball\nYour answer is: ",
+        "gt_response": "rugby",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 184,
+        "image": [
+            "MLBench/MultiModalQA/images/386.png",
+            "MLBench/MultiModalQA/images/387.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is Charlie Puth's hair combed or messy?\nChoice list: \nA. tidy\nB. messy\nC. combed\nD. neat\nYour answer is: ",
+        "gt_response": "messy",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 185,
+        "image": [
+            "MLBench/MultiModalQA/images/388.png",
+            "MLBench/MultiModalQA/images/389.png"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: A Fazenda 2's Fernando Scherer hometown has what color awnings?\nChoice list: \nA. yellow\nB. blue\nC. green\nD. red\nYour answer is: ",
+        "gt_response": "green",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 187,
+        "image": [
+            "MLBench/MultiModalQA/images/397.png",
+            "MLBench/MultiModalQA/images/398.jpg"
+        ],
+        "question": "Using the relevant information I provide, which encompasses images, text, and tables, please accurately answer the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Is the cross on the flag for Sweden blue or yellow in color?\nChoice list: \nA. yellow\nB. blue\nC. green\nD. red\nYour answer is: ",
+        "gt_response": "yellow",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. yellow",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 189,
+        "image": [
+            "MLBench/MultiModalQA/images/406.png",
+            "MLBench/MultiModalQA/images/407.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What position are Gary Zukav's hands in?\nChoice list: \nA. crossed\nB. open\nC. clenched\nD. folded\nYour answer is: ",
+        "gt_response": "folded",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 191,
+        "image": [
+            "MLBench/MultiModalQA/images/411.png",
+            "MLBench/MultiModalQA/images/412.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is Jeff Gordon wearing over his eyes?\nChoice list: \nA. goggles\nB. glasses\nC. eyepatch\nD. sunglasses\nYour answer is: ",
+        "gt_response": "sunglasses",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 192,
+        "image": [
+            "MLBench/MultiModalQA/images/413.png",
+            "MLBench/MultiModalQA/images/414.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Are there players on the field in Ravenhill Stadium?\nChoice list: \nA. no\nB. occasionally\nC. yes\nD. sometimes\nYour answer is: ",
+        "gt_response": "no",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 193,
+        "image": [
+            "MLBench/MultiModalQA/images/415.png",
+            "MLBench/MultiModalQA/images/416.png"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What color is the outer ring in the logo of Fajr Sepasi Shiraz F.C.?\nChoice list: \nA. green\nB. yellow\nC. \nD. blue\nYour answer is: ",
+        "gt_response": "yellow",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 194,
+        "image": [
+            "MLBench/MultiModalQA/images/417.png",
+            "MLBench/MultiModalQA/images/418.jpg"
+        ],
+        "question": "Relying on the furnished information, which includes graphics, text, and tabular data, could you provide an accurate response to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: The player on the list for clean sheets in the 2016-17  Liga I on Dinamo Bucuresti is wearing what on his left hand?\nChoice list: \nA. bracelet\nB. sock\nC. glove\nD. watch\nYour answer is: ",
+        "gt_response": "glove",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 195,
+        "image": [
+            "MLBench/MultiModalQA/images/419.png",
+            "MLBench/MultiModalQA/images/420.jpg"
+        ],
+        "question": "Given a set of information including images, text, and tables, your task is to use this data to answer the subsequent question correctly. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What is the background color of the Angry All the Time cover?\nChoice list: \nA. dark blue\nB. white\nC. gray\nD. black\nYour answer is: ",
+        "gt_response": "black",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 196,
+        "image": [
+            "MLBench/MultiModalQA/images/421.png",
+            "MLBench/MultiModalQA/images/422.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Does Ford Motor Company 1980 Michigan headquarters building exceed 5 stories?\nChoice list: \nA. yes\nB. no\nC. six\nD. three\nYour answer is: ",
+        "gt_response": "yes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 197,
+        "image": [
+            "MLBench/MultiModalQA/images/423.png",
+            "MLBench/MultiModalQA/images/424.jpg"
+        ],
+        "question": "Considering the information in different formats I've provided you, could you formulate a correct response to the ensuing query? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: Which Location(s), in Top 100 in the world of Golf Magazine, has a green sign with round part at the top?\nChoice list: \nA. St. Andrews, Scotland.\nB. Ardmore, Pennsylvania\nC. Augusta, Georgia.\nD. Pebble Beach, California.\nYour answer is: ",
+        "gt_response": "Ardmore, Pennsylvania",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. St. Andrews, Scotland.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 198,
+        "image": [
+            "MLBench/MultiModalQA/images/425.png",
+            "MLBench/MultiModalQA/images/426.png"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: What mathaematical sign is the Chevrolet logo similar to?\nChoice list: \nA. minus\nB. plus\nC. times\nD. division\nYour answer is: ",
+        "gt_response": "plus",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 199,
+        "image": [
+            "MLBench/MultiModalQA/images/427.png",
+            "MLBench/MultiModalQA/images/428.jpg"
+        ],
+        "question": "Given a collection of relevant data, which includes images, text, and tables, your task is to respond accurately to the ensuing question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> Question: How many people are in the photo of Gunsmoke?\nChoice list: \nA. five\nB. four\nC. two\nD. three\nYour answer is: ",
+        "gt_response": "four",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 111,
+        "image": [
+            "MLBench/MultiModalQA/images/222.png",
+            "MLBench/MultiModalQA/images/223.jpg",
+            "MLBench/MultiModalQA/images/224.jpg",
+            "MLBench/MultiModalQA/images/225.png",
+            "MLBench/MultiModalQA/images/226.jpg"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> <ImageHere> <ImageHere> <ImageHere> Question: Which Winner -(s), in Calendar of Snooker season 1997/1998, have a full head of hair?\nChoice list: \nA. John Higgins. Mark Williams. John Parrott. Peter Ebdon\nB. Ken DohertyDominic DaleStephen HendryRonnie O'Sullivan\nYour answer is: ",
+        "gt_response": "Ken DohertyDominic DaleStephen HendryRonnie O'Sullivan",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. John Higgins. Mark Williams. John Parrott. Peter Ebdon",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 120,
+        "image": [
+            "MLBench/MultiModalQA/images/244.jpg",
+            "MLBench/MultiModalQA/images/245.png",
+            "MLBench/MultiModalQA/images/246.jpg",
+            "MLBench/MultiModalQA/images/247.jpg",
+            "MLBench/MultiModalQA/images/248.jpg",
+            "MLBench/MultiModalQA/images/249.jpg"
+        ],
+        "question": "Using the array of information, including imagery, textual data, and tables, could you provide an accurate answer to the posed question? You must choose your answer from the Choice List. \n Context: <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> Question: in Round 4 of 2012 NRL Under-20s season results, which home team has an animal on the logo?\nChoice list: \nA. Parramatta EelsSouth Sydney RabbitohsNorth Queensland CowboysCanterbury-Bankstown BulldogsWests TigersStGeorge Illawarra Dragons\nB. Canterbury-Bankstown Bulldogs. Wests Tigers. Cronulla Sharks.\nC. Parramatta Eels. South Sydney Rabbitohs. North Queensland Cowboys.\nD. Sydney Roosters. St. George Illawarra Dragons.\nYour answer is: ",
+        "gt_response": "Parramatta EelsSouth Sydney RabbitohsNorth Queensland CowboysCanterbury-Bankstown BulldogsWests TigersStGeorge Illawarra Dragons",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 186,
+        "image": [
+            "MLBench/MultiModalQA/images/391.jpg",
+            "MLBench/MultiModalQA/images/392.jpg",
+            "MLBench/MultiModalQA/images/393.jpg",
+            "MLBench/MultiModalQA/images/394.jpg",
+            "MLBench/MultiModalQA/images/395.jpg",
+            "MLBench/MultiModalQA/images/396.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \n Context: <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> Question: Which Cover model(s), in 1998 of List of Allure cover models, have blonde hair?\nChoice list: \nA. Gisele Bündchen\nB. Drew Barrymore\nC. Eva HerzigováRebecca RomijnJennifer AnistonHelen HuntNiki TaylorClaudia Schiffer\nD. Cameron Diaz\nYour answer is: ",
+        "gt_response": "Eva HerzigováRebecca RomijnJennifer AnistonHelen HuntNiki TaylorClaudia Schiffer",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 188,
+        "image": [
+            "MLBench/MultiModalQA/images/400.png",
+            "MLBench/MultiModalQA/images/401.jpg",
+            "MLBench/MultiModalQA/images/402.png",
+            "MLBench/MultiModalQA/images/403.jpg",
+            "MLBench/MultiModalQA/images/404.png",
+            "MLBench/MultiModalQA/images/405.jpg"
+        ],
+        "question": "With the aid of provided information like images, text, and tables, your assignment is to respond correctly to the question. You must choose your answer from the Choice List. \n Context: <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> Question: When looking at the opening ceremonies of 2019's PBA season, which of the teams listed there have a basketball on their logo?\nChoice list: \nA. Talk 'N Text Tropang Giga.\nB. Phoenix Pulse Fuel Masters. San Miguel Beermen. Barangay Ginebra San Miguel.\nC. Rain or Shine Elasto PaintersMeralco BoltsNLEX Road WarriorsAlaska Aces (PBA)Phoenix Pulse Fuel MastersSan Miguel Beermen\nYour answer is: ",
+        "gt_response": "Rain or Shine Elasto PaintersMeralco BoltsNLEX Road WarriorsAlaska Aces (PBA)Phoenix Pulse Fuel MastersSan Miguel Beermen",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 122,
+        "image": [
+            "MLBench/MultiModalQA/images/255.jpg",
+            "MLBench/MultiModalQA/images/256.jpg",
+            "MLBench/MultiModalQA/images/257.jpg",
+            "MLBench/MultiModalQA/images/258.jpg",
+            "MLBench/MultiModalQA/images/259.jpg",
+            "MLBench/MultiModalQA/images/260.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \n <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> <ImageHere> Question: The team with a logo that is circular in shape, among away team in Second round of 1995–96 Scottish League Cup, is?\nChoice list: \nA. Heart of Midlothian F.C.\nB. Hibernian F.C.\nC. Dundee United F.C.Motherwell F.C.Hamilton Academical F.C.Partick Thistle F.C.Falkirk F.C.Stenhousemuir F.C.St Mirren F.C.Celtic F.C.\nD. Greenock Morton F.C.\nYour answer is: ",
+        "gt_response": "Dundee United F.C.Motherwell F.C.Hamilton Academical F.C.Partick Thistle F.C.Falkirk F.C.Stenhousemuir F.C.St Mirren F.C.Celtic F.C.",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Celtic F.C.",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 123,
+        "image": [
+            "MLBench/MultiModalQA/images/261.png",
+            "MLBench/MultiModalQA/images/262.jpg",
+            "MLBench/MultiModalQA/images/263.png",
+            "MLBench/MultiModalQA/images/264.jpg"
+        ],
+        "question": "Utilizing the information, including images, text, and tables that I provide, could you provide a correct answer to the following question? You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> <ImageHere> <ImageHere> Question: What relegated teams in the 2015-16 season have a ball on their logo?\nChoice list: \nA. Club América.\nB. Chiapas F.C.Club LeónMonarcas Morelia\nC. Club Atlas.\nD. Toluca F.C.\nYour answer is: ",
+        "gt_response": "Chiapas F.C.Club LeónMonarcas Morelia",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 158,
+        "image": [
+            "MLBench/MultiModalQA/images/333.png",
+            "MLBench/MultiModalQA/images/334.jpg",
+            "MLBench/MultiModalQA/images/335.jpg"
+        ],
+        "question": "Based on the data provided, which includes various forms like images, text, and tables, please respond to the following query. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> <ImageHere> Question: Which Driver(s), in Top 10 results of 2000 DirecTV 500, have a mustache?\nChoice list: \nA. Jimmie Johnson. Jeff Gordon.\nB. Kyle Busch.\nC. Terry LabonteDale Earnhardt\nYour answer is: ",
+        "gt_response": "Terry LabonteDale Earnhardt",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 190,
+        "image": [
+            "MLBench/MultiModalQA/images/408.png",
+            "MLBench/MultiModalQA/images/409.jpg",
+            "MLBench/MultiModalQA/images/410.png"
+        ],
+        "question": "With the amalgam of information provided, encompassing images, texts, and tables, please construct a correct answer to the following question. You must choose your answer from the Choice List. \nGlobal Table: <ImageHere> Context: <ImageHere> <ImageHere> Question: Which Conference(s), in Football conferences of List of NAIA conferences, has stars in logo?\nChoice list: \nA. Sooner Athletic Conference. Kansas Collegiate Athletic Conference.\nB. Great Plains Athletic ConferenceMid-South Conference\nC. Heart of America Athletic Conference.\nYour answer is: ",
+        "gt_response": "Great Plains Athletic ConferenceMid-South Conference",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    }
+]

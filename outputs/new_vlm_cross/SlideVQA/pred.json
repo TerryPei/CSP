@@ -1,0 +1,3404 @@
+[
+    {
+        "sample_id": 0,
+        "image": [
+            "MLBench/SlideVQA/images/0.jpg",
+            "MLBench/SlideVQA/images/1.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many profiles are viewed every day on the social website that has over 350 million members and where the average user has 240 connections?\nChoice list: \nA. Approximately 20 million\nB. Around 30 million\nC. Over 25 million\nD. More than 15 million\nYour answer is: ",
+        "gt_response": "Over 25 million",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 1,
+        "image": [
+            "MLBench/SlideVQA/images/2.jpg",
+            "MLBench/SlideVQA/images/3.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many percentage points did consumption of the media that's been growing every year gain from 2011 to 2015?\nChoice list: \nA. 12.8\nB. 13.2\nC. 14.0\nD. 13.5\nYour answer is: ",
+        "gt_response": "13.2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 2,
+        "image": [
+            "MLBench/SlideVQA/images/4.jpg",
+            "MLBench/SlideVQA/images/5.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who is Chairman and CEO of the company whose website is www.lafarge.com?\nChoice list: \nA. Sophie Gasperment\nB. Francois Bernard\nC. Bruno Lafont\nD. Jean-Pierre Clamadieu\nYour answer is: ",
+        "gt_response": "Bruno Lafont",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. Bruno Lafont",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 3,
+        "image": [
+            "MLBench/SlideVQA/images/6.jpg",
+            "MLBench/SlideVQA/images/7.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Is there more Free cash flow in the year in which there was a cost savings of 370 million euro or in 2013?\nChoice list: \nA. 2012\nB. 2014\nC. 2015\nD. 2013\nYour answer is: ",
+        "gt_response": "2013",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 4,
+        "image": [
+            "MLBench/SlideVQA/images/8.jpg",
+            "MLBench/SlideVQA/images/9.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which decays quickly, Sales activation or the strategy whose share growth effects outpace those of Sales activation after six months?\nChoice list: \nA. Neither of them have any effect after six months\nB. the strategy whose share growth effects outpace those of Sales activation after six months\nC. Sales activation\nD. Neither of them decay quickly\nYour answer is: ",
+        "gt_response": "Sales activation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 5,
+        "image": [
+            "MLBench/SlideVQA/images/10.jpg",
+            "MLBench/SlideVQA/images/11.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of CNS Revenue was by the customer category that comprises 4 percent of the total for level 3 operational metrics in 3Q15?\nChoice list: \nA. 28\nB. 14\nC. 42\nD. 56\nYour answer is: ",
+        "gt_response": "28",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 6,
+        "image": [
+            "MLBench/SlideVQA/images/12.jpg",
+            "MLBench/SlideVQA/images/13.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Relationship between a Principal and the entity that can be sued if they have exceeded authority?\nChoice list: \nA. AGENT\nB. GUARDIAN\nC. FIDUCIARY\nD. RESPONSIBLE PARTY\nYour answer is: ",
+        "gt_response": "FIDUCIARY",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 7,
+        "image": [
+            "MLBench/SlideVQA/images/14.jpg",
+            "MLBench/SlideVQA/images/15.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are the three Types of the entity that gives authority to an agent via a contract?\nChoice list: \nA. Disclosed, Unspecified, Partially Disclosed\nB. Full Disclosed, Undisclosed, Partially Disclosed\nC. Disclosed, Undisclosed, Partially Disclosed\nD. Non-Disclosed, Completely Undisclosed, Partially Disclosed\nYour answer is: ",
+        "gt_response": "Disclosed, Undisclosed, Partially Disclosed",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Disclosed, Undisclosed, Partially Disclosed",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 8,
+        "image": [
+            "MLBench/SlideVQA/images/16.jpg",
+            "MLBench/SlideVQA/images/17.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: The commission of the service through which one Wikileaks article led to 3500 donations is what percentage of the Reader's monthly subscription fee?\nChoice list: \nA. 5\nB. 20\nC. 10\nD. 15\nYour answer is: ",
+        "gt_response": "10",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 9,
+        "image": [
+            "MLBench/SlideVQA/images/18.jpg",
+            "MLBench/SlideVQA/images/19.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What model of the product that complies with stringent American FCC regulations and reduces the impact of Electromagnetic Interference appears in the presentation?\nChoice list: \nA. X570 GAMING PRO CARBON\nB. H310M PRO-VD Plus\nC. B450 TOMAHAWK\nD. Z97S SLI PLUS\nYour answer is: ",
+        "gt_response": "Z97S SLI PLUS",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 10,
+        "image": [
+            "MLBench/SlideVQA/images/20.jpg",
+            "MLBench/SlideVQA/images/21.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Installed version of the utility Direct OC from the company whose Classic series continues with a black & blue design?\nChoice list: \nA. 1006.5\nB. 1008\nC. 1009\nD. 1007\nYour answer is: ",
+        "gt_response": "1007",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 11,
+        "image": [
+            "MLBench/SlideVQA/images/22.jpg",
+            "MLBench/SlideVQA/images/23.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the structure into which glomeruler filtrate filters through the glomeruli part of?\nChoice list: \nA. Glomerular capsule\nB. Renal corpuscle\nC. Renal medulla\nD. Renal tubule\nYour answer is: ",
+        "gt_response": "Renal corpuscle",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 12,
+        "image": [
+            "MLBench/SlideVQA/images/24.jpg",
+            "MLBench/SlideVQA/images/25.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of the group of people whose feedback is gold doesn't voice complaints?\nChoice list: \nA. 92%\nB. 98%\nC. 94%\nD. 96\nYour answer is: ",
+        "gt_response": "96",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 13,
+        "image": [
+            "MLBench/SlideVQA/images/26.jpg",
+            "MLBench/SlideVQA/images/27.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of social job seekers are in the age range that includes age groups for whom 16-percent to 36-percent change jobs every 1-3 years?\nChoice list: \nA. 65\nB. 80\nC. 75\nD. 70\nYour answer is: ",
+        "gt_response": "70",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 14,
+        "image": [
+            "MLBench/SlideVQA/images/28.jpg",
+            "MLBench/SlideVQA/images/29.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are five parts of the body part whose physical description can include round, oval, square, with scars, wrinkles, freckles, sun-tanned, pale?\nChoice list: \nA. HAIR, NOSE, LIPS, EYE, EAR\nB. HAND, FOOT, LEG, ARM, CHEST\nYour answer is: ",
+        "gt_response": "HAIR, NOSE, LIPS, EYE, EAR",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. HAIR, NOSE, LIPS, EYE, EAR",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 15,
+        "image": [
+            "MLBench/SlideVQA/images/30.jpg",
+            "MLBench/SlideVQA/images/31.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Is the sales cycle longer or shorter in 2014 compared to the year in which the average sales enablement budget was 1.2 million dollars?\nChoice list: \nA. The same\nB. Longer\nC. No change\nD. Shorter\nYour answer is: ",
+        "gt_response": "Longer",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 16,
+        "image": [
+            "MLBench/SlideVQA/images/32.jpg",
+            "MLBench/SlideVQA/images/33.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many billions of dollars was US digital ad spending for the category that is growing faster than any marketing channel ever in 2013?\nChoice list: \nA. 10.67\nB. 11.53\nC. 9.89\nD. 13.27\nYour answer is: ",
+        "gt_response": "10.67",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 17,
+        "image": [
+            "MLBench/SlideVQA/images/34.jpg",
+            "MLBench/SlideVQA/images/35.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Between the year in which peak Tbps was over 10,000 and 2020, was traffic on Akamai's platform expected to grow a lot or a little?\nChoice list: \nA. A little\nB. A lot\nC. Not at all\nD. Uncertain\nYour answer is: ",
+        "gt_response": "A lot",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 18,
+        "image": [
+            "MLBench/SlideVQA/images/36.jpg",
+            "MLBench/SlideVQA/images/37.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Has the number of respondents for whom leisure time is always or frequently included on a business trip increased or decreased from 2008 to the year in which 54-percent of personal travelers agreed or strongly agreed that they plan to spend more time shopping around/researching before booking travel?\nChoice list: \nA. Decreased\nB. Increased\nC. Remained the same\nD. Insufficient data\nYour answer is: ",
+        "gt_response": "Increased",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 19,
+        "image": [
+            "MLBench/SlideVQA/images/38.jpg",
+            "MLBench/SlideVQA/images/39.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of the group of people who, according to the presentation, spend 25-percent of their time online on social networks use a mobile phone?\nChoice list: \nA. 88\nB. 95\nC. 80\nD. 75\nYour answer is: ",
+        "gt_response": "88",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 20,
+        "image": [
+            "MLBench/SlideVQA/images/40.jpg",
+            "MLBench/SlideVQA/images/41.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which website is #1 in the traffic rankings in the country where 1 in 2 mobile subscribers own a smartphone according to the presentation?\nChoice list: \nA. Google\nB. Twitter\nC. LinkedIn\nD. Facebook\nYour answer is: ",
+        "gt_response": "Google",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 21,
+        "image": [
+            "MLBench/SlideVQA/images/42.jpg",
+            "MLBench/SlideVQA/images/43.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the motto of the organization that is the source of the diagram \"Adult Tachycardia (With Pulse)\" pictured in the presentation?\nChoice list: \nA. Explore and Evolve\nB. Grow and Thrive\nC. Live and Learn\nD. Learn and Live\nYour answer is: ",
+        "gt_response": "Learn and Live",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 22,
+        "image": [
+            "MLBench/SlideVQA/images/44.jpg",
+            "MLBench/SlideVQA/images/45.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many more Gbps does a network have in the year in which Reynold Xiu delivered the presentation entitled \"From DataFrames to Tungsten: A Peek into Spark's Future\" compared to 2010?\nChoice list: \nA. 7\nB. 9\nC. 10\nD. 8\nYour answer is: ",
+        "gt_response": "9",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 23,
+        "image": [
+            "MLBench/SlideVQA/images/46.jpg",
+            "MLBench/SlideVQA/images/47.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the primary skin irritation score of the surfactant with a Draize eye irritation score of 32.0?\nChoice list: \nA. 10\nB. 20\nC. 5\nD. 15\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 24,
+        "image": [
+            "MLBench/SlideVQA/images/48.jpg",
+            "MLBench/SlideVQA/images/49.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Intel product that accelerates math?\nChoice list: \nA. Intel Math Kernel Library\nB. Intel Math Acceleration Engine\nC. Intel Math Boost\nD. Intel Accelerator Math\nYour answer is: ",
+        "gt_response": "Intel Math Kernel Library",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Intel Math Kernel Library",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 25,
+        "image": [
+            "MLBench/SlideVQA/images/50.jpg",
+            "MLBench/SlideVQA/images/51.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What does the Ecoboost technology that improves combustion efficiency enable?\nChoice list: \nA. reduced emissions\nB. scavenging action\nC. increased fuel economy\nD. powerful acceleration\nYour answer is: ",
+        "gt_response": "scavenging action",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 26,
+        "image": [
+            "MLBench/SlideVQA/images/52.jpg",
+            "MLBench/SlideVQA/images/53.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: As levels of globalization increase, what happens to levels of the activity whose external category includes credit application, online, transactional, claims, and other industry-specific types?\nChoice list: \nA. Remain stable\nB. Increase\nC. Fluctuate\nD. Decrease\nYour answer is: ",
+        "gt_response": "Increase",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 27,
+        "image": [
+            "MLBench/SlideVQA/images/54.jpg",
+            "MLBench/SlideVQA/images/55.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are three types of the substance that, when it is of the bio-medical category, is defined by WHO as being generated during the diagnosis, testing, treatment, research or production of biological products for humans or animals?\nChoice list: \nA. Solid, Fluid, Vaporous\nB. Solid, Solution, Vaporized\nC. Solid, Liquid, Gaseous\nD. Plasma, Solvent, Vaporous\nYour answer is: ",
+        "gt_response": "Solid, Liquid, Gaseous",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 28,
+        "image": [
+            "MLBench/SlideVQA/images/56.jpg",
+            "MLBench/SlideVQA/images/57.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the IBM focus in the type of market which accounted for 18-percent of IBM geographic revenue in 2008?\nChoice list: \nA. Expansion into emerging markets\nB. Leverage talent\nC. Drive innovation\nD. Invest for growth\nYour answer is: ",
+        "gt_response": "Invest for growth",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 29,
+        "image": [
+            "MLBench/SlideVQA/images/58.jpg",
+            "MLBench/SlideVQA/images/59.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the website to get your digital copy for the country where shoppers rely more heavily on mobile than their American counterparts?\nChoice list: \nA. Bazaarvoice.com/uk/conversationindex\nB. Shoppersmobile.com/uk/conversationindex\nC. Bazaarvoice.com/mobile/conversationindex\nD. Bazaarvoice.com/uk/mobile/conversionindex\nYour answer is: ",
+        "gt_response": "Bazaarvoice.com/uk/conversationindex",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Bazaarvoice.com/uk/conversationindex",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 30,
+        "image": [
+            "MLBench/SlideVQA/images/60.jpg",
+            "MLBench/SlideVQA/images/61.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which day had the highest score that measures the activity of the fans on page?\nChoice list: \nA. Q1: How many uniform options shown here for the 2016 San Francisco 49ers season include tan pants?\nB. A1: two\nC. Mon\nD. I1: three\nYour answer is: ",
+        "gt_response": "Mon",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 31,
+        "image": [
+            "MLBench/SlideVQA/images/62.jpg",
+            "MLBench/SlideVQA/images/63.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Is 8 to the frequency at which a probe emits a focused sound beam (in MHz) a low or high frequency?\nChoice list: \nA. High\nB. Medium\nC. Low\nD. Very high\nYour answer is: ",
+        "gt_response": "High",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. High",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 32,
+        "image": [
+            "MLBench/SlideVQA/images/64.jpg",
+            "MLBench/SlideVQA/images/65.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Approximately how many fans does the company with the highest proportion of fans in India have?\nChoice list: \nA. 1,200K\nB. 800K\nC. 1,400K\nD. 1,800K\nYour answer is: ",
+        "gt_response": "1,200K",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 33,
+        "image": [
+            "MLBench/SlideVQA/images/66.jpg",
+            "MLBench/SlideVQA/images/67.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the title of the presentation by the consultant with EchoVC Partners who has an MBA from Dartmouth and a Masters in Electrical Engineering from University of Maryland, College Park, and earned his B. Eng under academic scholarship in Moscow, Russia?\nChoice list: \nA. The Big Data Analytics and Visualization World\nB. Big Data: Analytics and Visualizing Data\nC. Big Data Analytics and Visualization\nD. Big Data: Analytics and Visualization landscape\nYour answer is: ",
+        "gt_response": "Big Data: Analytics and Visualization landscape",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 34,
+        "image": [
+            "MLBench/SlideVQA/images/68.jpg",
+            "MLBench/SlideVQA/images/69.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: On the slide that has the word TYPES written at it's center top, how many more items are included in the BLADDER bubbled list than the list headed by the body part that is threatened during anterior colporrhaphy and sling operation?\nChoice list: \nA. 3\nB. 4\nC. 2\nD. 5\nYour answer is: ",
+        "gt_response": "3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 35,
+        "image": [
+            "MLBench/SlideVQA/images/70.jpg",
+            "MLBench/SlideVQA/images/71.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in average number of apps used from Q4 2011 to Q4 of the year in which US Total Media Ad Spending Growth was $10.00?\nChoice list: \nA. 3\nB. 4\nC. 2\nD. 3.5\nYour answer is: ",
+        "gt_response": "3.5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 36,
+        "image": [
+            "MLBench/SlideVQA/images/72.jpg",
+            "MLBench/SlideVQA/images/73.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the year in which there were 391 feature phone launches were there more Indian brands or international brands present in India?\nChoice list: \nA. both\nB. Indian brands\nC. neither\nD. international brands\nYour answer is: ",
+        "gt_response": "Indian brands",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 37,
+        "image": [
+            "MLBench/SlideVQA/images/74.jpg",
+            "MLBench/SlideVQA/images/75.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in Total costs between the solar collector type with a total mass of 42.10kg and Nanofluid solar collector (in dollars)?\nChoice list: \nA. 235.67\nB. 137.92\nC. 137.89\nD. 137.91\nYour answer is: ",
+        "gt_response": "137.91",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 38,
+        "image": [
+            "MLBench/SlideVQA/images/76.jpg",
+            "MLBench/SlideVQA/images/77.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which reason for using that which is chomping at the fringes accounts for the highest percentage?\nChoice list: \nA. Difficult to set up account\nB. Costly to set up account\nC. Easy to set up account\nD. Time-consuming to set up account\nYour answer is: ",
+        "gt_response": "Easy to set up account",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 39,
+        "image": [
+            "MLBench/SlideVQA/images/78.jpg",
+            "MLBench/SlideVQA/images/79.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Animation style associated with the company that was founded on October 16, 1923?\nChoice list: \nA. Stop-motion animation\nB. Traditional 2D\nC. 3D CGI\nD. Claymation\nYour answer is: ",
+        "gt_response": "Traditional 2D",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 40,
+        "image": [
+            "MLBench/SlideVQA/images/80.jpg",
+            "MLBench/SlideVQA/images/81.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in number of Pharma Sales Reps between 2006 and the year the HRI Clinician Workforce Survey took place?\nChoice list: \nA. 38\nB. 39\nC. 40\nD. 37\nYour answer is: ",
+        "gt_response": "39",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 41,
+        "image": [
+            "MLBench/SlideVQA/images/82.jpg",
+            "MLBench/SlideVQA/images/83.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many Strengths are listed for the market leader with a whopping 70% market share?\nChoice list: \nA. 4\nB. 7\nC. 6\nD. 5\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 42,
+        "image": [
+            "MLBench/SlideVQA/images/84.jpg",
+            "MLBench/SlideVQA/images/85.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the workers' perception in the fairness of outcomes such as monetary rewards obtained by the workers from the organization, which category does \"providing a benefit based on one's personal requirements\" apply to?\nChoice list: \nA. Desert\nB. Merit\nC. Need\nD. Equality\nYour answer is: ",
+        "gt_response": "Need",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 43,
+        "image": [
+            "MLBench/SlideVQA/images/86.jpg",
+            "MLBench/SlideVQA/images/87.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in market size of organic fruits compared to organic dairy products in the year a YES Bank report estimated the organic food industry at Rs 1,000 crore (in US$ million)?\nChoice list: \nA. 60\nB. 70\nC. 80\nD. 50\nYour answer is: ",
+        "gt_response": "60",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 44,
+        "image": [
+            "MLBench/SlideVQA/images/88.jpg",
+            "MLBench/SlideVQA/images/89.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Real GDP growth (%) of Canada in the year before Catherine L. Mann presented the presentation \"OECD INTERIM ECONOMIC OUTLOOK\"?\nChoice list: \nA. 1.5\nB. 0.8\nC. 1.2\nD. 2.0\nYour answer is: ",
+        "gt_response": "1.2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 45,
+        "image": [
+            "MLBench/SlideVQA/images/90.jpg",
+            "MLBench/SlideVQA/images/91.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in Real GDP growth (%) between France and Italy in the year in which, late in the year, appreciation of the US dollar contributed to a fall in exports?\nChoice list: \nA. 0.5\nB. 0.6\nC. 0.3\nD. 0.7\nYour answer is: ",
+        "gt_response": "0.5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 47,
+        "image": [
+            "MLBench/SlideVQA/images/95.jpg",
+            "MLBench/SlideVQA/images/96.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the operating income (in millions of dollars) in the year when GOODWILL comprised 8.68% of Tot. Assets?\nChoice list: \nA. 8437\nB. 8125\nC. 8362\nD. 8231\nYour answer is: ",
+        "gt_response": "8231",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 48,
+        "image": [
+            "MLBench/SlideVQA/images/97.jpg",
+            "MLBench/SlideVQA/images/98.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: The Profit/Loss value of 15 corresponds to what Market Price regarding the strategy that the investor uses when he or she thinks the market will fall significantly in the short-term?\nChoice list: \nA. 70\nB. 110\nC. 130\nD. 90\nYour answer is: ",
+        "gt_response": "110",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 49,
+        "image": [
+            "MLBench/SlideVQA/images/99.jpg",
+            "MLBench/SlideVQA/images/100.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the earliest year referred to by the graph “Google Flu Tracker vs CDC Official Report”, which has a higher value (in $ K), Cost of 1 TB storage or Analyst avg. quarterly wages?\nChoice list: \nA. Cost of 1 GB storage - $ K\nB. Analyst avgquarterly wages\nC. Cost of 1 TB storage - $ K\nD. Analyst avg. annual wages - $ K\nYour answer is: ",
+        "gt_response": "Analyst avgquarterly wages",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 50,
+        "image": [
+            "MLBench/SlideVQA/images/101.jpg",
+            "MLBench/SlideVQA/images/102.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many items contribute to the activity whose processes hold the entire project together?\nChoice list: \nA. 4\nB. 6\nC. 5\nD. 3\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Define the term \"Integration Management Definition\"",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 51,
+        "image": [
+            "MLBench/SlideVQA/images/103.jpg",
+            "MLBench/SlideVQA/images/104.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are the two parts of the type of waves that travel along the direction of the wave?\nChoice list: \nA. amplification, attenuation\nB. transmission, absorption\nC. reflection, refraction\nD. compression, rarefaction\nYour answer is: ",
+        "gt_response": "compression, rarefaction",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 52,
+        "image": [
+            "MLBench/SlideVQA/images/105.jpg",
+            "MLBench/SlideVQA/images/106.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is between the Carious Dentin and the area which contains sensory & sympathetic nerves?\nChoice list: \nA. Secondary Dentin\nB. Tertiary Dentin\nC. Pulp\nD. Enamel-dentin junction\nYour answer is: ",
+        "gt_response": "Tertiary Dentin",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 53,
+        "image": [
+            "MLBench/SlideVQA/images/107.jpg",
+            "MLBench/SlideVQA/images/108.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference between US and EU5 in number of annual incidences of the disease with which there are 148 19-55 year old females according to Study Design?\nChoice list: \nA. 9900\nB. 6800\nC. 3400\nD. 2900\nYour answer is: ",
+        "gt_response": "3400",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 54,
+        "image": [
+            "MLBench/SlideVQA/images/109.jpg",
+            "MLBench/SlideVQA/images/110.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in total cost (in Rs) of production and packaging for 25.75 metric tonnes of the rice which is \"a high quality rice\" & \"fetches high price in international market\"?\nChoice list: \nA. 1058750\nB. 974250\nC. 843200\nD. 1186250\nYour answer is: ",
+        "gt_response": "1058750",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 55,
+        "image": [
+            "MLBench/SlideVQA/images/111.jpg",
+            "MLBench/SlideVQA/images/112.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the country in which President Ben Ali was ousted after the uprisings which started in December 2010, is the GDP per capita (PPP) higher in '07 or '10?\nChoice list: \nA. 07\nB. 10\nC. 12\nD. 2011\nYour answer is: ",
+        "gt_response": "10",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 56,
+        "image": [
+            "MLBench/SlideVQA/images/113.jpg",
+            "MLBench/SlideVQA/images/114.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in amount of all installed capacity (MW) between THERMAL and HYDRO power generation in the country in which 705 TWh of electricity was produced in FY08?\nChoice list: \nA. 130714.69\nB. 130714.68\nC. 130714.67\nD. 130715.00\nYour answer is: ",
+        "gt_response": "130714.68",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 57,
+        "image": [
+            "MLBench/SlideVQA/images/115.jpg",
+            "MLBench/SlideVQA/images/116.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In which micro-market was the number of Units higher: Central Noida or the area whose weighted average BSP at the end of Q1-2014 was 2,991?\nChoice list: \nA. the area with a weighted average BSP of 2,876\nB. Central Noida\nC. the area with a weighted average BSP of 2,658\nD. the area with a weighted average BSP of 3,102\nYour answer is: ",
+        "gt_response": "Central Noida",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 58,
+        "image": [
+            "MLBench/SlideVQA/images/117.jpg",
+            "MLBench/SlideVQA/images/118.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In what year was the number of units (expected delivery) the lowest between the year in which the weighted average BSP for Rest of Noida was 8,755 at the end of Q1, and 2018?\nChoice list: \nA. 2015\nB. 2014\nC. 2017\nD. 2016\nYour answer is: ",
+        "gt_response": "2014",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 59,
+        "image": [
+            "MLBench/SlideVQA/images/119.jpg",
+            "MLBench/SlideVQA/images/120.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the radio taxi market in the country whose taxi transportation system has long been characterized by paucity of well-maintained vehicles, tampered meters and unruly behavior of drivers, which STA/city has the lowest fare per km?\nChoice list: \nA. West Bengal- Kolkata\nB. Mumbai\nC. Delhi\nD. Andhra Pradesh- Vishakhapatnam\nYour answer is: ",
+        "gt_response": "West Bengal- Kolkata",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 60,
+        "image": [
+            "MLBench/SlideVQA/images/121.jpg",
+            "MLBench/SlideVQA/images/122.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the total number (in millions) of Regular Users and Super Users in Mar of the year in which Radio's ad spending share in the US media is 8.6%?\nChoice list: \nA. 1224\nB. 1223\nC. 1225\nD. 1226\nYour answer is: ",
+        "gt_response": "1224",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 61,
+        "image": [
+            "MLBench/SlideVQA/images/123.jpg",
+            "MLBench/SlideVQA/images/124.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in the number of Nodes between North Navi Mumbai and the area in which Panvel achieved 15% YOY increase of real estate prices?\nChoice list: \nA. 4\nB. 3\nC. 2\nD. 1\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 62,
+        "image": [
+            "MLBench/SlideVQA/images/125.jpg",
+            "MLBench/SlideVQA/images/126.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the UK Category for the arrangement that was earliest recorded in 1299, between the English Crown and Florentine merchant bank Frescobaldi, that corresponds to a Capital Value (£, millions) of 588?\nChoice list: \nA. Road Construction\nB. Street Lighting\nC. Public Transportation\nD. Waste Management\nYour answer is: ",
+        "gt_response": "Street Lighting",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 63,
+        "image": [
+            "MLBench/SlideVQA/images/127.jpg",
+            "MLBench/SlideVQA/images/128.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is difference in the Y/Y % change percentage between the geographic region that includes the US and Latin America, and EMEA?\nChoice list: \nA. 0.5\nB. 1\nC. 2\nD. 3\nYour answer is: ",
+        "gt_response": "1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Answer: A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 64,
+        "image": [
+            "MLBench/SlideVQA/images/129.jpg",
+            "MLBench/SlideVQA/images/130.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Average Revenue per Account As Reported in the quarter during which total operating revenues was 44 million for cable operating performance (in $)?\nChoice list: \nA. 146\nB. 147\nC. 145\nD. 148\nYour answer is: ",
+        "gt_response": "147",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 65,
+        "image": [
+            "MLBench/SlideVQA/images/131.jpg",
+            "MLBench/SlideVQA/images/132.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is trending more in Indian companies which are valued at an early stage in terms of the 4 factors such as supply and demand, Mobile Apps or Consumer Internet?\nChoice list: \nA. E-commerce\nB. Cloud Computing\nC. Mobile Apps\nD. Consumer Internet\nYour answer is: ",
+        "gt_response": "Consumer Internet",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 66,
+        "image": [
+            "MLBench/SlideVQA/images/133.jpg",
+            "MLBench/SlideVQA/images/134.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which social media site was more used for recruitment in the year 67% of organizations used social media for recruiting to increase employer brand and recognition, Facebook or Twitter?\nChoice list: \nA. Twitter\nB. Facebook\nYour answer is: ",
+        "gt_response": "Facebook",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 67,
+        "image": [
+            "MLBench/SlideVQA/images/135.jpg",
+            "MLBench/SlideVQA/images/136.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the year the electricity tariff for industry a year later was 18.79 Ct/kWh, which had a greater Million KW, Wind or Biomass?\nChoice list: \nA. Neither had Million KW\nB. Biomass,\nC. Wind\nD. Both had the same Million KW,\nYour answer is: ",
+        "gt_response": "Wind",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 68,
+        "image": [
+            "MLBench/SlideVQA/images/137.jpg",
+            "MLBench/SlideVQA/images/138.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the material hand-sorted into clear, amber and green PET bottles, HDPE containers and miscellaneous at an MRF, what step follows curbside collection?\nChoice list: \nA. Sorting at the recycling facility\nB. Sorting at the curb\nC. Processing at the recycling facility\nD. TRANSPORT TO MRF\nYour answer is: ",
+        "gt_response": "TRANSPORT TO MRF",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Sorting at the recycling facility",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 69,
+        "image": [
+            "MLBench/SlideVQA/images/139.jpg",
+            "MLBench/SlideVQA/images/140.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding pain points of the people, half of whom say they would buy mobile health tech, what percentage have had to fill out the same form of information multiple times?\nChoice list: \nA. 15\nB. 32\nC. 40\nD. 27\nYour answer is: ",
+        "gt_response": "32",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 70,
+        "image": [
+            "MLBench/SlideVQA/images/141.jpg",
+            "MLBench/SlideVQA/images/142.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding pain points of the people who are willing to spend $14 billion dollars on certain digital health technology products, what have 15% had difficulty doing?\nChoice list: \nA. managing their medications\nB. communicating with healthcare providers\nC. using the technology itself\nD. obtaining their own health information (such as labs or records)\nYour answer is: ",
+        "gt_response": "obtaining their own health information (such as labs or records)",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 71,
+        "image": [
+            "MLBench/SlideVQA/images/143.jpg",
+            "MLBench/SlideVQA/images/144.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Who was the AWAY TEAM in Game 12, the team which press through an intermediate pressure when they play with 1-3-4-1-2 or West Bromwich Albion?\nChoice list: \nA. Everton\nB. Liverpool\nC. West Bromwich Albion\nD. Manchester United\nYour answer is: ",
+        "gt_response": "West Bromwich Albion",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 72,
+        "image": [
+            "MLBench/SlideVQA/images/145.jpg",
+            "MLBench/SlideVQA/images/146.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many million tons of the agricultural product whose industry is an important source of employment and income for rural people does India export?\nChoice list: \nA. 3.5\nB. 6.1\nC. 4.8\nD. 5.2\nYour answer is: ",
+        "gt_response": "4.8",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 73,
+        "image": [
+            "MLBench/SlideVQA/images/147.jpg",
+            "MLBench/SlideVQA/images/148.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In 2011, how many cases of the crime whose total victims were 269 between 2010 and 2014 were committed by terrorist groups?\nChoice list: \nA. 15\nB. 12\nC. 13\nD. 14\nYour answer is: ",
+        "gt_response": "14",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 74,
+        "image": [
+            "MLBench/SlideVQA/images/149.jpg",
+            "MLBench/SlideVQA/images/150.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the year Yahong Tan was abducted in Isabela City in May, were there more KFRC BY TERRORIST GROUPS or KFRC BY ORGANIZED CRIME GROUPS/CRIMINAL GANGS?\nChoice list: \nA. KFRC BY NON-CRIMINAL GROUPS\nB. KFRC BY ORGANIZED CRIME GROUPS/CRIMINAL GANGS\nC. KFRC BY GOVERNMENT AGENCIES\nD. KFRC BY TERRORIST GROUPS\nYour answer is: ",
+        "gt_response": "KFRC BY ORGANIZED CRIME GROUPS/CRIMINAL GANGS",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 75,
+        "image": [
+            "MLBench/SlideVQA/images/151.jpg",
+            "MLBench/SlideVQA/images/152.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of the pie chart are the life which includes 1m insects and 360k others?\nChoice list: \nA. 70\nB. 78\nC. 76\nD. 72\nYour answer is: ",
+        "gt_response": "72",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 76,
+        "image": [
+            "MLBench/SlideVQA/images/153.jpg",
+            "MLBench/SlideVQA/images/154.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: According to the summary document of the person affiliated with Australian Biodiversity Information Services (2009 edition), is a greater percentage of the pie chart Plants or Fungi?\nChoice list: \nA. Animals\nB. Plants\nC. Fungi\nD. Bacteria\nYour answer is: ",
+        "gt_response": "Plants",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 77,
+        "image": [
+            "MLBench/SlideVQA/images/155.jpg",
+            "MLBench/SlideVQA/images/156.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the business of the company which has 6,000+ consultants & architects and 5,000+ support professionals?\nChoice list: \nA. Consulting\nB. Software\nC. Technology\nD. Knowledge\nYour answer is: ",
+        "gt_response": "Knowledge",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 78,
+        "image": [
+            "MLBench/SlideVQA/images/157.jpg",
+            "MLBench/SlideVQA/images/158.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many fans donated $1.2M on the service which was hit by 1 million backers in 2011 to finance Amanda Palmer's new album?\nChoice list: \nA. 24,000\nB. 26,000\nC. 25,000\nD. 27,000\nYour answer is: ",
+        "gt_response": "25,000",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 79,
+        "image": [
+            "MLBench/SlideVQA/images/159.jpg",
+            "MLBench/SlideVQA/images/160.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: According to the data source which also shows the global share of searches, how many billion searches each month were there in 2009?\nChoice list: \nA. 150\nB. 200\nC. 50\nD. 100\nYour answer is: ",
+        "gt_response": "100",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 80,
+        "image": [
+            "MLBench/SlideVQA/images/161.jpg",
+            "MLBench/SlideVQA/images/162.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: According to the data source which also shows the search engine market share (US), which had more searches in 2008, Google Sites or Yahoo! Sites?\nChoice list: \nA. Google Sites\nB. Bing Sites\nC. Yahoo! Sites\nD. Ask.com Sites\nYour answer is: ",
+        "gt_response": "Google Sites",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 81,
+        "image": [
+            "MLBench/SlideVQA/images/163.jpg",
+            "MLBench/SlideVQA/images/164.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Between Nov 1st, 2014 and Dec 9th, 2014, were there more Good bots or the bots which account for up to 60% of traffic on ecommerce websites?\nChoice list: \nA. Good bots\nB. Spam bots\nC. Crawler bots\nD. Web scraping bots\nYour answer is: ",
+        "gt_response": "Good bots",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 82,
+        "image": [
+            "MLBench/SlideVQA/images/165.jpg",
+            "MLBench/SlideVQA/images/166.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the regenerative braking system in the vehicles consisting a series and a parallel circuit of motor and the ICE, what does the electric motor generate while braking?\nChoice list: \nA. zero torque\nB. positive torque\nC. negative torque\nD. incorrect torque\nYour answer is: ",
+        "gt_response": "negative torque",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 83,
+        "image": [
+            "MLBench/SlideVQA/images/167.jpg",
+            "MLBench/SlideVQA/images/168.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: According to the flow chart of the alcohol which originated in southwest Andalusia in the region of Jerez, what step comes after Pressing?\nChoice list: \nA. aging\nB. barrel aging\nC. fermentation\nD. distillation\nYour answer is: ",
+        "gt_response": "fermentation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 84,
+        "image": [
+            "MLBench/SlideVQA/images/169.jpg",
+            "MLBench/SlideVQA/images/170.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the World Record for the track running event whose anaerobic contribution is 20% according to Hill (1999)?\nChoice list: \nA. 3:26.00\nB. 3:28.00\nC. 3:30.00\nD. 3:24.00\nYour answer is: ",
+        "gt_response": "3:26.00",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 85,
+        "image": [
+            "MLBench/SlideVQA/images/171.jpg",
+            "MLBench/SlideVQA/images/172.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the process of the activity whose goals/objectives are to attract the qualified applicants and to encourage unqualified applicants to self-select themselves out, for an organization, what step comes after \"Impress Candidates\"?\nChoice list: \nA. Conduct Interviews\nB. Negotiate Salary\nC. Make Offer\nD. Screen Resumes\nYour answer is: ",
+        "gt_response": "Make Offer",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 86,
+        "image": [
+            "MLBench/SlideVQA/images/173.jpg",
+            "MLBench/SlideVQA/images/174.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Between 2005 and the year 20% of teens post Cell phone numbers in social media, which age group had a higher percentage of internet users who use social networking sites, 18-29 or 30-49?\nChoice list: \nA. 18-29\nB. 16 or younger\nC. 50 and older\nD. 30-49\nYour answer is: ",
+        "gt_response": "18-29",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 87,
+        "image": [
+            "MLBench/SlideVQA/images/175.jpg",
+            "MLBench/SlideVQA/images/176.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Did more teens post their Cell phone number in the year 1% of 65+ use Social Networking sites in August or 2012?\nChoice list: \nA. the year 1% of 65+ use Social Networking sites\nB. August\nC. none\nD. 2012\nYour answer is: ",
+        "gt_response": "2012",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 88,
+        "image": [
+            "MLBench/SlideVQA/images/177.jpg",
+            "MLBench/SlideVQA/images/178.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of Post Types are Photo for the platform where Video Views was 5.0% in Q4 2014?\nChoice list: \nA. 67\nB. 71\nYour answer is: ",
+        "gt_response": "71",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 89,
+        "image": [
+            "MLBench/SlideVQA/images/179.jpg",
+            "MLBench/SlideVQA/images/180.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: For the group of people where 1 out of every 10 is a Netizen, on average spend how much time a day on their smartphones?\nChoice list: \nA. 3 hours 25 minutes\nB. 2 hours 58 minutes\nC. 3 hours 40 minutes\nD. 3 hours 18 minutes\nYour answer is: ",
+        "gt_response": "3 hours 18 minutes",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 90,
+        "image": [
+            "MLBench/SlideVQA/images/181.jpg",
+            "MLBench/SlideVQA/images/182.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Population of the Metro in India with the smallest Slum Population?\nChoice list: \nA. 4343644\nB. 4343645\nC. 4343646\nD. 4343643\nYour answer is: ",
+        "gt_response": "4343645",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 91,
+        "image": [
+            "MLBench/SlideVQA/images/183.jpg",
+            "MLBench/SlideVQA/images/184.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many million rows/sec are shown for student who can implement query in Java in 10 mins?\nChoice list: \nA. 125\nB. 122\nC. 124\nD. 123\nYour answer is: ",
+        "gt_response": "125",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 92,
+        "image": [
+            "MLBench/SlideVQA/images/185.jpg",
+            "MLBench/SlideVQA/images/186.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which has less million rows/sec, Volcano or a student who beat 30 years of research?\nChoice list: \nA. Volcano\nB. A2: a student with 20 years of research\nC. a student with 10 years of research\nD. a student who beat 30 years of research\nYour answer is: ",
+        "gt_response": "Volcano",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 93,
+        "image": [
+            "MLBench/SlideVQA/images/187.jpg",
+            "MLBench/SlideVQA/images/188.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which saw greater growth from 1961 to 2007, World Population or the Environment that lost 5,351,919 hectares due to soil erosion this year?\nChoice list: \nA. The Environment that lost 5,351,919 hectares due to pollution this year\nB. The Environment that lost 5,351,919 hectares due to deforestation this year\nC. The Environment that lost 5,351,919 hectares due to soil erosion this year\nD. World Population\nYour answer is: ",
+        "gt_response": "World Population",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 94,
+        "image": [
+            "MLBench/SlideVQA/images/189.jpg",
+            "MLBench/SlideVQA/images/190.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What was the Gini coefficient of Income inequality for the country whose Poverty rate was 0.75 percent in the same year in 2002?\nChoice list: \nA. 0.35\nB. 0.5\nC. 0.45\nD. 0.4\nYour answer is: ",
+        "gt_response": "0.4",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 95,
+        "image": [
+            "MLBench/SlideVQA/images/191.jpg",
+            "MLBench/SlideVQA/images/192.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Capital of the third largest manufacturer of bicuits in the world?\nChoice list: \nA. New Delhi\nB. Rome\nC. Tokyo\nD. London\nYour answer is: ",
+        "gt_response": "New Delhi",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. New Delhi",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 96,
+        "image": [
+            "MLBench/SlideVQA/images/193.jpg",
+            "MLBench/SlideVQA/images/194.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Is the Social Selling Index greater for the Reps that had 23.8 Social Selling Index or Attendees?\nChoice list: \nA. Attendees\nB. Reps\nC. Both\nD. Neither\nYour answer is: ",
+        "gt_response": "Attendees",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 97,
+        "image": [
+            "MLBench/SlideVQA/images/195.jpg",
+            "MLBench/SlideVQA/images/196.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of the group where 43 percent Entirely believe that Sales is the company's responsibility are Already providing a mobile sales app?\nChoice list: \nA. 30\nB. 45\nC. 35\nD. 40\nYour answer is: ",
+        "gt_response": "35",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 98,
+        "image": [
+            "MLBench/SlideVQA/images/197.jpg",
+            "MLBench/SlideVQA/images/198.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In Jun of the year that had 80 percent of Total China Internet Users, were there more Active Mobile Devices or Active Game Devices?\nChoice list: \nA. Active Game Devices\nB. Active Mobile Devices\nC. Both Active Mobile Devices and Active Game Devices had the same number\nYour answer is: ",
+        "gt_response": "Active Mobile Devices",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 99,
+        "image": [
+            "MLBench/SlideVQA/images/199.jpg",
+            "MLBench/SlideVQA/images/200.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the year that China Mobile Internet Users were 400 MM, what percent did India have of Global GDP?\nChoice list: \nA. 8\nB. 15\nC. 6\nD. 10\nYour answer is: ",
+        "gt_response": "6",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 100,
+        "image": [
+            "MLBench/SlideVQA/images/201.jpg",
+            "MLBench/SlideVQA/images/202.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many Current bike commuters are there in the Metro area with 386,878 Current rideshare commuters?\nChoice list: \nA. 26,915\nB. 25,987\nC. 24,675\nD. 27,234\nYour answer is: ",
+        "gt_response": "26,915",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 101,
+        "image": [
+            "MLBench/SlideVQA/images/203.jpg",
+            "MLBench/SlideVQA/images/204.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What Activities of which Low is 18 months and Moderate is 20 months are shown?\nChoice list: \nA. Site preparation, Demolition of existing structures, Design and engineering services\nB. Preferred Land closing, Construction loan closing, Building of the project\nYour answer is: ",
+        "gt_response": "Preferred Land closing, Construction loan closing, Building of the project",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 102,
+        "image": [
+            "MLBench/SlideVQA/images/205.jpg",
+            "MLBench/SlideVQA/images/206.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many seconds does the first iteration take for Easy and Fast Big Data Easy to Develop and Fast to Run?\nChoice list: \nA. 90\nB. 75\nC. 85\nD. 80\nYour answer is: ",
+        "gt_response": "80",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 103,
+        "image": [
+            "MLBench/SlideVQA/images/207.jpg",
+            "MLBench/SlideVQA/images/208.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percent of the 33% of who don’t finish high school are obese do not meet the aerobic and muscle strengthening recommendations for physical activity?\nChoice list: \nA. 70\nB. 75\nC. 80\nD. 85\nYour answer is: ",
+        "gt_response": "80",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 104,
+        "image": [
+            "MLBench/SlideVQA/images/209.jpg",
+            "MLBench/SlideVQA/images/210.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: According to the Worldwide mobile games revenue, when year US premium mobile games revenue from kids was $44M for In-app purchases, is a greater monetary value shown for North America or Europe?\nChoice list: \nA. North America\nB. Asia\nC. South America\nD. Europe\nYour answer is: ",
+        "gt_response": "North America",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 105,
+        "image": [
+            "MLBench/SlideVQA/images/211.jpg",
+            "MLBench/SlideVQA/images/212.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What number is shown for Daily Mirror in the year UK had 45% High trust’ for Friends in Trusted media survey by TNS?\nChoice list: \nA. 1,512,555\nB. 1,512,563\nC. 1,512,559\nD. 1,512,561\nYour answer is: ",
+        "gt_response": "1,512,559",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Answer: D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 106,
+        "image": [
+            "MLBench/SlideVQA/images/213.jpg",
+            "MLBench/SlideVQA/images/214.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What was the growth (in percentage) of the overall U.S. pet industry in the year in which the growth of pet insurance was 280.9 million?\nChoice list: \nA. 3.7\nB. 6.2\nC. 5.3\nD. 4.9\nYour answer is: ",
+        "gt_response": "5.3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 107,
+        "image": [
+            "MLBench/SlideVQA/images/215.jpg",
+            "MLBench/SlideVQA/images/216.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the market size of social casino, how much were FB revenues (in BN$) in the year in which GSN acquired BASH GAMiNG in February at $165M?\nChoice list: \nA. 2.75\nB. 2.56\nC. 2.84\nD. 3.15\nYour answer is: ",
+        "gt_response": "2.84",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. 2.56",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 108,
+        "image": [
+            "MLBench/SlideVQA/images/217.jpg",
+            "MLBench/SlideVQA/images/218.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the market size of social casino, what was greater in the year in which the size of the global games market was 84.34 BN$, FB Revenues or Mobile Revenues?\nChoice list: \nA. Both FB Revenues and Mobile Revenues\nB. Mobile Revenues\nC. FB Revenues\nD. Neither FB Revenues nor Mobile Revenues\nYour answer is: ",
+        "gt_response": "Mobile Revenues",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 109,
+        "image": [
+            "MLBench/SlideVQA/images/219.jpg",
+            "MLBench/SlideVQA/images/220.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the distribution of the service which is used by 28% of the population in India, what percent is shown for North America?\nChoice list: \nA. 90.3\nB. 86.5\nC. 87.9\nD. 85.2\nYour answer is: ",
+        "gt_response": "87.9",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 110,
+        "image": [
+            "MLBench/SlideVQA/images/221.jpg",
+            "MLBench/SlideVQA/images/222.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the distribution of the service which 69% of the users in India access on daily basis, how many mn are shown for Europe?\nChoice list: \nA. 604\nB. 550\nC. 650\nD. 700\nYour answer is: ",
+        "gt_response": "604",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 111,
+        "image": [
+            "MLBench/SlideVQA/images/223.jpg",
+            "MLBench/SlideVQA/images/224.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Looking at the slide on \"Brand Awareness - Top Of Mind\", what percentage is shown for the brand which is ranked 10th on the \"Future Intention\" list?\nChoice list: \nA. 2.2\nB. 2.3\nC. 2.1\nD. 2.5\nYour answer is: ",
+        "gt_response": "2.3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 112,
+        "image": [
+            "MLBench/SlideVQA/images/225.jpg",
+            "MLBench/SlideVQA/images/226.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the Indian payment landscape, what percent was Credit Cards in the year in which the number of Indian online shoppers was 20M?\nChoice list: \nA. 16\nB. 17\nC. 18\nD. 15\nYour answer is: ",
+        "gt_response": "16",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 113,
+        "image": [
+            "MLBench/SlideVQA/images/227.jpg",
+            "MLBench/SlideVQA/images/228.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of the demographic group for which 36% responded that they rarely go more than 15 minutes without checking their smartphone feel pressure to respond immediately when they receive a text or app message at work?\nChoice list: \nA. 39\nB. 35\nC. 37\nD. 38\nYour answer is: ",
+        "gt_response": "38",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Question: What percentage of the demographic group for which 442% responded that they feel they are constantly connected to their smartphone feel that they are constantly connected to their smartphone?\nChoice list: \nA. 41\nB. 43\nC. 44\nD. 45\nYour answer is: [/INST]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 114,
+        "image": [
+            "MLBench/SlideVQA/images/229.jpg",
+            "MLBench/SlideVQA/images/230.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What company’s name is written on the 2015 shirts of the club whose head coach is Jason Kreis?\nChoice list: \nA. EMIRATES\nB. QATAR AIRWAYS\nC. ETIHAD\nD. BRITISH AIRWAYS\nYour answer is: ",
+        "gt_response": "ETIHAD",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "<<SYS>>",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 116,
+        "image": [
+            "MLBench/SlideVQA/images/234.jpg",
+            "MLBench/SlideVQA/images/235.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: which are the two mininimization processes of waste?\nChoice list: \nA. Chemical Disinfenction, thermal technology\nB. Biological treatment, landfilling\nC. Recycling, composting\nD. Waste segregation, incineration\nYour answer is: ",
+        "gt_response": "Chemical Disinfenction, thermal technology",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 117,
+        "image": [
+            "MLBench/SlideVQA/images/236.jpg",
+            "MLBench/SlideVQA/images/237.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the predominant combination of mobile brand and OS in Myanmar?\nChoice list: \nA. Apple, iOS\nB. Xiaomi, iOS\nC. Samsung, Android\nD. Huawei, Android\nYour answer is: ",
+        "gt_response": "Huawei, Android",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 118,
+        "image": [
+            "MLBench/SlideVQA/images/238.jpg",
+            "MLBench/SlideVQA/images/239.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are the functions of a quality unit?\nChoice list: \nA. Quality Review, Quality Compliance\nB. Quality Analysis, Quality Improvement\nC. Quality Testing, Quality Management\nD. Quality Control, Quality Assurance\nYour answer is: ",
+        "gt_response": "Quality Control, Quality Assurance",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 119,
+        "image": [
+            "MLBench/SlideVQA/images/240.jpg",
+            "MLBench/SlideVQA/images/241.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many countries are detailed in the report titled \"GLOBAL DIGITAL STATISTICS 2014\"?\nChoice list: \nA. 23\nB. 22\nC. 24\nD. 25\nYour answer is: ",
+        "gt_response": "24",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 120,
+        "image": [
+            "MLBench/SlideVQA/images/242.jpg",
+            "MLBench/SlideVQA/images/243.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What level comes between \"all managers between the first-line level and the top level of the organization who manage first line managers\" and Non-managerial Employees?\nChoice list: \nA. Supervisors\nB. Middle Managers\nC. Second-line Managers\nD. First-line Managers\nYour answer is: ",
+        "gt_response": "First-line Managers",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 121,
+        "image": [
+            "MLBench/SlideVQA/images/244.jpg",
+            "MLBench/SlideVQA/images/245.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the process by which the breaking of hydrogen bonds allows water to change from the liquid phase into the gaseous phase which has reached equilibrium with the liquid surface said to have done?\nChoice list: \nA. evaporation\nB. boiling\nC. reached saturation\nD. vaporization\nYour answer is: ",
+        "gt_response": "reached saturation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 122,
+        "image": [
+            "MLBench/SlideVQA/images/246.jpg",
+            "MLBench/SlideVQA/images/247.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the flow chart of the 6 aminopenicillinic acid fermentation from?\nChoice list: \nA. Swartz, 1979\nB. Brown, 2002\nC. Jones, 1967\nD. Smith, 1985\nYour answer is: ",
+        "gt_response": "Swartz, 1979",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Swartz, 1979",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 123,
+        "image": [
+            "MLBench/SlideVQA/images/248.jpg",
+            "MLBench/SlideVQA/images/249.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the name of Mishael in the language of the empire of Nebuchadnezzar?\nChoice list: \nA. Mishael\nB. Meshach\nC. Mishaelin\nD. Misha\nYour answer is: ",
+        "gt_response": "Meshach",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 124,
+        "image": [
+            "MLBench/SlideVQA/images/250.jpg",
+            "MLBench/SlideVQA/images/251.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What comes between the stage that starts when a relatively unstable molecule decomposes into a free radical and termination in the flow chart?\nChoice list: \nA. Initiation\nB. Termination\nC. Reaction\nD. Propagation\nYour answer is: ",
+        "gt_response": "Propagation",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Initiation",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 125,
+        "image": [
+            "MLBench/SlideVQA/images/252.jpg",
+            "MLBench/SlideVQA/images/253.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the formula for the equation which yielded a 45% satisfaction score in 2015?\nChoice list: \nA. 1. % Promoters + % Detractors\nB. 2. % Promoters * % Detractors\nC. 3. % Promoters / % Detractors\nD. % Promoters - % Detractors\nYour answer is: ",
+        "gt_response": "% Promoters - % Detractors",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 126,
+        "image": [
+            "MLBench/SlideVQA/images/254.jpg",
+            "MLBench/SlideVQA/images/255.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are a growing number of youth surveyed of which the original 2008-10 countries included the UAE, Oman, Qatar, Bahrain, KSA, Kuwait, Egypt, Jordan, and Lebanon embracing?\nChoice list: \nA. MODERN VALUES\nB. traditional values\nC. western values\nD. conservative values\nYour answer is: ",
+        "gt_response": "MODERN VALUES",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. MODERN VALUES",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 127,
+        "image": [
+            "MLBench/SlideVQA/images/256.jpg",
+            "MLBench/SlideVQA/images/257.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which country has the greater population, the country which has the Ardent HQ located in it or Vietnam?\nChoice list: \nA. Ardent HQ country\nB. Ardent HQ country has a smaller population\nC. Vietnam\nD. Both countries have the same population\nYour answer is: ",
+        "gt_response": "Vietnam",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 128,
+        "image": [
+            "MLBench/SlideVQA/images/258.jpg",
+            "MLBench/SlideVQA/images/259.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many emerging provinces are there in the country whose real GDP in 2012 was 5.2 trillion US$?\nChoice list: \nA. 13\nB. 11\nC. 12\nD. 10\nYour answer is: ",
+        "gt_response": "12",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 129,
+        "image": [
+            "MLBench/SlideVQA/images/260.jpg",
+            "MLBench/SlideVQA/images/261.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are examples of the layer that includes LOCAL MESH GATEWAY, MESSAGE BROKER, and INERNET CONNECTIVITY?\nChoice list: \nA. Dowse, OpenHAB, TheThingSystem, ZIPR, Ponte, WebSphere, RabbitMQ, Dweet\nB. Mosquitto, MQTT, Apache Kafka, AWS IoT, ActiveMQ, ZeroMQ\nYour answer is: ",
+        "gt_response": "Dowse, OpenHAB, TheThingSystem, ZIPR, Ponte, WebSphere, RabbitMQ, Dweet",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 130,
+        "image": [
+            "MLBench/SlideVQA/images/262.jpg",
+            "MLBench/SlideVQA/images/263.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How much more is the minimum clearance in mm for a voltage level of 66 KV compared to the voltage level associated with a Meter & Narrow Gauge inside station limit of 9.8(m)?\nChoice list: \nA. 200\nB. 500\nC. 300\nD. 400\nYour answer is: ",
+        "gt_response": "300",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 131,
+        "image": [
+            "MLBench/SlideVQA/images/264.jpg",
+            "MLBench/SlideVQA/images/265.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are four issues with that which Will Ensure the Success of Mobile Internet?\nChoice list: \nA. Battery Life, Security, Network Congestion, Compatibility\nB. Always On, Bursty Traffic, QoS Cost / MB, CAPEX & OPEX\nC. Limited Data Plans, Connectivity Issues, Privacy Concerns, App Compatibility\nD. Reliability, Slow Speed, Limited Coverage, High Cost\nYour answer is: ",
+        "gt_response": "Always On, Bursty Traffic, QoS Cost / MB, CAPEX & OPEX",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 132,
+        "image": [
+            "MLBench/SlideVQA/images/266.jpg",
+            "MLBench/SlideVQA/images/267.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Were there more members of the profession which had 10,175 members in 2009-2010 in 2001 or 2002?\nChoice list: \nA. 2000\nB. 2004\nC. 2001\nD. 2003\nYour answer is: ",
+        "gt_response": "2001",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 133,
+        "image": [
+            "MLBench/SlideVQA/images/268.jpg",
+            "MLBench/SlideVQA/images/269.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many employees are in the composites industry in the region in which there are hundreds of applications of FRP Rebars in service?\nChoice list: \nA. 200,000\nB. 280,000+\nC. 300,000+\nD. 250,000+\nYour answer is: ",
+        "gt_response": "280,000+",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 134,
+        "image": [
+            "MLBench/SlideVQA/images/270.jpg",
+            "MLBench/SlideVQA/images/271.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are three FIBER REINFORCED POLYMER composite types?\nChoice list: \nA. CFRP, AFRP, GFRP\nB. HFRP, BFRP, DFRP\nC. GFRP, HFRP, DFRP\nD. AFRP, CFRP, GFRP\nYour answer is: ",
+        "gt_response": "CFRP, AFRP, GFRP",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 135,
+        "image": [
+            "MLBench/SlideVQA/images/272.jpg",
+            "MLBench/SlideVQA/images/273.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What was the source of the data for the historical prices of the metal that has an intense blue colour when associated with silica?\nChoice list: \nA. Cobalt Research Foundation 2010\nB. Cobalt Development Institute 2010\nC. Cobalt Institute 2011\nD. Cobalt Association\nYour answer is: ",
+        "gt_response": "Cobalt Development Institute 2010",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. Cobalt Institute 2011",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 136,
+        "image": [
+            "MLBench/SlideVQA/images/274.jpg",
+            "MLBench/SlideVQA/images/275.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: When was the company that was acquired by Tenecent for $100MM founded?\nChoice list: \nA. 2012\nB. 2008\nC. 2010\nD. 2014\nYour answer is: ",
+        "gt_response": "2012",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 137,
+        "image": [
+            "MLBench/SlideVQA/images/276.jpg",
+            "MLBench/SlideVQA/images/277.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of household waste is from the material that is made from synthetic or semi-synthetic polymerization products that can be molded into a permanent object having the property of plasticity?\nChoice list: \nA. 12\nB. 11\nC. 10\nD. 13\nYour answer is: ",
+        "gt_response": "11",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 138,
+        "image": [
+            "MLBench/SlideVQA/images/278.jpg",
+            "MLBench/SlideVQA/images/279.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which requires 3D rendering, an enhanced version of reality created by the use of technology to overlay digital information on an image of something being viewed through a device (such as a smartphone camera) or virtual reality?\nChoice list: \nA. Augmented Reality\nB. Mixed Reality\nC. Simulated Reality\nD. Virtual Reality\nYour answer is: ",
+        "gt_response": "Virtual Reality",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 139,
+        "image": [
+            "MLBench/SlideVQA/images/280.jpg",
+            "MLBench/SlideVQA/images/281.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which market is larger, the 5th largest projected IoT Controller category in 2019 or personal computers?\nChoice list: \nA. Tablets\nB. Personal Computers\nC. The 5th largest projected IoT Controller category in 2019\nD. Smartphones\nYour answer is: ",
+        "gt_response": "Personal Computers",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 140,
+        "image": [
+            "MLBench/SlideVQA/images/282.jpg",
+            "MLBench/SlideVQA/images/283.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which bank scored lower in Atmosphere, the bank with annual growth of 19% or Citibank?\nChoice list: \nA. neither of them\nB. the bank with annual growth of 19%\nC. Citibank\nD. the bank with annual growth of 19% and Citibank both score the same\nYour answer is: ",
+        "gt_response": "Citibank",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 141,
+        "image": [
+            "MLBench/SlideVQA/images/284.jpg",
+            "MLBench/SlideVQA/images/285.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the year in which Coca-Cola net profit/sales were highest, was more coffee or bottled water consumed?\nChoice list: \nA. bottled water\nB. neither\nC. coffee\nD. both\nYour answer is: ",
+        "gt_response": "bottled water",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 142,
+        "image": [
+            "MLBench/SlideVQA/images/286.jpg",
+            "MLBench/SlideVQA/images/287.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Other than creating the currency which is not regulated by any government or banking institution, what can $150,000 worth of electricity power?\nChoice list: \nA. 31,000 HOMES, 50,000 ELECTRIC CARS\nB. 20,000 HOMES, 60,000 ELECTRIC CARS\nC. 10,000 HOMES, 25,000 ELECTRIC CARS\nD. 15,000 HOMES, 40,000 ELECTRIC CARS\nYour answer is: ",
+        "gt_response": "31,000 HOMES, 50,000 ELECTRIC CARS",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 143,
+        "image": [
+            "MLBench/SlideVQA/images/288.jpg",
+            "MLBench/SlideVQA/images/289.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Is an app more likely to have the keyword in the app title if it's for iPhone or that which had an Overall APP RATING of 1.3?\nChoice list: \nA. Overall APP RATING of 1.3\nB. iPhone\nC. Android\nD. both\nYour answer is: ",
+        "gt_response": "iPhone",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Overall APP RATING of 1.3",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 144,
+        "image": [
+            "MLBench/SlideVQA/images/290.jpg",
+            "MLBench/SlideVQA/images/291.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Is there more fungi or bacteria per gram of the organic matter that has been decomposed and recycled as a fertilizer and soil amendment?\nChoice list: \nA. Both fungi and bacteria\nB. Bacteria\nC. Fungi and bacteria\nD. Neither fungi nor bacteria\nYour answer is: ",
+        "gt_response": "Bacteria",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 145,
+        "image": [
+            "MLBench/SlideVQA/images/292.jpg",
+            "MLBench/SlideVQA/images/293.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What apparatus is used for determining what can be expressed in Millimeters, Micro meters, nano meters, pico meters, or fanto meters by the gravity sedimentation method?\nChoice list: \nA. Coulter\nB. Andreasen\nC. Westergren\nD. Sedigraph\nYour answer is: ",
+        "gt_response": "Andreasen",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 146,
+        "image": [
+            "MLBench/SlideVQA/images/294.jpg",
+            "MLBench/SlideVQA/images/295.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In 2014, how many percentage points higher was the inflation rate in India than the country that is the gateway to success in Latin America?\nChoice list: \nA. 3\nB. 1\nC. 4\nD. 2\nYour answer is: ",
+        "gt_response": "1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 147,
+        "image": [
+            "MLBench/SlideVQA/images/296.jpg",
+            "MLBench/SlideVQA/images/297.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: According to the presentation, had that which isn’t Speed Dating increased or decreased over the past 5 years?\nChoice list: \nA. Stayed the same\nB. Fluctuated\nC. Increased\nD. Decreased\nYour answer is: ",
+        "gt_response": "Decreased",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 148,
+        "image": [
+            "MLBench/SlideVQA/images/298.jpg",
+            "MLBench/SlideVQA/images/299.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Do more of those for which 26% of companies use YouTube to publish videos have an extensive or short Wikipedia page?\nChoice list: \nA. Short\nB. Extensive\nC. Both extensive and short\nD. Neither extensive nor short\nYour answer is: ",
+        "gt_response": "Short",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 149,
+        "image": [
+            "MLBench/SlideVQA/images/300.jpg",
+            "MLBench/SlideVQA/images/301.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is between the sensors and that which can adjust the exact timing of the spark (called ignition timing) to provide better power and economy in the diagram?\nChoice list: \nA. Timing belt\nB. Ignition system\nC. Control module\nD. Connection lines\nYour answer is: ",
+        "gt_response": "Connection lines",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 150,
+        "image": [
+            "MLBench/SlideVQA/images/302.jpg",
+            "MLBench/SlideVQA/images/303.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the year in which 67% of bookings in Switzerland were generated via direct sales channels, were there more bookings made by phone or through tourism partners?\nChoice list: \nA. There is not enough information to determine\nB. By phone\nC. Through tourism partners\nD. Both by phone and through tourism partners\nYour answer is: ",
+        "gt_response": "By phone",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 151,
+        "image": [
+            "MLBench/SlideVQA/images/304.jpg",
+            "MLBench/SlideVQA/images/305.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many more millions of dollars was the median exit valuation in the USA compared to where $2.5 billion in Venture Exists over the past 24 months at the time of the presentation?\nChoice list: \nA. 23\nB. 63\nC. 87\nD. 45\nYour answer is: ",
+        "gt_response": "63",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 152,
+        "image": [
+            "MLBench/SlideVQA/images/306.jpg",
+            "MLBench/SlideVQA/images/307.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What was the least shared type of post from pages on that for which Fridays are the best days for engagement worldwide in March 2014?\nChoice list: \nA. Video\nB. Status\nC. Photo\nD. Link\nYour answer is: ",
+        "gt_response": "Status",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 153,
+        "image": [
+            "MLBench/SlideVQA/images/308.jpg",
+            "MLBench/SlideVQA/images/309.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are three types of categories of that which the early organism consists of streptococci which dominates bacterial populations including s.mutans and s.sanguis by pathogenic effects?\nChoice list: \nA. Non-cariogenic, non-periodontal ds' producing, non-calculogenic\nB. Cariogenic, periodontal ds' producing, calculogenic\nC. Non-cariogenic, periodontal ds' producing, non-calculogenic\nD. Non-cariogenic, periodontal ds' resistant, non-calculogenic\nYour answer is: ",
+        "gt_response": "Cariogenic, periodontal ds' producing, calculogenic",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 154,
+        "image": [
+            "MLBench/SlideVQA/images/310.jpg",
+            "MLBench/SlideVQA/images/311.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How much has the number of suicide bombings in the country in which there are armed forces from 41 member countries increased from 2006 to 2007?\nChoice list: \nA. 35\nB. 36\nC. 37\nD. 38\nYour answer is: ",
+        "gt_response": "37",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 155,
+        "image": [
+            "MLBench/SlideVQA/images/312.jpg",
+            "MLBench/SlideVQA/images/313.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In 2012, how many more students did public universities have than the universities which had 4000 academics in 2014?\nChoice list: \nA. 46911\nB. 47411\nC. 48411\nD. 47911\nYour answer is: ",
+        "gt_response": "47411",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 156,
+        "image": [
+            "MLBench/SlideVQA/images/314.jpg",
+            "MLBench/SlideVQA/images/315.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which category has the fewest unit sales in the year in which during Q4 34% of Chinese teenagers said they wanted an iPhone?\nChoice list: \nA. Cars\nB. Smartphones\nC. Game consoles\nD. Electronics\nYour answer is: ",
+        "gt_response": "Game consoles",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. Game consoles",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 157,
+        "image": [
+            "MLBench/SlideVQA/images/316.jpg",
+            "MLBench/SlideVQA/images/317.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How much did the number of downloads increase from the month and year when there were 500,000 available apps on the Apple App Store to Oct '14 (in billions)?\nChoice list: \nA. 67\nB. 68\nC. 70\nD. 65\nYour answer is: ",
+        "gt_response": "67",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 158,
+        "image": [
+            "MLBench/SlideVQA/images/318.jpg",
+            "MLBench/SlideVQA/images/319.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What age range accounts for the most users of the platform whose measurement tools include Facebook Insights, Sumall, and Agora Pulse?\nChoice list: \nA. 18-24\nB. 35-44\nC. 25-34\nD. 45-54\nYour answer is: ",
+        "gt_response": "25-34",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 159,
+        "image": [
+            "MLBench/SlideVQA/images/320.jpg",
+            "MLBench/SlideVQA/images/321.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in number of online shoppers (in millions) from 2011 to the year in which Cash on Delivery amounted to 80% of payment methods?\nChoice list: \nA. 7\nB. 10\nC. 3\nD. 5\nYour answer is: ",
+        "gt_response": "5",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 160,
+        "image": [
+            "MLBench/SlideVQA/images/322.jpg",
+            "MLBench/SlideVQA/images/323.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which country has 516MM internet users, China or the country with a median age of 37?\nChoice list: \nA. United States\nB. India\nC. Brazil\nD. China\nYour answer is: ",
+        "gt_response": "China",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 161,
+        "image": [
+            "MLBench/SlideVQA/images/324.jpg",
+            "MLBench/SlideVQA/images/325.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What was the mine supply of gold (in tonnes) in the year when 342.13 MT of Silver were produced in India?\nChoice list: \nA. 2409\nB. 2835\nC. 3201\nD. 1847\nYour answer is: ",
+        "gt_response": "2835",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 162,
+        "image": [
+            "MLBench/SlideVQA/images/326.jpg",
+            "MLBench/SlideVQA/images/327.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: The energy, the same type of which is generated at the Ivanpah Facility (US) and Shams Station (UAE), was generated globally more in 2003 or 2011?\nChoice list: \nA. 2011\nB. it is impossible to determine\nC. 2003\nD. in both 2003 and 2011\nYour answer is: ",
+        "gt_response": "2011",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 163,
+        "image": [
+            "MLBench/SlideVQA/images/328.jpg",
+            "MLBench/SlideVQA/images/329.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of the projects of the company whose projects and contracts must withstand the challenges of the Strategic Plan under implementation are RTM?\nChoice list: \nA. 23.6\nB. 28.4\nC. 20.2\nD. 24.8\nYour answer is: ",
+        "gt_response": "24.8",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 164,
+        "image": [
+            "MLBench/SlideVQA/images/330.jpg",
+            "MLBench/SlideVQA/images/331.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which country has a higher Percentage of fans, Brazil or the country where Simplify360 has its headquarter in Carrollton?\nChoice list: \nA. Brazil\nB. United States\nC. India\nD. Canada\nYour answer is: ",
+        "gt_response": "Brazil",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 165,
+        "image": [
+            "MLBench/SlideVQA/images/332.jpg",
+            "MLBench/SlideVQA/images/333.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In 2011, what was the population (in millions) of the city which Hiroko, 52, female is from?\nChoice list: \nA. 1.5\nB. 1.9\nC. 1.7\nD. 2.2\nYour answer is: ",
+        "gt_response": "1.9",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 166,
+        "image": [
+            "MLBench/SlideVQA/images/334.jpg",
+            "MLBench/SlideVQA/images/335.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding top search engines in South Korea as of the end Qtr Yahoo market share was 0.04% in China, which has the highest percentage?\nChoice list: \nA. Bing\nB. Naver\nC. Yahoo\nD. Google\nYour answer is: ",
+        "gt_response": "Google",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B. Naver",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 167,
+        "image": [
+            "MLBench/SlideVQA/images/336.jpg",
+            "MLBench/SlideVQA/images/337.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the global iOS breakdown, what percentage of the pie chart was the OS version whose adoption rate was 13% in Q3/2015 in Vietnam?\nChoice list: \nA. 50\nB. 55\nC. 51\nD. 47\nYour answer is: ",
+        "gt_response": "51",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 168,
+        "image": [
+            "MLBench/SlideVQA/images/338.jpg",
+            "MLBench/SlideVQA/images/339.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Was a greater percentage \"Somewhat concerned\" in 2014 or the year in which 35% \"Provided incentives or rewards related to health and wellness\"?\nChoice list: \nA. 2014\nB. neither\nC. the year in which 35% \"Provided incentives or rewards related to health and wellness\"\nD. both\nYour answer is: ",
+        "gt_response": "2014",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 169,
+        "image": [
+            "MLBench/SlideVQA/images/340.jpg",
+            "MLBench/SlideVQA/images/341.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the installed power generation in India, what was a greater percentage in 2013, Hydro or the source whose gestation period was 7 and whose availability was 80%?\nChoice list: \nA. Wind\nB. Thermal\nC. Hydro\nD. Nuclear\nYour answer is: ",
+        "gt_response": "Hydro",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 170,
+        "image": [
+            "MLBench/SlideVQA/images/342.jpg",
+            "MLBench/SlideVQA/images/343.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the workforce planning model at the company whose employees donated more than 240,000 volunteer hours in 2012, what kind of strategy do OUs determine their workforce forecast based upon?\nChoice list: \nA. sales\nB. operational\nC. business\nD. financial\nYour answer is: ",
+        "gt_response": "business",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 171,
+        "image": [
+            "MLBench/SlideVQA/images/344.jpg",
+            "MLBench/SlideVQA/images/345.jpg"
+        ],
+        "question": "Upon reviewing several slides, your task is to extract the necessary information and answer the given question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What was the rank of L'Oréal Group in the year in which the market growth was +4.3% in North America?\nChoice list: \nA. 4\nB. 1\nC. 3\nD. 2\nYour answer is: ",
+        "gt_response": "2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 172,
+        "image": [
+            "MLBench/SlideVQA/images/346.jpg",
+            "MLBench/SlideVQA/images/347.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which are the levels of institutional structure?\nChoice list: \nA. national govt., municipal govt., initiative\nB. central govt., state govt., project\nC. municipal govt., regional govt., enterprise\nD. local govt., federal govt., organization\nYour answer is: ",
+        "gt_response": "central govt., state govt., project",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 173,
+        "image": [
+            "MLBench/SlideVQA/images/348.jpg",
+            "MLBench/SlideVQA/images/349.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What % of households was Landless in the year in which there were 18,000 farmer suicides in India to 2003?\nChoice list: \nA. 10.04\nB. 10.08\nC. 10.06\nD. 10.02\nYour answer is: ",
+        "gt_response": "10.04",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 174,
+        "image": [
+            "MLBench/SlideVQA/images/350.jpg",
+            "MLBench/SlideVQA/images/351.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many plants are there in the country in which, according to the presentation, automotive employment is 225 (in thousands) and Germany?\nChoice list: \nA. 81\nB. 80\nC. 82\nD. 83\nYour answer is: ",
+        "gt_response": "82",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 175,
+        "image": [
+            "MLBench/SlideVQA/images/352.jpg",
+            "MLBench/SlideVQA/images/353.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the SNS Mobile Push from the company that also offers a service that helps you securely store, manage, and sync identities and data across multiple devices, platforms, and applications?\nChoice list: \nA. Integrated Cross-device Data Syncing\nB. Secure Identity and Data Management\nC. Powerful Cross-platform Push notification service\nD. Synchronized Mobile Push Notification\nYour answer is: ",
+        "gt_response": "Powerful Cross-platform Push notification service",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 176,
+        "image": [
+            "MLBench/SlideVQA/images/354.jpg",
+            "MLBench/SlideVQA/images/355.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the combined total percentage of estimated Vietnam online advertising revenues in the year there were 128.6 mobile subscriptions in Vietnam for Admicro and FPT?\nChoice list: \nA. 20\nB. 19\nC. 17\nD. 18\nYour answer is: ",
+        "gt_response": "19",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 177,
+        "image": [
+            "MLBench/SlideVQA/images/356.jpg",
+            "MLBench/SlideVQA/images/357.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in Revenue in billion U.S. dollars for the kind of sales that was expected to replace offline shopping from 2013 to 2018?\nChoice list: \nA. 220.8\nB. 230.6\nC. 228.2\nD. 240.4\nYour answer is: ",
+        "gt_response": "228.2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 178,
+        "image": [
+            "MLBench/SlideVQA/images/358.jpg",
+            "MLBench/SlideVQA/images/359.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the difference in percentage between those in the age groups of which 73.00% consider price the most important consideration while making purchases and 19-24 years who report go on long drives as their favorite outdoor entertainment activity?\nChoice list: \nA. 1.40\nB. 1.50\nC. 1.30\nD. 1.45\nYour answer is: ",
+        "gt_response": "1.40",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "Answer: C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 179,
+        "image": [
+            "MLBench/SlideVQA/images/360.jpg",
+            "MLBench/SlideVQA/images/361.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which H2 antagonist has a lower bioavailability: the drug that inhibits several CYP-450 isoenzymes and reduces hepatic blood flow or Famotidine?\nChoice list: \nA. The drug that inhibits several CYP-450 isoenzymes and reduces hepatic blood flow\nB. Nizatidine\nC. Famotidine\nD. Ranitidine\nYour answer is: ",
+        "gt_response": "Famotidine",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 180,
+        "image": [
+            "MLBench/SlideVQA/images/362.jpg",
+            "MLBench/SlideVQA/images/363.jpg"
+        ],
+        "question": "Using the slides as your reference, please respond to the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are the two global challenges in the area whose meaning is generally agreed upon to be “Please do no harm”?\nChoice list: \nA. Patient Safety, Quality Improvement\nB. Infection Control, Patient Safety\nC. Safe Medication Practices, Preventing Falls\nD. Clean Care is Safer Care, Safe Surgery Saves Lives\nYour answer is: ",
+        "gt_response": "Clean Care is Safer Care, Safe Surgery Saves Lives",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Patient Safety, Quality Improvement",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 181,
+        "image": [
+            "MLBench/SlideVQA/images/364.jpg",
+            "MLBench/SlideVQA/images/365.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are the three factors in the funnel to safety in places that were founded to give care to those who need it?\nChoice list: \nA. PATIENTS, PRACTITIONERS, PROGRAMS\nB. PEOPLE, PLACE, PROPERTY\nC. PRIVACY, PURPOSE, PREVENTION\nD. PERSONNEL, PROTOCOLS, PROCEDURES\nYour answer is: ",
+        "gt_response": "PEOPLE, PLACE, PROPERTY",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 182,
+        "image": [
+            "MLBench/SlideVQA/images/366.jpg",
+            "MLBench/SlideVQA/images/367.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the name of the person who wrote the article about a member of America’s highest political class with 3 Harvard Degrees losing his mind over $4 Chinese Food Overcharge?\nChoice list: \nA. Craig Newmark\nB. Samantha Smith\nC. STACI ZARETSKY\nD. Adam Smith\nYour answer is: ",
+        "gt_response": "STACI ZARETSKY",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. Stacie Zaretsky",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 183,
+        "image": [
+            "MLBench/SlideVQA/images/368.jpg",
+            "MLBench/SlideVQA/images/369.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the combined total percentage of Iowans who Strongly Support or Somewhat Support the candidate who has a 29% chance of Winning Iowa Caucasus according to PredictWise?\nChoice list: \nA. 87\nB. 91\nC. 90\nD. 89\nYour answer is: ",
+        "gt_response": "89",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 184,
+        "image": [
+            "MLBench/SlideVQA/images/370.jpg",
+            "MLBench/SlideVQA/images/371.jpg"
+        ],
+        "question": "Based on the slides, please answer the following question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What percentage of respondents approve of the way that the president whose job performance on foreign policy is now disapproved of by Americans is handling terrorism?\nChoice list: \nA. 41\nB. 39\nC. 43\nD. 42\nYour answer is: ",
+        "gt_response": "41",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 185,
+        "image": [
+            "MLBench/SlideVQA/images/372.jpg",
+            "MLBench/SlideVQA/images/373.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In what city is the company whose President and CEO is Charlie Fischer located?\nChoice list: \nA. Calgary\nB. New York\nC. Chicago\nD. Houston\nYour answer is: ",
+        "gt_response": "Calgary",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 186,
+        "image": [
+            "MLBench/SlideVQA/images/374.jpg",
+            "MLBench/SlideVQA/images/375.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which category makes up a lower percentage of the users of the facilities which, people think, provide services that are hard to get elsewhere: Library Lovers or Print Traditionalists?\nChoice list: \nA. Both Library Lovers and Print Traditionalists\nB. Print Traditionalists\nC. Neither of them\nD. Library Lovers\nYour answer is: ",
+        "gt_response": "Print Traditionalists",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 187,
+        "image": [
+            "MLBench/SlideVQA/images/376.jpg",
+            "MLBench/SlideVQA/images/377.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the year in which BP's oil production (kbd, thousands) was 2.1, was there a higher Daily Average Production (in kbpd) for Santos Basin or Campos Basin?\nChoice list: \nA. It was the same\nB. Campos Basin\nC. Cannot be determined\nD. Santos Basin\nYour answer is: ",
+        "gt_response": "Santos Basin",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 188,
+        "image": [
+            "MLBench/SlideVQA/images/378.jpg",
+            "MLBench/SlideVQA/images/379.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the tagline of the company where Hyunsik Choi works as Director of Research in Seoul, South Korea?\nChoice list: \nA. Create Connections\nB. Connecting with Joy\nC. Discovering Connections\nD. Enjoy Connecting\nYour answer is: ",
+        "gt_response": "Enjoy Connecting",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 189,
+        "image": [
+            "MLBench/SlideVQA/images/380.jpg",
+            "MLBench/SlideVQA/images/381.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the jurisdiction for administrative proceedings, regional office or the committees where in the appointment or election of the members, their integrity, probity, sincerity and credibility shall be considered?\nChoice list: \nA. Board\nB. Commissions\nC. Regional Office\nD. Committees\nYour answer is: ",
+        "gt_response": "Regional Office",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 190,
+        "image": [
+            "MLBench/SlideVQA/images/382.jpg",
+            "MLBench/SlideVQA/images/383.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: In the only African city where Primary data exist, is there more Shock related or Stress related?\nChoice list: \nA. Shock related\nB. Fear related\nC. Anxiety related\nD. Stress\nYour answer is: ",
+        "gt_response": "Stress",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 191,
+        "image": [
+            "MLBench/SlideVQA/images/384.jpg",
+            "MLBench/SlideVQA/images/385.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: How many Average Minutes per Visit are shown for the website with 173 Total Unique Visitors?\nChoice list: \nA. 3.3\nB. 4.7\nC. 5.5\nD. 2.6\nYour answer is: ",
+        "gt_response": "3.3",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 192,
+        "image": [
+            "MLBench/SlideVQA/images/386.jpg",
+            "MLBench/SlideVQA/images/387.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Most time is spent gathering what kind of this that Janet & Kristy focused on this type of warehousing and integration?\nChoice list: \nA. disparate\nB. separate\nC. diverse\nD. similar\nYour answer is: ",
+        "gt_response": "disparate",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 193,
+        "image": [
+            "MLBench/SlideVQA/images/388.jpg",
+            "MLBench/SlideVQA/images/389.jpg"
+        ],
+        "question": "Please analyze the data in these slides and accordingly answer the proposed question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What is the Protein of curing, maturing of ageing (Cottage)?\nChoice list: \nA. 18.1\nB. 16.9\nC. 17.3\nD. 15.5\nYour answer is: ",
+        "gt_response": "16.9",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. 17.3",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 194,
+        "image": [
+            "MLBench/SlideVQA/images/390.jpg",
+            "MLBench/SlideVQA/images/391.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: According to the HuffPost/YouGov poll, what percent of Americans believe that the person who left for Moscow aboard Aeroflot flight SU213 in the company of Sarah Harrison was right?\nChoice list: \nA. 45\nB. 25\nC. 50\nD. 33\nYour answer is: ",
+        "gt_response": "33",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 195,
+        "image": [
+            "MLBench/SlideVQA/images/392.jpg",
+            "MLBench/SlideVQA/images/393.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the slide on the fastest growing career site in the year for which Corporate Executive Board published Employment Branding Effectiveness Survey, what YoY percentage is shown for Job Clicks?\nChoice list: \nA. 176\nB. 174\nC. 178\nD. 175\nYour answer is: ",
+        "gt_response": "176",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 196,
+        "image": [
+            "MLBench/SlideVQA/images/394.jpg",
+            "MLBench/SlideVQA/images/395.jpg"
+        ],
+        "question": "Having viewed the slides, can you use the information presented to answer the following question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the long term trend of US VC, when was investment amount greater, 2000 or the year in which the quarterly investments to VC-backed companies were $13.2 billions in Q3?\nChoice list: \nA. 2012\nB. 2000\nC. 2005\nD. 2001\nYour answer is: ",
+        "gt_response": "2000",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 197,
+        "image": [
+            "MLBench/SlideVQA/images/396.jpg",
+            "MLBench/SlideVQA/images/397.jpg"
+        ],
+        "question": "Examine the slides carefully, and then answer the question based on the information gleaned. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Regarding the quarterly investments to VC-backed companies, were there fewer deals in Q2'13 or the quarter in which the number of the IPO-type venture capital backed exits was 24?\nChoice list: \nA. Q2'13\nB. the quarter in which the number of the IPO-type venture capital backed exits was 24\nYour answer is: ",
+        "gt_response": "Q2'13",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 198,
+        "image": [
+            "MLBench/SlideVQA/images/398.jpg",
+            "MLBench/SlideVQA/images/399.jpg"
+        ],
+        "question": "Given the provided slides and a question, your task is to derive information from the slides and respond to the question accurately. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: What are the two advices regarding paths?\nChoice list: \nA. Follow, Document\nB. Keep, Monitor\nC. Create, Measure\nD. Make, Track\nYour answer is: ",
+        "gt_response": "Make, Track",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 199,
+        "image": [
+            "MLBench/SlideVQA/images/400.jpg",
+            "MLBench/SlideVQA/images/401.jpg"
+        ],
+        "question": "Based on the content within these slides, could you provide an answer to the ensuing question? You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Which two phone companies were popular, or had their eyes on philippines?\nChoice list: \nA. Apple, Nokia\nB. Motorola, Sony\nC. Huawei, Samsung\nD. Xiaomi, LG\nYour answer is: ",
+        "gt_response": "Huawei, Samsung",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 46,
+        "image": [
+            "MLBench/SlideVQA/images/92.jpg",
+            "MLBench/SlideVQA/images/93.jpg",
+            "MLBench/SlideVQA/images/94.jpg"
+        ],
+        "question": "I will give you several slides and a question, your job is to seek information in the slide and answer the question correctly. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the difference in Total Mentions May 16 - July 19 between the candidate whose Most Shared Campaign Tweet During the Pre-Trump period got 3,286 shares, and the one whose Most Shared Campaign Tweet During the Pre-Trump period got 62 shares?\nChoice list: \nA. 164470\nB. 166034\nC. 165752\nD. 165280\nYour answer is: ",
+        "gt_response": "165752",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 115,
+        "image": [
+            "MLBench/SlideVQA/images/231.jpg",
+            "MLBench/SlideVQA/images/232.jpg",
+            "MLBench/SlideVQA/images/233.jpg"
+        ],
+        "question": "Please examine the slides closely and provide a suitable response to the question that follows. You must choose your answer from the Choice List. \n<ImageHere><ImageHere><ImageHere>Question: What is the main focus of creating a multichannel campaign plan?\nChoice list: \nA. maximizes reach and engagement\nB. increases revenue\nC. focuses on shared goals\nD. targets multiple audience segments\nYour answer is: ",
+        "gt_response": "focuses on shared goals",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    }
+]

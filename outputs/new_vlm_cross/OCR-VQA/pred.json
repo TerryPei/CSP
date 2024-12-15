@@ -1,0 +1,3449 @@
+[
+    {
+        "sample_id": 0,
+        "image": [
+            "MLBench/OCR-VQA/images/0.jpg",
+            "MLBench/OCR-VQA/images/1.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Humor & Entertainment\nB. Medical Books\nC. not the same\nD. Travel\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 1,
+        "image": [
+            "MLBench/OCR-VQA/images/2.jpg",
+            "MLBench/OCR-VQA/images/3.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Health, Fitness & Dieting\nB. not the same\nC. Children's Books\nD. Computers & Technology\nYour answer is: ",
+        "gt_response": "Children's Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 2,
+        "image": [
+            "MLBench/OCR-VQA/images/4.jpg",
+            "MLBench/OCR-VQA/images/5.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2015\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 3,
+        "image": [
+            "MLBench/OCR-VQA/images/6.jpg",
+            "MLBench/OCR-VQA/images/7.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2017\nB. 2015\nC. 2016\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 4,
+        "image": [
+            "MLBench/OCR-VQA/images/8.jpg",
+            "MLBench/OCR-VQA/images/9.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. not the same\nC. 2017\nD. 2015\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 5,
+        "image": [
+            "MLBench/OCR-VQA/images/10.jpg",
+            "MLBench/OCR-VQA/images/11.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Steven L. Emanuel\nC. Clive Cussler\nD. Parragon Books\nYour answer is: ",
+        "gt_response": "Steven L. Emanuel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 9,
+        "image": [
+            "MLBench/OCR-VQA/images/21.jpg",
+            "MLBench/OCR-VQA/images/22.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. William Shakespeare\nB. not the same\nC. Michelin Travel & Lifestyle\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "William Shakespeare",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 10,
+        "image": [
+            "MLBench/OCR-VQA/images/23.jpg",
+            "MLBench/OCR-VQA/images/24.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Health, Fitness & Dieting\nC. Christian Books & Bibles\nD. Children's Books\nYour answer is: ",
+        "gt_response": "Health, Fitness & Dieting",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 13,
+        "image": [
+            "MLBench/OCR-VQA/images/31.jpg",
+            "MLBench/OCR-VQA/images/32.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Jane O'Connor\nB. not the same\nC. Michael Connelly\nD. Jack Canfield\nYour answer is: ",
+        "gt_response": "Michael Connelly",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 14,
+        "image": [
+            "MLBench/OCR-VQA/images/33.jpg",
+            "MLBench/OCR-VQA/images/34.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2017\nB. not the same\nC. 2015\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 17,
+        "image": [
+            "MLBench/OCR-VQA/images/41.jpg",
+            "MLBench/OCR-VQA/images/42.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Humor & Entertainment\nB. Travel\nC. Health, Fitness & Dieting\nD. not the same\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 18,
+        "image": [
+            "MLBench/OCR-VQA/images/43.jpg",
+            "MLBench/OCR-VQA/images/44.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Medical Books\nB. Business & Money\nC. Sports & Outdoors\nD. not the same\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 20,
+        "image": [
+            "MLBench/OCR-VQA/images/48.jpg",
+            "MLBench/OCR-VQA/images/49.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Humor & Entertainment\nB. not the same\nC. Crafts, Hobbies & Home\nD. Cookbooks, Food & Wine\nYour answer is: ",
+        "gt_response": "Humor & Entertainment",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 22,
+        "image": [
+            "MLBench/OCR-VQA/images/53.jpg",
+            "MLBench/OCR-VQA/images/54.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Business & Money\nB. Literature & Fiction\nC. not the same\nD. Children's Books\nYour answer is: ",
+        "gt_response": "Business & Money",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 23,
+        "image": [
+            "MLBench/OCR-VQA/images/55.jpg",
+            "MLBench/OCR-VQA/images/56.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. William Shakespeare\nB. Inc. BarCharts\nC. Chilton\nD. not the same\nYour answer is: ",
+        "gt_response": "Chilton",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 25,
+        "image": [
+            "MLBench/OCR-VQA/images/60.jpg",
+            "MLBench/OCR-VQA/images/61.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2016\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 26,
+        "image": [
+            "MLBench/OCR-VQA/images/62.jpg",
+            "MLBench/OCR-VQA/images/63.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Children's Books\nC. Health, Fitness & Dieting\nD. Medical Books\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 27,
+        "image": [
+            "MLBench/OCR-VQA/images/64.jpg",
+            "MLBench/OCR-VQA/images/65.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Streetwise Maps\nC. Rand McNally\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "Streetwise Maps",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 28,
+        "image": [
+            "MLBench/OCR-VQA/images/66.jpg",
+            "MLBench/OCR-VQA/images/67.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2015\nC. 2017\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 29,
+        "image": [
+            "MLBench/OCR-VQA/images/68.jpg",
+            "MLBench/OCR-VQA/images/69.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Giovanni Maciocia CAc(Nanjing)\nB. not the same\nC. James Lee Anderson\nD. Jeff Savage\nYour answer is: ",
+        "gt_response": "James Lee Anderson",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 30,
+        "image": [
+            "MLBench/OCR-VQA/images/70.jpg",
+            "MLBench/OCR-VQA/images/71.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Catalyst Game Labs\nC. William Shakespeare\nD. Julia Alvarez\nYour answer is: ",
+        "gt_response": "Julia Alvarez",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 31,
+        "image": [
+            "MLBench/OCR-VQA/images/72.jpg",
+            "MLBench/OCR-VQA/images/73.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. DK Publishing\nB. Inc. BarCharts\nC. National Geographic\nD. not the same\nYour answer is: ",
+        "gt_response": "Inc. BarCharts",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 34,
+        "image": [
+            "MLBench/OCR-VQA/images/80.jpg",
+            "MLBench/OCR-VQA/images/81.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Travel\nB. Reference\nC. not the same\nD. Medical Books\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 35,
+        "image": [
+            "MLBench/OCR-VQA/images/82.jpg",
+            "MLBench/OCR-VQA/images/83.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Children's Books\nC. Science & Math\nD. Law\nYour answer is: ",
+        "gt_response": "Children's Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 37,
+        "image": [
+            "MLBench/OCR-VQA/images/87.jpg",
+            "MLBench/OCR-VQA/images/88.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Knopf Guides\nB. Mary Oliver\nC. not the same\nD. Noam Chomsky\nYour answer is: ",
+        "gt_response": "Noam Chomsky",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 38,
+        "image": [
+            "MLBench/OCR-VQA/images/89.jpg",
+            "MLBench/OCR-VQA/images/90.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Philip M. Parker\nB. Michelin Travel & Lifestyle\nC. Lonely Planet\nD. not the same\nYour answer is: ",
+        "gt_response": "Michelin Travel & Lifestyle",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 39,
+        "image": [
+            "MLBench/OCR-VQA/images/91.jpg",
+            "MLBench/OCR-VQA/images/92.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2015\nC. 2017\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 40,
+        "image": [
+            "MLBench/OCR-VQA/images/93.jpg",
+            "MLBench/OCR-VQA/images/94.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. not the same\nC. 2015\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 41,
+        "image": [
+            "MLBench/OCR-VQA/images/95.jpg",
+            "MLBench/OCR-VQA/images/96.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. HCPro\nB. James Kavanagh\nC. not the same\nD. Clive Cussler\nYour answer is: ",
+        "gt_response": "HCPro",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C. not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 42,
+        "image": [
+            "MLBench/OCR-VQA/images/97.jpg",
+            "MLBench/OCR-VQA/images/98.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Children's Books\nB. not the same\nC. Teen & Young Adult\nD. Travel\nYour answer is: ",
+        "gt_response": "Teen & Young Adult",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 43,
+        "image": [
+            "MLBench/OCR-VQA/images/99.jpg",
+            "MLBench/OCR-VQA/images/100.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Christian Books & Bibles\nB. Medical Books\nC. Children's Books\nD. not the same\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 44,
+        "image": [
+            "MLBench/OCR-VQA/images/101.jpg",
+            "MLBench/OCR-VQA/images/102.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2017\nB. 2015\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 46,
+        "image": [
+            "MLBench/OCR-VQA/images/106.jpg",
+            "MLBench/OCR-VQA/images/107.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2017\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 47,
+        "image": [
+            "MLBench/OCR-VQA/images/108.jpg",
+            "MLBench/OCR-VQA/images/109.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Philipp Winterberg\nB. not the same\nC. U.S. Government\nD. Browntrout Publishers\nYour answer is: ",
+        "gt_response": "U.S. Government",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 49,
+        "image": [
+            "MLBench/OCR-VQA/images/113.jpg",
+            "MLBench/OCR-VQA/images/114.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2017\nB. 2015\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 50,
+        "image": [
+            "MLBench/OCR-VQA/images/115.jpg",
+            "MLBench/OCR-VQA/images/116.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Fodor's\nB. not the same\nC. Takehiko Inoue\nD. Michael H. Hoffheimer\nYour answer is: ",
+        "gt_response": "Fodor's",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 51,
+        "image": [
+            "MLBench/OCR-VQA/images/117.jpg",
+            "MLBench/OCR-VQA/images/118.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2017\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 52,
+        "image": [
+            "MLBench/OCR-VQA/images/119.jpg",
+            "MLBench/OCR-VQA/images/120.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Younghusband World Travel Journals\nC. Various\nD. Fodor's\nYour answer is: ",
+        "gt_response": "Various",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 53,
+        "image": [
+            "MLBench/OCR-VQA/images/121.jpg",
+            "MLBench/OCR-VQA/images/122.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Lonely Planet\nB. not the same\nC. Fodor's\nD. Michelin Travel & Lifestyle\nYour answer is: ",
+        "gt_response": "Fodor's",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 54,
+        "image": [
+            "MLBench/OCR-VQA/images/123.jpg",
+            "MLBench/OCR-VQA/images/124.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Science & Math\nB. not the same\nC. Calendars\nD. Travel\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 55,
+        "image": [
+            "MLBench/OCR-VQA/images/125.jpg",
+            "MLBench/OCR-VQA/images/126.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2015\nC. 2017\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 56,
+        "image": [
+            "MLBench/OCR-VQA/images/127.jpg",
+            "MLBench/OCR-VQA/images/128.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. not the same\nC. 2015\nD. 2017\nYour answer is: ",
+        "gt_response": "2015",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 57,
+        "image": [
+            "MLBench/OCR-VQA/images/129.jpg",
+            "MLBench/OCR-VQA/images/130.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Fodor's\nB. Lonely Planet\nC. not the same\nD. DK\nYour answer is: ",
+        "gt_response": "DK",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 59,
+        "image": [
+            "MLBench/OCR-VQA/images/134.jpg",
+            "MLBench/OCR-VQA/images/135.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Children's Books\nB. Comics & Graphic Novels\nC. not the same\nD. Travel\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 60,
+        "image": [
+            "MLBench/OCR-VQA/images/136.jpg",
+            "MLBench/OCR-VQA/images/137.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2016\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 62,
+        "image": [
+            "MLBench/OCR-VQA/images/141.jpg",
+            "MLBench/OCR-VQA/images/142.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Cookbooks, Food & Wine\nC. Crafts, Hobbies & Home\nD. Business & Money\nYour answer is: ",
+        "gt_response": "Cookbooks, Food & Wine",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 63,
+        "image": [
+            "MLBench/OCR-VQA/images/143.jpg",
+            "MLBench/OCR-VQA/images/144.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2017\nC. 2016\nD. 2015\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 64,
+        "image": [
+            "MLBench/OCR-VQA/images/145.jpg",
+            "MLBench/OCR-VQA/images/146.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Rand McNally\nC. Jack Smith\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "Jack Smith",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 68,
+        "image": [
+            "MLBench/OCR-VQA/images/156.jpg",
+            "MLBench/OCR-VQA/images/157.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Inc. BarCharts\nB. William Shakespeare\nC. Chilton\nD. not the same\nYour answer is: ",
+        "gt_response": "Inc. BarCharts",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 70,
+        "image": [
+            "MLBench/OCR-VQA/images/161.jpg",
+            "MLBench/OCR-VQA/images/162.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Romance\nB. Medical Books\nC. Sports & Outdoors\nD. not the same\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 71,
+        "image": [
+            "MLBench/OCR-VQA/images/163.jpg",
+            "MLBench/OCR-VQA/images/164.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Law\nB. not the same\nC. Travel\nD. History\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 72,
+        "image": [
+            "MLBench/OCR-VQA/images/165.jpg",
+            "MLBench/OCR-VQA/images/166.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2017\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 73,
+        "image": [
+            "MLBench/OCR-VQA/images/167.jpg",
+            "MLBench/OCR-VQA/images/168.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Fodor's\nB. Nelles Verlag\nC. not the same\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "Nelles Verlag",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 74,
+        "image": [
+            "MLBench/OCR-VQA/images/169.jpg",
+            "MLBench/OCR-VQA/images/170.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2017\nC. 2016\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 75,
+        "image": [
+            "MLBench/OCR-VQA/images/171.jpg",
+            "MLBench/OCR-VQA/images/172.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Mark G. Papich DVM  MS  DACVCP\nB. not the same\nC. DK Publishing\nD. William Shakespeare\nYour answer is: ",
+        "gt_response": "DK Publishing",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 76,
+        "image": [
+            "MLBench/OCR-VQA/images/173.jpg",
+            "MLBench/OCR-VQA/images/174.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Children's Books\nB. Travel\nC. Christian Books & Bibles\nD. not the same\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 77,
+        "image": [
+            "MLBench/OCR-VQA/images/175.jpg",
+            "MLBench/OCR-VQA/images/176.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2017\nC. 2016\nD. 2015\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 79,
+        "image": [
+            "MLBench/OCR-VQA/images/180.jpg",
+            "MLBench/OCR-VQA/images/181.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2017\nB. 2015\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 80,
+        "image": [
+            "MLBench/OCR-VQA/images/182.jpg",
+            "MLBench/OCR-VQA/images/183.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Sara King\nB. DK Publishing\nC. William Shakespeare\nD. not the same\nYour answer is: ",
+        "gt_response": "William Shakespeare",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 81,
+        "image": [
+            "MLBench/OCR-VQA/images/184.jpg",
+            "MLBench/OCR-VQA/images/185.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Travel\nC. Science & Math\nD. Humor & Entertainment\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 83,
+        "image": [
+            "MLBench/OCR-VQA/images/189.jpg",
+            "MLBench/OCR-VQA/images/190.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. not the same\nC. 2016\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 85,
+        "image": [
+            "MLBench/OCR-VQA/images/194.jpg",
+            "MLBench/OCR-VQA/images/195.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2016\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 87,
+        "image": [
+            "MLBench/OCR-VQA/images/199.jpg",
+            "MLBench/OCR-VQA/images/200.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Law\nB. not the same\nC. History\nD. Travel\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 88,
+        "image": [
+            "MLBench/OCR-VQA/images/201.jpg",
+            "MLBench/OCR-VQA/images/202.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Comics & Graphic Novels\nB. not the same\nC. Crafts, Hobbies & Home\nD. Children's Books\nYour answer is: ",
+        "gt_response": "Crafts, Hobbies & Home",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 90,
+        "image": [
+            "MLBench/OCR-VQA/images/206.jpg",
+            "MLBench/OCR-VQA/images/207.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Business & Money\nB. Christian Books & Bibles\nC. Biographies & Memoirs\nD. not the same\nYour answer is: ",
+        "gt_response": "Biographies & Memoirs",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 91,
+        "image": [
+            "MLBench/OCR-VQA/images/208.jpg",
+            "MLBench/OCR-VQA/images/209.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Comics & Graphic Novels\nB. Education & Teaching\nC. Children's Books\nD. not the same\nYour answer is: ",
+        "gt_response": "Education & Teaching",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 92,
+        "image": [
+            "MLBench/OCR-VQA/images/210.jpg",
+            "MLBench/OCR-VQA/images/211.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2017\nB. 2015\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 93,
+        "image": [
+            "MLBench/OCR-VQA/images/212.jpg",
+            "MLBench/OCR-VQA/images/213.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Medical Books\nB. Religion & Spirituality\nC. Science & Math\nD. not the same\nYour answer is: ",
+        "gt_response": "Religion & Spirituality",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 94,
+        "image": [
+            "MLBench/OCR-VQA/images/214.jpg",
+            "MLBench/OCR-VQA/images/215.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. William Shakespeare\nC. Fodor's\nD. Lonely Planet\nYour answer is: ",
+        "gt_response": "Lonely Planet",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 95,
+        "image": [
+            "MLBench/OCR-VQA/images/216.jpg",
+            "MLBench/OCR-VQA/images/217.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Sandra Hill\nB. National Geographic Maps - Adventure\nC. MegaCalendars\nD. not the same\nYour answer is: ",
+        "gt_response": "National Geographic Maps - Adventure",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 97,
+        "image": [
+            "MLBench/OCR-VQA/images/221.jpg",
+            "MLBench/OCR-VQA/images/222.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Science & Math\nB. Travel\nC. Children's Books\nD. not the same\nYour answer is: ",
+        "gt_response": "Science & Math",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 98,
+        "image": [
+            "MLBench/OCR-VQA/images/223.jpg",
+            "MLBench/OCR-VQA/images/224.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Law\nC. Travel\nD. Teen & Young Adult\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 99,
+        "image": [
+            "MLBench/OCR-VQA/images/225.jpg",
+            "MLBench/OCR-VQA/images/226.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2017\nC. 2015\nD. not the same\nYour answer is: ",
+        "gt_response": "2015",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 101,
+        "image": [
+            "MLBench/OCR-VQA/images/230.jpg",
+            "MLBench/OCR-VQA/images/231.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2017\nC. 2015\nD. 2016\nYour answer is: ",
+        "gt_response": "2015",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 102,
+        "image": [
+            "MLBench/OCR-VQA/images/232.jpg",
+            "MLBench/OCR-VQA/images/233.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Teen & Young Adult\nB. Health, Fitness & Dieting\nC. Children's Books\nD. not the same\nYour answer is: ",
+        "gt_response": "Health, Fitness & Dieting",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 105,
+        "image": [
+            "MLBench/OCR-VQA/images/240.jpg",
+            "MLBench/OCR-VQA/images/241.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Mystery, Thriller & Suspense\nB. Children's Books\nC. Crafts, Hobbies & Home\nD. not the same\nYour answer is: ",
+        "gt_response": "Crafts, Hobbies & Home",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 106,
+        "image": [
+            "MLBench/OCR-VQA/images/242.jpg",
+            "MLBench/OCR-VQA/images/243.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Lonely Planet\nB. Paul Theroux\nC. Sara King\nD. not the same\nYour answer is: ",
+        "gt_response": "Sara King",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 107,
+        "image": [
+            "MLBench/OCR-VQA/images/244.jpg",
+            "MLBench/OCR-VQA/images/245.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Health, Fitness & Dieting\nB. Medical Books\nC. not the same\nD. History\nYour answer is: ",
+        "gt_response": "Health, Fitness & Dieting",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 108,
+        "image": [
+            "MLBench/OCR-VQA/images/246.jpg",
+            "MLBench/OCR-VQA/images/247.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Crafts, Hobbies & Home\nB. Arts & Photography\nC. Children's Books\nD. not the same\nYour answer is: ",
+        "gt_response": "Crafts, Hobbies & Home",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 109,
+        "image": [
+            "MLBench/OCR-VQA/images/248.jpg",
+            "MLBench/OCR-VQA/images/249.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Inc. BarCharts\nB. Princeton Review\nC. National Geographic Maps - Adventure\nD. not the same\nYour answer is: ",
+        "gt_response": "Inc. BarCharts",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 110,
+        "image": [
+            "MLBench/OCR-VQA/images/250.jpg",
+            "MLBench/OCR-VQA/images/251.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2015\nC. 2016\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 113,
+        "image": [
+            "MLBench/OCR-VQA/images/258.jpg",
+            "MLBench/OCR-VQA/images/259.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2015\nC. 2017\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 114,
+        "image": [
+            "MLBench/OCR-VQA/images/260.jpg",
+            "MLBench/OCR-VQA/images/261.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Computers & Technology\nC. Travel\nD. Medical Books\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 115,
+        "image": [
+            "MLBench/OCR-VQA/images/262.jpg",
+            "MLBench/OCR-VQA/images/263.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. DK Publishing\nC. Browntrout Publishers\nD. Lonely Planet\nYour answer is: ",
+        "gt_response": "Browntrout Publishers",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A\n\n\nAnswer: A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 116,
+        "image": [
+            "MLBench/OCR-VQA/images/264.jpg",
+            "MLBench/OCR-VQA/images/265.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2015\nC. 2017\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 117,
+        "image": [
+            "MLBench/OCR-VQA/images/266.jpg",
+            "MLBench/OCR-VQA/images/267.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Wendell Berry\nB. Lonely Planet\nC. Browntrout Publishers\nD. not the same\nYour answer is: ",
+        "gt_response": "Browntrout Publishers",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 118,
+        "image": [
+            "MLBench/OCR-VQA/images/268.jpg",
+            "MLBench/OCR-VQA/images/269.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Travel\nC. Children's Books\nD. Teen & Young Adult\nYour answer is: ",
+        "gt_response": "Teen & Young Adult",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 120,
+        "image": [
+            "MLBench/OCR-VQA/images/273.jpg",
+            "MLBench/OCR-VQA/images/274.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Nella Larsen\nB. not the same\nC. Inc. BarCharts\nD. Tricia Brown\nYour answer is: ",
+        "gt_response": "Tricia Brown",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 121,
+        "image": [
+            "MLBench/OCR-VQA/images/275.jpg",
+            "MLBench/OCR-VQA/images/276.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. James Lee Anderson\nC. Kaplan\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "Kaplan",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 122,
+        "image": [
+            "MLBench/OCR-VQA/images/277.jpg",
+            "MLBench/OCR-VQA/images/278.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Travel\nC. Cookbooks, Food & Wine\nD. Humor & Entertainment\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 123,
+        "image": [
+            "MLBench/OCR-VQA/images/279.jpg",
+            "MLBench/OCR-VQA/images/280.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Disney Book Group\nC. DK Publishing\nD. Trends International\nYour answer is: ",
+        "gt_response": "Trends International",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 124,
+        "image": [
+            "MLBench/OCR-VQA/images/281.jpg",
+            "MLBench/OCR-VQA/images/282.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2017\nC. 2016\nD. 2015\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 126,
+        "image": [
+            "MLBench/OCR-VQA/images/286.jpg",
+            "MLBench/OCR-VQA/images/287.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2016\nC. 2017\nD. 2015\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A\n\n\nQuestion: What is the name of the book?\nChoice list: \nA. 365 Days of Shoes 2016 Calendar\nB. 365 Days of Shoes 2017 Calendar\nC. 365 Days of Shoes 2015 Calendar\nD. 365 Days of Shoes 2018 Calendar\nYour answer is: A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 127,
+        "image": [
+            "MLBench/OCR-VQA/images/288.jpg",
+            "MLBench/OCR-VQA/images/289.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Teen & Young Adult\nC. Travel\nD. Medical Books\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 128,
+        "image": [
+            "MLBench/OCR-VQA/images/290.jpg",
+            "MLBench/OCR-VQA/images/291.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Lonely Planet\nB. not the same\nC. Fodor's\nD. Knopf Guides\nYour answer is: ",
+        "gt_response": "Knopf Guides",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 129,
+        "image": [
+            "MLBench/OCR-VQA/images/292.jpg",
+            "MLBench/OCR-VQA/images/293.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Fodor's\nB. Rand McNally\nC. Kenneth E. Hagin\nD. not the same\nYour answer is: ",
+        "gt_response": "Fodor's",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 130,
+        "image": [
+            "MLBench/OCR-VQA/images/294.jpg",
+            "MLBench/OCR-VQA/images/295.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2014\nB. 2015\nC. 2016\nD. not the same\nYour answer is: ",
+        "gt_response": "2014",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 131,
+        "image": [
+            "MLBench/OCR-VQA/images/296.jpg",
+            "MLBench/OCR-VQA/images/297.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2017\nB. 2015\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 132,
+        "image": [
+            "MLBench/OCR-VQA/images/298.jpg",
+            "MLBench/OCR-VQA/images/299.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Health, Fitness & Dieting\nB. not the same\nC. Business & Money\nD. Children's Books\nYour answer is: ",
+        "gt_response": "Business & Money",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 133,
+        "image": [
+            "MLBench/OCR-VQA/images/300.jpg",
+            "MLBench/OCR-VQA/images/301.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2017\nC. 2015\nD. not the same\nYour answer is: ",
+        "gt_response": "2015",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 135,
+        "image": [
+            "MLBench/OCR-VQA/images/305.jpg",
+            "MLBench/OCR-VQA/images/306.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Tyler Omoth\nB. Streetwise Maps\nC. MegaCalendars\nD. not the same\nYour answer is: ",
+        "gt_response": "Tyler Omoth",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 136,
+        "image": [
+            "MLBench/OCR-VQA/images/307.jpg",
+            "MLBench/OCR-VQA/images/308.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Autumn Libal\nB. not the same\nC. Rand McNally\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "Rand McNally",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 137,
+        "image": [
+            "MLBench/OCR-VQA/images/309.jpg",
+            "MLBench/OCR-VQA/images/310.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2015\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 139,
+        "image": [
+            "MLBench/OCR-VQA/images/314.jpg",
+            "MLBench/OCR-VQA/images/315.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Teen & Young Adult\nB. Christian Books & Bibles\nC. not the same\nD. Biographies & Memoirs\nYour answer is: ",
+        "gt_response": "Teen & Young Adult",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 140,
+        "image": [
+            "MLBench/OCR-VQA/images/316.jpg",
+            "MLBench/OCR-VQA/images/317.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. not the same\nC. 2015\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 141,
+        "image": [
+            "MLBench/OCR-VQA/images/318.jpg",
+            "MLBench/OCR-VQA/images/319.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2015\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 142,
+        "image": [
+            "MLBench/OCR-VQA/images/320.jpg",
+            "MLBench/OCR-VQA/images/321.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Jeffrey Brown\nC. David F. Marx\nD. William Shakespeare\nYour answer is: ",
+        "gt_response": "David F. Marx",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 143,
+        "image": [
+            "MLBench/OCR-VQA/images/322.jpg",
+            "MLBench/OCR-VQA/images/323.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. not the same\nC. 2017\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 144,
+        "image": [
+            "MLBench/OCR-VQA/images/324.jpg",
+            "MLBench/OCR-VQA/images/325.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2013\nB. not the same\nC. 2016\nD. 2015\nYour answer is: ",
+        "gt_response": "2013",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 145,
+        "image": [
+            "MLBench/OCR-VQA/images/326.jpg",
+            "MLBench/OCR-VQA/images/327.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2015\nC. 2017\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 146,
+        "image": [
+            "MLBench/OCR-VQA/images/328.jpg",
+            "MLBench/OCR-VQA/images/329.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Humor & Entertainment\nB. Children's Books\nC. Travel\nD. not the same\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 150,
+        "image": [
+            "MLBench/OCR-VQA/images/339.jpg",
+            "MLBench/OCR-VQA/images/340.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Medical Books\nB. Science & Math\nC. Travel\nD. not the same\nYour answer is: ",
+        "gt_response": "Science & Math",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 151,
+        "image": [
+            "MLBench/OCR-VQA/images/341.jpg",
+            "MLBench/OCR-VQA/images/342.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Crafts, Hobbies & Home\nC. Children's Books\nD. Travel\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 152,
+        "image": [
+            "MLBench/OCR-VQA/images/343.jpg",
+            "MLBench/OCR-VQA/images/344.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2017\nC. not the same\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 153,
+        "image": [
+            "MLBench/OCR-VQA/images/345.jpg",
+            "MLBench/OCR-VQA/images/346.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2017\nC. 2015\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 154,
+        "image": [
+            "MLBench/OCR-VQA/images/347.jpg",
+            "MLBench/OCR-VQA/images/348.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Rob Price\nB. MegaCalendars\nC. not the same\nD. Browntrout Publishers\nYour answer is: ",
+        "gt_response": "Rob Price",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 155,
+        "image": [
+            "MLBench/OCR-VQA/images/349.jpg",
+            "MLBench/OCR-VQA/images/350.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Crafts, Hobbies & Home\nB. not the same\nC. History\nD. Children's Books\nYour answer is: ",
+        "gt_response": "History",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 156,
+        "image": [
+            "MLBench/OCR-VQA/images/351.jpg",
+            "MLBench/OCR-VQA/images/352.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2016\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 157,
+        "image": [
+            "MLBench/OCR-VQA/images/353.jpg",
+            "MLBench/OCR-VQA/images/354.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Day Dream\nC. Esther Hicks\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "Esther Hicks",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. Not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 158,
+        "image": [
+            "MLBench/OCR-VQA/images/355.jpg",
+            "MLBench/OCR-VQA/images/356.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Business & Money\nB. Cookbooks, Food & Wine\nC. Humor & Entertainment\nD. not the same\nYour answer is: ",
+        "gt_response": "Humor & Entertainment",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 159,
+        "image": [
+            "MLBench/OCR-VQA/images/357.jpg",
+            "MLBench/OCR-VQA/images/358.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Christian Books & Bibles\nB. Travel\nC. Teen & Young Adult\nD. not the same\nYour answer is: ",
+        "gt_response": "Christian Books & Bibles",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 160,
+        "image": [
+            "MLBench/OCR-VQA/images/359.jpg",
+            "MLBench/OCR-VQA/images/360.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Children's Books\nB. not the same\nC. Computers & Technology\nD. Travel\nYour answer is: ",
+        "gt_response": "Computers & Technology",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 161,
+        "image": [
+            "MLBench/OCR-VQA/images/361.jpg",
+            "MLBench/OCR-VQA/images/362.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2017\nC. not the same\nD. 2015\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 163,
+        "image": [
+            "MLBench/OCR-VQA/images/366.jpg",
+            "MLBench/OCR-VQA/images/367.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Willow Creek Press\nB. Noah Berlatsky\nC. not the same\nD. Scholastic\nYour answer is: ",
+        "gt_response": "Scholastic",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 164,
+        "image": [
+            "MLBench/OCR-VQA/images/368.jpg",
+            "MLBench/OCR-VQA/images/369.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Michael H. Hoffheimer\nB. Jane O'Connor\nC. Lonely Planet\nD. not the same\nYour answer is: ",
+        "gt_response": "Michael H. Hoffheimer",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 166,
+        "image": [
+            "MLBench/OCR-VQA/images/373.jpg",
+            "MLBench/OCR-VQA/images/374.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2016\nC. not the same\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 167,
+        "image": [
+            "MLBench/OCR-VQA/images/375.jpg",
+            "MLBench/OCR-VQA/images/376.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Day Dream\nB. not the same\nC. Rand McNally\nD. Fodor's\nYour answer is: ",
+        "gt_response": "Day Dream",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 168,
+        "image": [
+            "MLBench/OCR-VQA/images/377.jpg",
+            "MLBench/OCR-VQA/images/378.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Travel\nC. Crafts, Hobbies & Home\nD. Business & Money\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 172,
+        "image": [
+            "MLBench/OCR-VQA/images/388.jpg",
+            "MLBench/OCR-VQA/images/389.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2017\nC. 2015\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 173,
+        "image": [
+            "MLBench/OCR-VQA/images/390.jpg",
+            "MLBench/OCR-VQA/images/391.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Calendars\nC. Christian Books & Bibles\nD. Cookbooks, Food & Wine\nYour answer is: ",
+        "gt_response": "Calendars",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 174,
+        "image": [
+            "MLBench/OCR-VQA/images/392.jpg",
+            "MLBench/OCR-VQA/images/393.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Travel\nB. not the same\nC. Arts & Photography\nD. Children's Books\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 175,
+        "image": [
+            "MLBench/OCR-VQA/images/394.jpg",
+            "MLBench/OCR-VQA/images/395.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Charles Snee\nB. not the same\nC. Various\nD. L. Ron Hubbard\nYour answer is: ",
+        "gt_response": "Charles Snee",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 176,
+        "image": [
+            "MLBench/OCR-VQA/images/396.jpg",
+            "MLBench/OCR-VQA/images/397.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2017\nC. 2015\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 177,
+        "image": [
+            "MLBench/OCR-VQA/images/398.jpg",
+            "MLBench/OCR-VQA/images/399.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Roger Price\nB. Alexander Elder\nC. not the same\nD. DK Publishing\nYour answer is: ",
+        "gt_response": "Alexander Elder",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 178,
+        "image": [
+            "MLBench/OCR-VQA/images/400.jpg",
+            "MLBench/OCR-VQA/images/401.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2016\nC. 2017\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 179,
+        "image": [
+            "MLBench/OCR-VQA/images/402.jpg",
+            "MLBench/OCR-VQA/images/403.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. not the same\nC. 2015\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 180,
+        "image": [
+            "MLBench/OCR-VQA/images/404.jpg",
+            "MLBench/OCR-VQA/images/405.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. not the same\nC. 2017\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 181,
+        "image": [
+            "MLBench/OCR-VQA/images/406.jpg",
+            "MLBench/OCR-VQA/images/407.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. William Shakespeare\nB. Fodor's\nC. Elliot Aronson\nD. not the same\nYour answer is: ",
+        "gt_response": "Fodor's",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 182,
+        "image": [
+            "MLBench/OCR-VQA/images/408.jpg",
+            "MLBench/OCR-VQA/images/409.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2017\nC. 2015\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 183,
+        "image": [
+            "MLBench/OCR-VQA/images/410.jpg",
+            "MLBench/OCR-VQA/images/411.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Eknath Easwaran\nC. L. Ron Hubbard\nD. Gooseberry Patch\nYour answer is: ",
+        "gt_response": "Gooseberry Patch",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A. not the same",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 184,
+        "image": [
+            "MLBench/OCR-VQA/images/412.jpg",
+            "MLBench/OCR-VQA/images/413.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Christian Books & Bibles\nC. Travel\nD. Arts & Photography\nYour answer is: ",
+        "gt_response": "Travel",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 186,
+        "image": [
+            "MLBench/OCR-VQA/images/417.jpg",
+            "MLBench/OCR-VQA/images/418.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2017\nC. 2016\nD. 2015\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 187,
+        "image": [
+            "MLBench/OCR-VQA/images/419.jpg",
+            "MLBench/OCR-VQA/images/420.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Reference\nB. Humor & Entertainment\nC. not the same\nD. Medical Books\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 188,
+        "image": [
+            "MLBench/OCR-VQA/images/421.jpg",
+            "MLBench/OCR-VQA/images/422.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Rand McNally\nB. Luis M. Martinez\nC. National Geographic Maps - Trails Illustrated\nD. not the same\nYour answer is: ",
+        "gt_response": "Rand McNally",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 189,
+        "image": [
+            "MLBench/OCR-VQA/images/423.jpg",
+            "MLBench/OCR-VQA/images/424.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. not the same\nC. 2015\nD. 2017\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 190,
+        "image": [
+            "MLBench/OCR-VQA/images/425.jpg",
+            "MLBench/OCR-VQA/images/426.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. not the same\nB. Clive Cussler\nC. Lonely Planet\nD. Euripides\nYour answer is: ",
+        "gt_response": "Clive Cussler",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 192,
+        "image": [
+            "MLBench/OCR-VQA/images/430.jpg",
+            "MLBench/OCR-VQA/images/431.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Sarah Fabiny\nB. Wendell Berry\nC. Various\nD. not the same\nYour answer is: ",
+        "gt_response": "Sarah Fabiny",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 193,
+        "image": [
+            "MLBench/OCR-VQA/images/432.jpg",
+            "MLBench/OCR-VQA/images/433.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2016\nB. 2017\nC. 2015\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 195,
+        "image": [
+            "MLBench/OCR-VQA/images/437.jpg",
+            "MLBench/OCR-VQA/images/438.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the authors of these two books the same?\nChoice list: \nA. Inc. BarCharts\nB. not the same\nC. Zondervan\nD. Dr. Seuss\nYour answer is: ",
+        "gt_response": "Dr. Seuss",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 196,
+        "image": [
+            "MLBench/OCR-VQA/images/439.jpg",
+            "MLBench/OCR-VQA/images/440.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. not the same\nB. Literature & Fiction\nC. Medical Books\nD. Travel\nYour answer is: ",
+        "gt_response": "Medical Books",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "C",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 197,
+        "image": [
+            "MLBench/OCR-VQA/images/441.jpg",
+            "MLBench/OCR-VQA/images/442.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are these two books in the same field?\nChoice list: \nA. Computers & Technology\nB. Health, Fitness & Dieting\nC. Travel\nD. not the same\nYour answer is: ",
+        "gt_response": "Health, Fitness & Dieting",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 198,
+        "image": [
+            "MLBench/OCR-VQA/images/443.jpg",
+            "MLBench/OCR-VQA/images/444.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. 2015\nB. 2016\nC. 2017\nD. not the same\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 199,
+        "image": [
+            "MLBench/OCR-VQA/images/445.jpg",
+            "MLBench/OCR-VQA/images/446.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere><ImageHere>Question: Are the following two books published in the same year?\nChoice list: \nA. not the same\nB. 2017\nC. 2015\nD. 2016\nYour answer is: ",
+        "gt_response": "2016",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "A",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 6,
+        "image": [
+            "MLBench/OCR-VQA/images/12.jpg",
+            "MLBench/OCR-VQA/images/13.jpg",
+            "MLBench/OCR-VQA/images/14.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere>Above Top Secret: Uncover the Mysteries of the Digital Age<ImageHere>All You Need for a Snowman<ImageHere>Comrades to the End: The 4th SS Panzer-Grenadier Regiment \"Der Führer\" 1938-1945: The History of a German-Austrian Fighting Unit (Schiffer Military History)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 7,
+        "image": [
+            "MLBench/OCR-VQA/images/15.jpg",
+            "MLBench/OCR-VQA/images/16.jpg",
+            "MLBench/OCR-VQA/images/17.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Day of the Dead Activity Book<ImageHere>Nutrition and Disease Management for Veterinary Technicians and Nurses<ImageHere>I Regret Everything: A Love StoryQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 8,
+        "image": [
+            "MLBench/OCR-VQA/images/18.jpg",
+            "MLBench/OCR-VQA/images/19.jpg",
+            "MLBench/OCR-VQA/images/20.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Freedom Bound<ImageHere>Historical Theology: An Introduction to the History of Christian Thought<ImageHere>Applied Principles of Horticultural ScienceQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,0,2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 11,
+        "image": [
+            "MLBench/OCR-VQA/images/25.jpg",
+            "MLBench/OCR-VQA/images/26.jpg",
+            "MLBench/OCR-VQA/images/27.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Qatar: Securing the Global Ambitions of a City-State<ImageHere>Downton Abbey 2015 Page-A-Day Calendar<ImageHere>Lithography; a complete handbook of modern techniques of lithographyQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 12,
+        "image": [
+            "MLBench/OCR-VQA/images/28.jpg",
+            "MLBench/OCR-VQA/images/29.jpg",
+            "MLBench/OCR-VQA/images/30.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Magical Mazes<ImageHere>The Return: A Titan Novel<ImageHere>Kriya Secrets Revealed: Complete Lessons and TechniquesQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,0,2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 15,
+        "image": [
+            "MLBench/OCR-VQA/images/35.jpg",
+            "MLBench/OCR-VQA/images/36.jpg",
+            "MLBench/OCR-VQA/images/37.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Tahiti & French Polynesia Guide<ImageHere>Pokemon Colosseum (Prima's Official Strategy Guide)<ImageHere>The Marxism of Che Guevara: Philosophy, Economics, Revolutionary Warfare (Critical Currents in Latin American Perspective Series)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 16,
+        "image": [
+            "MLBench/OCR-VQA/images/38.jpg",
+            "MLBench/OCR-VQA/images/39.jpg",
+            "MLBench/OCR-VQA/images/40.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>How to Coach Youth Baseball: A Step-By-Step Approach<ImageHere>Michelin Green Guide: Causses (French Edition)<ImageHere>Nuthin' But MechQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,0,2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 19,
+        "image": [
+            "MLBench/OCR-VQA/images/45.jpg",
+            "MLBench/OCR-VQA/images/46.jpg",
+            "MLBench/OCR-VQA/images/47.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Menopause: Manage Its Symptoms with the Blood Type Diet: The Individualized Plan for Preventing and Treating Hot Flashes, Lossof Libido, Mood Changes, Osteoporosis, and Related Conditions<ImageHere>A Color Atlas of Histology<ImageHere>Consumer Law in the Global Economy: National and International DimensionsQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 21,
+        "image": [
+            "MLBench/OCR-VQA/images/50.jpg",
+            "MLBench/OCR-VQA/images/51.jpg",
+            "MLBench/OCR-VQA/images/52.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere>An Occupational Perspective on Leadership: Theoretical and Practical Dimensions<ImageHere>Miss Passport City Guides Presents:  Mini 3 day Unforgettable Vacation Itinerary to Nassau, Bahamas (Miss Passport Travel Guides Book )<ImageHere>Horse Health and Nutrition For DummiesQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,0,2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 24,
+        "image": [
+            "MLBench/OCR-VQA/images/57.jpg",
+            "MLBench/OCR-VQA/images/58.jpg",
+            "MLBench/OCR-VQA/images/59.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere>A. Wong Cookbook<ImageHere>Molecular Engineering Thermodynamics (Cambridge Series in Chemical Engineering)<ImageHere>The Secret Language of Your Body: The Essential Guide to Health and WellnessQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 32,
+        "image": [
+            "MLBench/OCR-VQA/images/74.jpg",
+            "MLBench/OCR-VQA/images/75.jpg",
+            "MLBench/OCR-VQA/images/76.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Dressed to Kill: A Biblical Approach to Spiritual Warfare and Armor<ImageHere>Connection Culture: The Competitive Advantage of Shared Identity, Empathy, and Understanding at Work<ImageHere>Basic Clinical Neuroanatomy (Periodicals) 1st edition by Young, Paul A.; Young, Paul H. published by Lippincott Williams & Wilkins HardcoverQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 33,
+        "image": [
+            "MLBench/OCR-VQA/images/77.jpg",
+            "MLBench/OCR-VQA/images/78.jpg",
+            "MLBench/OCR-VQA/images/79.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question You must choose your answer from the Choice List. \n<ImageHere>Pen<ImageHere>PipsqueaksItsy-Bitsy Felt Creations to Stitch & Love: 30+ Easy-to-Make Animals & Accessories<ImageHere>The Woven Bag: 30+ Projects from Small LoomsQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 36,
+        "image": [
+            "MLBench/OCR-VQA/images/84.jpg",
+            "MLBench/OCR-VQA/images/85.jpg",
+            "MLBench/OCR-VQA/images/86.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Big Nate's Greatest Hits<ImageHere>Flying<ImageHere>My Nepenthe: Bohemian Tales of Food, Family, and Big SurQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 45,
+        "image": [
+            "MLBench/OCR-VQA/images/103.jpg",
+            "MLBench/OCR-VQA/images/104.jpg",
+            "MLBench/OCR-VQA/images/105.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Psalms of Lament (Large Print Edition)<ImageHere>Oman<ImageHere>Mix 'n' Match Meals in Minutes for People with Diabetes: A No-Brainer Solution to Meal PreparationQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 48,
+        "image": [
+            "MLBench/OCR-VQA/images/110.jpg",
+            "MLBench/OCR-VQA/images/111.jpg",
+            "MLBench/OCR-VQA/images/112.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Sacred Fire, Holy Well: A Druid's Grimoire<ImageHere>Numerical and Analytical Methods with MATLAB (Computational Mechanics and Applied Analysis)<ImageHere>I Wear the Black Hat: Grappling with Villains (Real and Imagined)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 58,
+        "image": [
+            "MLBench/OCR-VQA/images/131.jpg",
+            "MLBench/OCR-VQA/images/132.jpg",
+            "MLBench/OCR-VQA/images/133.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Under Our Skin: Getting Real about Race--and Getting Free from the Fears and Frustrations that Divide Us<ImageHere>Level 1 - Lesson Book: Piano Adventures<ImageHere>Practical Camellia Culture: A Treatise on the Propagation and Culture of the Camellia Japonica (Gardening in America)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 61,
+        "image": [
+            "MLBench/OCR-VQA/images/138.jpg",
+            "MLBench/OCR-VQA/images/139.jpg",
+            "MLBench/OCR-VQA/images/140.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Macroeconomics (6th Edition)<ImageHere>Program of Priestly Formation<ImageHere>The Official Harry Potter 2016 Square CalendarQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 65,
+        "image": [
+            "MLBench/OCR-VQA/images/147.jpg",
+            "MLBench/OCR-VQA/images/148.jpg",
+            "MLBench/OCR-VQA/images/149.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Cape Refuge (Cape Refuge, No. 1)<ImageHere>Retirement on a Shoestring, 5th (Choose Retirement Series)<ImageHere>Tales of the Greek Heroes (Puffin Classics)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 66,
+        "image": [
+            "MLBench/OCR-VQA/images/150.jpg",
+            "MLBench/OCR-VQA/images/151.jpg",
+            "MLBench/OCR-VQA/images/152.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Star Wars Workbook: 1st Grade Math (Star Wars Workbooks)<ImageHere>Life Through a Different Lens: Reflections and Lessons from the Horn of Africa<ImageHere>Wreck Beach (Transmontanus)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 67,
+        "image": [
+            "MLBench/OCR-VQA/images/153.jpg",
+            "MLBench/OCR-VQA/images/154.jpg",
+            "MLBench/OCR-VQA/images/155.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Equine Veterinary Nursing Manual<ImageHere>The Grinnell Beowulf<ImageHere>Airbrush - Complete Studio HandbookQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 69,
+        "image": [
+            "MLBench/OCR-VQA/images/158.jpg",
+            "MLBench/OCR-VQA/images/159.jpg",
+            "MLBench/OCR-VQA/images/160.jpg"
+        ],
+        "question": "I will upload two illustrations of the book cover. Please scrutinize the illustrations and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Alimentos Geneticamente Modificados: Cambiando la Naturaleza de la Naturaleza: Que necesita saber para proteger a usted mismo, a su familia y a nuestro planeta<ImageHere>Bible Cover: Exlarge Black Genuine Leather<ImageHere>Fifty Jewish Women Who Changed The WorldQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 78,
+        "image": [
+            "MLBench/OCR-VQA/images/177.jpg",
+            "MLBench/OCR-VQA/images/178.jpg",
+            "MLBench/OCR-VQA/images/179.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>1. Kilimanjaro & Tanzania North Travel Map 1: 62,500/1,370,000<ImageHere>2016 National Parks Wall Calendar<ImageHere>Simply Modern: Contemporary Designs for Hooked RugsQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,0,2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 82,
+        "image": [
+            "MLBench/OCR-VQA/images/186.jpg",
+            "MLBench/OCR-VQA/images/187.jpg",
+            "MLBench/OCR-VQA/images/188.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Way of Men<ImageHere>Teen Goddess: How to Look, Love & Live Like a Goddess<ImageHere>The Grand Strategy of Classical Sparta: The Persian Challenge (Yale Library of Military History)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 84,
+        "image": [
+            "MLBench/OCR-VQA/images/191.jpg",
+            "MLBench/OCR-VQA/images/192.jpg",
+            "MLBench/OCR-VQA/images/193.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Daytona 500: The Thrill and Thunder of the Great American Race (Spectacular Sports)<ImageHere>Strong: Nine Workout Programs for Women to Burn Fat, Boost Metabolism, and Build Strength for Life<ImageHere>Ballet 2016 Square 12x12 (ST-Silver Foil) (Multilingual Edition)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 86,
+        "image": [
+            "MLBench/OCR-VQA/images/196.jpg",
+            "MLBench/OCR-VQA/images/197.jpg",
+            "MLBench/OCR-VQA/images/198.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Why Do Christians Shoot Their Wounded?: Helping (Not Hurting) Those with Emotional Difficulties<ImageHere>Belly Fat Effect: The Real Secret About How Your Diet, Intestinal Health, and Gut Bacteria Help You Burn Fat<ImageHere>Wilderness and Travel MedicineQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 89,
+        "image": [
+            "MLBench/OCR-VQA/images/203.jpg",
+            "MLBench/OCR-VQA/images/204.jpg",
+            "MLBench/OCR-VQA/images/205.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Enchanted Fairy Tales Storybook and Gemstone Necklace (Barbie)<ImageHere>Mozambique (Globetrotter Travel Map)<ImageHere>Ford Explorer, 1991-2001: Explorer Sport Thru 2003, Sport Trac 2005 (Haynes Repair Manual)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 96,
+        "image": [
+            "MLBench/OCR-VQA/images/218.jpg",
+            "MLBench/OCR-VQA/images/219.jpg",
+            "MLBench/OCR-VQA/images/220.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere>A History of the Ancient Near East ca. 3000 - 323 BC, 2nd Edition<ImageHere>Really RELAXING Colouring Book 2: Colour Me Calm (Really RELAXING Colouring Books) (Volume 2)<ImageHere>The Selfish CrocodileQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 100,
+        "image": [
+            "MLBench/OCR-VQA/images/227.jpg",
+            "MLBench/OCR-VQA/images/228.jpg",
+            "MLBench/OCR-VQA/images/229.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Wisdom of a Meaningful Life: The Essence of Mindfulness<ImageHere>Choose Yourself!<ImageHere>Steeplejacking: How the Christian Right is Hijacking Mainstream ReligionQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "The Wisdom of a Meaningful Life: The Essence of Mindfulness",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 103,
+        "image": [
+            "MLBench/OCR-VQA/images/234.jpg",
+            "MLBench/OCR-VQA/images/235.jpg",
+            "MLBench/OCR-VQA/images/236.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Burkina Faso 1:1,000,000 & Niger Travel Map ITMB<ImageHere>Dark Space (Book 4): Revenge<ImageHere>Fodor's Pacific Northwest: with Oregon, Washington & Vancouver (Full-color Travel Guide)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 104,
+        "image": [
+            "MLBench/OCR-VQA/images/237.jpg",
+            "MLBench/OCR-VQA/images/238.jpg",
+            "MLBench/OCR-VQA/images/239.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Advanced Professional Pastry Chef<ImageHere>Peak performance: Sports, science, and the body in action (Novabook)<ImageHere>Peterson Field Guide to Birds of Western North America, Fourth Edition (Peterson Field Guides)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 111,
+        "image": [
+            "MLBench/OCR-VQA/images/252.jpg",
+            "MLBench/OCR-VQA/images/253.jpg",
+            "MLBench/OCR-VQA/images/254.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere>A Statistical Validation of Raindrop Technique<ImageHere>Venezuela 1:1,200,000 Travel Map (International Travel Maps)<ImageHere>American Map Rhode Island State Road AtlasQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 112,
+        "image": [
+            "MLBench/OCR-VQA/images/255.jpg",
+            "MLBench/OCR-VQA/images/256.jpg",
+            "MLBench/OCR-VQA/images/257.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Basics of Biblical Greek Grammar<ImageHere>The Complete Book of Camaro: Every Model Since 1967<ImageHere>Ergot: The Genus Claviceps (Medicinal and Aromatic Plants - Industrial Profiles)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 119,
+        "image": [
+            "MLBench/OCR-VQA/images/270.jpg",
+            "MLBench/OCR-VQA/images/271.jpg",
+            "MLBench/OCR-VQA/images/272.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Ford Trucks Since 1905 (Crestline Series)<ImageHere>Mourad: New Moroccan<ImageHere>Field Book of the Shore Fishes of Bermuda and the West IndiesQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 125,
+        "image": [
+            "MLBench/OCR-VQA/images/283.jpg",
+            "MLBench/OCR-VQA/images/284.jpg",
+            "MLBench/OCR-VQA/images/285.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Instrument Engineers Handbook, Fourth Edition, Three Volume Set<ImageHere>A Sunlit Absence: Silence, Awareness, and Contemplation<ImageHere>The Rough Guide to Iceland 4Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 134,
+        "image": [
+            "MLBench/OCR-VQA/images/302.jpg",
+            "MLBench/OCR-VQA/images/303.jpg",
+            "MLBench/OCR-VQA/images/304.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Stations of the Cross<ImageHere>Living with Crohn's & Colitis: A Comprehensive Naturopathic Guide for Complete Digestive Wellness<ImageHere>The Triathlete's Training BibleQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 138,
+        "image": [
+            "MLBench/OCR-VQA/images/311.jpg",
+            "MLBench/OCR-VQA/images/312.jpg",
+            "MLBench/OCR-VQA/images/313.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Educator's Guide to Texas School Law: Eighth Edition<ImageHere>Tasting Colorado: Favorite Recipes from the Centennial State<ImageHere>It's No Accident: Breakthrough Solutions To Your Child's Wetting, Constipation, Utis, And Other Potty ProblemsQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 147,
+        "image": [
+            "MLBench/OCR-VQA/images/330.jpg",
+            "MLBench/OCR-VQA/images/331.jpg",
+            "MLBench/OCR-VQA/images/332.jpg"
+        ],
+        "question": "I will present you with two snapshots of the book cover. Please inspect the snapshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Molecular Mechanics Across Chemistry<ImageHere>The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory<ImageHere>Finding Nemo Little Golden BookQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 148,
+        "image": [
+            "MLBench/OCR-VQA/images/333.jpg",
+            "MLBench/OCR-VQA/images/334.jpg",
+            "MLBench/OCR-VQA/images/335.jpg"
+        ],
+        "question": "I will provide you with two depictions of the book cover. Please evaluate the depictions and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Hall: A Celebration of Baseball's Greats: In Stories and Images, the Complete Roster of Inductees<ImageHere>Dark Winter: How the Sun Is Causing a 30-Year Cold Spell<ImageHere>Boomerangs: How to Make and Throw ThemQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,0,2",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 149,
+        "image": [
+            "MLBench/OCR-VQA/images/336.jpg",
+            "MLBench/OCR-VQA/images/337.jpg",
+            "MLBench/OCR-VQA/images/338.jpg"
+        ],
+        "question": "I will provide you with two images of the book cover. Please examine the images and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Mozza Cookbook: Recipes from Los Angeles's Favorite Italian Restaurant and Pizzeria<ImageHere>The Star Wars Cookbook II -Darth Malt and More Galactic Recipes<ImageHere>Diversity Amid Globalization: World Regions, Environment, Development (5th Edition)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 162,
+        "image": [
+            "MLBench/OCR-VQA/images/363.jpg",
+            "MLBench/OCR-VQA/images/364.jpg",
+            "MLBench/OCR-VQA/images/365.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Slovakia (Bartholomew World Travel Map)<ImageHere>G. W. Leibniz's Monadology : An Edition for Students<ImageHere>I Just Don't Like the Sound of No! My Story About Accepting No for an Answer and Disagreeing the Right Way! (Best Me I Can Be)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,1,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 165,
+        "image": [
+            "MLBench/OCR-VQA/images/370.jpg",
+            "MLBench/OCR-VQA/images/371.jpg",
+            "MLBench/OCR-VQA/images/372.jpg"
+        ],
+        "question": "I will share two graphics of the book cover. Please analyze the graphics and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Dragon Ball Z, Vol. 4<ImageHere>The Total Money Makeover Workbook<ImageHere>The Late Talker: What to Do If Your Child Isn't Talking YetQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 169,
+        "image": [
+            "MLBench/OCR-VQA/images/379.jpg",
+            "MLBench/OCR-VQA/images/380.jpg",
+            "MLBench/OCR-VQA/images/381.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Defying ISIS: Preserving Christianity in the Place of Its Birth and in Your Own Backyard<ImageHere>Alaskan Camp Cook<ImageHere>Waterloo: Great Battles SeriesQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 170,
+        "image": [
+            "MLBench/OCR-VQA/images/382.jpg",
+            "MLBench/OCR-VQA/images/383.jpg",
+            "MLBench/OCR-VQA/images/384.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>The Longman Anthology of Detective Fiction<ImageHere>Smart Tennis: How to Play and Win the Mental Game<ImageHere>Nothing To It: Ten Ways to Be at Home with YourselfQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "0,2,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "D",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 171,
+        "image": [
+            "MLBench/OCR-VQA/images/385.jpg",
+            "MLBench/OCR-VQA/images/386.jpg",
+            "MLBench/OCR-VQA/images/387.jpg"
+        ],
+        "question": "I will send you two screenshots of the book cover. Please examine the screenshots and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Mr. Gumpy's Outing<ImageHere>Transitions: Prayers and Declarations for a Changing Life<ImageHere>The Little Red Hen (Paul Galdone Classics)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 185,
+        "image": [
+            "MLBench/OCR-VQA/images/414.jpg",
+            "MLBench/OCR-VQA/images/415.jpg",
+            "MLBench/OCR-VQA/images/416.jpg"
+        ],
+        "question": "I will show you two photos of the book cover. Please review the photos and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Local Government Law (American Casebook Series)<ImageHere>Beyond Chutzpah: On the Misuse of Anti-Semitism and the Abuse of History<ImageHere>The Ultimate Hair Loss Survival GuideQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "2,0,1",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 191,
+        "image": [
+            "MLBench/OCR-VQA/images/427.jpg",
+            "MLBench/OCR-VQA/images/428.jpg",
+            "MLBench/OCR-VQA/images/429.jpg"
+        ],
+        "question": "I will give you two pictures of the book cover. Please look at the pictures and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Thank You, Your Opinion Means Nothing to Me: A Year of Hot Flashes, Flashbacks, and Finding My Voice<ImageHere>Ethnocultural Factors in Substance Abuse Treatment<ImageHere>Howards EndQuestion: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "[/SYS]",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    },
+    {
+        "sample_id": 194,
+        "image": [
+            "MLBench/OCR-VQA/images/434.jpg",
+            "MLBench/OCR-VQA/images/435.jpg",
+            "MLBench/OCR-VQA/images/436.jpg"
+        ],
+        "question": "I will display two visuals of the book cover. Please observe the visuals and answer a question. You must choose your answer from the Choice List. \n<ImageHere>Radio Frequency Integrated Circuits and Systems<ImageHere>Reflections on the Spanish Isle, Glories of the Dominican Republic<ImageHere>Rebellion of Stars (Starship Blackbeard) (Volume 4)Question: Please give the correct text order corresponding to each bookchoose\nChoice list: \nA. 0,1,2\nB. 0,2,1\nC. 1,0,2\nD. 1,2,0\nE. 2,0,1\nF. 2,1,0\nYour answer is: ",
+        "gt_response": "1,2,0",
+        "gen_model_id": "llava-v1.5",
+        "pred_response": "B",
+        "gen_kwargs": {
+            "max_new_tokens": 512,
+            "min_new_tokens": 1,
+            "do_sample": false,
+            "temperature": 1.0
+        }
+    }
+]
